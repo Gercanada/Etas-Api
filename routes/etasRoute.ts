@@ -5,14 +5,15 @@ import { validarCampos } from '../middlewares/validar-campos';
 import { validarJWT } from '../middlewares/validar-jwt';
 // import validaRoles from '../middlewares/validar-roles';
 
-import { getUsuario, getUsuarios, postUsuario, putUsuario, deleteUsuario } from '../controllers/usuarios';
+import { getUsuario, getUsuarios, postUsuario, putUsuario, deleteUsuario } from '../controllers/usersController';
 import { emailExiste, existeUsuarioPorId } from '../helpers/db-validators';
+import { deleteEtas, getEta, getEtas, postEtas, putEtas } from '../controllers/etasController';
 
 const router = Router();
 
 router.get('/',
     [validarJWT],
-    getUsuarios,);
+    getEtas,);
 
     
 router.get('/:id', [
@@ -22,24 +23,24 @@ router.get('/:id', [
   // check('id', 'No es un ID válido').isMongoId(),
    // check('id').custom(existeUsuarioPorId),
    validarCampos
-], getUsuario);
+], getEta);
 
 router.put('/:id', [
     check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom(existeUsuarioPorId),
     // check('rol').custom(esRoleValido),
     validarCampos
-], putUsuario);
+], putEtas);
 
 router.post('/', [
-    check('name', 'El nombre es obligatorio').not().isEmpty(),
-    check('password', 'El password debe de ser más de 6 letras').isLength({ min: 6 }),
-    check('email', 'El correo no es válido').isEmail(),
-    check('email').custom(emailExiste),
+    // check('name', 'El nombre es obligatorio').not().isEmpty(),
+    // check('password', 'El password debe de ser más de 6 letras').isLength({ min: 6 }),
+    // check('email', 'El correo no es válido').isEmail(),
+    // check('email').custom(emailExiste),
     // check('rol', 'No es un rol válido').isIn(['ADMIN_ROLE','USER_ROLE']),
     // check('rol').custom(esRoleValido),
-    //validarCampos
-], postUsuario);
+    validarCampos
+], postEtas);
 
 router.delete('/:id', [
      validarJWT,
@@ -48,6 +49,6 @@ router.delete('/:id', [
    // check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom(existeUsuarioPorId),
     validarCampos
-], deleteUsuario);
+], deleteEtas);
 
 export default router;

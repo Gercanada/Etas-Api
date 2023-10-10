@@ -1,6 +1,7 @@
 import express, { Application } from 'express';
-import userRoutes from '../routes/usuario';
+import userRoutes from '../routes/usersRoute';
 import authRoutes from '../routes/auth';
+import etasRoutes from '../routes/etasRoute'
 import cors from 'cors';
 
 import db from '../db/connection';
@@ -55,6 +56,7 @@ class Server {
     routes() {
         this.app.use(this.apiPaths.usuarios, userRoutes)
         this.app.use(this.apiPaths.auth, authRoutes)
+        this.app.use(this.apiPaths.etas, etasRoutes)
     }
 
 
