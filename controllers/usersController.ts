@@ -107,7 +107,6 @@ export const putUsuario = async (req: Request, res: Response) => {
       //  }
       await t.commit(); // Confirma la transacción
       }
-
    
       res.json(usuario);
     } catch (error) {
@@ -131,4 +130,3 @@ export const deleteUsuario = async (req: Request, res: Response) => {
     // await usuario.destroy();
     res.json(usuario);
 }
-

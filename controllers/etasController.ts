@@ -4,6 +4,10 @@ import bcryptjs from 'bcryptjs';
 import Eta from '../models/etasModel';
 import db from '../db/connection';
 import  jwt  from "jsonwebtoken";
+import PassportSec from '../models/passportSecModel';
+import PersonalInfoSec from '../models/personalInfoSecModel';
+import StatusiiSec from '../models/statusiiSecModel';
+import TravelToCanada from '../models/travelToCanadaSecModel';
 
 export const getEtas = async (req: Request, res: Response) => {
     const etas = await Eta.findAll();
@@ -16,6 +20,25 @@ export const getEta = async (req: Request, res: Response) => {
     if (eta) {
         res.json(eta);
     } else {
+        res.status(404).json({
+            msg: `No existe un usuario con el id ${id}`
+        });
+    }
+}
+
+export const getUserEtas = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    console.log('id++++',id);
+    
+    const eta = await Eta.findAll({ where: {
+        user_id:id
+    }})
+
+    console.log("eta----",eta)
+    if (eta) {
+        res.json(eta);
+    } else {
+        console.log("errorrr")
         res.status(404).json({
             msg: `No existe un usuario con el id ${id}`
         });
@@ -75,34 +98,67 @@ export const deleteEtas = async (req: Request, res: Response) => {
     const usuario = await Usuario.findOne({
         where:{id : eta?.user_id}
     })
+    console.log("etaaaaa",eta)
     const t = await db.transaction()
-    console.log('usuario',usuario);
-    console.log('eeta',eta);
     const {etas_num} = usuario;
     const deleteEta= etas_num -1;
-
-    console.log('etassss num ', etas_num)
+    if (!eta) {
+        return res.status(404).json({
+            msg: 'No existe un usuario con el id ' + id
+        });
+    }
+    try {
+        await PassportSec.destroy({
+            where: {
+                eta_id: eta.id
+            },
+            transaction: t
+        });
     
-    await usuario.update({
-        etas_num :deleteEta
-    }, { transaction: t });
-    // delete questions +++++++++++++++
-//     try{
-//     if (!eta) {
-//         return res.status(404).json({
-//             msg: 'No existe un usuario con el id ' + id
-//         });
-//     }
-//     //await usuario.update({ status: false });.
-//      await Eta.destroy({ where: {
-//         id: eta.id
-//     }});
-     res.json(eta);
-// }catch(error){
-//     await t.rollback(); // Revierte la transacción en caso de error
-//     console.log(error);
-//     res.status(500).json({
-//         msg: 'Hable con el administrador'
-//     })
-// }
+        await PersonalInfoSec.destroy({
+          where: {
+            eta_id: eta.id
+          },
+          transaction: t
+        });
+    
+        await StatusiiSec.destroy({
+          where: {
+            eta_id: eta.id
+          },
+          transaction: t
+        });
+    
+        await TravelToCanada.destroy({
+          where: {
+            eta_id: eta.id
+          },
+          transaction: t
+        });
+        
+        await Eta.destroy({
+            where: {
+              id: id
+            },
+            transaction: t
+          });
+
+        const usuario = await Usuario.findOne({
+          where: { id: eta.user_id }
+        });
+
+          
+        const deleteEta = usuario.etas_num - 1;
+        await usuario.update({ etas_num: deleteEta }, { transaction: t });
+    
+        await t.commit();
+    
+        res.json(eta);
+      }catch(error){
+    await t.rollback(); // Revierte la transacción en caso de error
+    console.log(error);
+    res.status(500).json({
+        msg: 'Hable con el administrador'
+    })
+}
 }
