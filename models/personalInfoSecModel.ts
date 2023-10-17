@@ -2,10 +2,6 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const PersonalInfoSec = db.define('personalinfosec', {
-
-    eta_id: {
-        type: DataTypes.INTEGER,
-    },
     fullName: {
         type: DataTypes.STRING
     },

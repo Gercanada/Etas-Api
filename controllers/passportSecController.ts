@@ -1,0 +1,89 @@
+import { Request, Response } from 'express';
+import Usuario from '../models/usersModel';
+import bcryptjs from 'bcryptjs';
+import Eta from '../models/etasModel';
+import db from '../db/connection';
+import jwt from "jsonwebtoken";
+import PassportSec from '../models/passportSecModel';
+import PersonalInfoSec from '../models/personalInfoSecModel';
+import StatusiiSec from '../models/statusiiSecModel';
+import TravelToCanada from '../models/travelToCanadaSecModel';
+
+
+export const getPassportsSecs = async (req: Request, res: Response) => {
+    const passportSec = await PassportSec.findAll();
+    res.json({ passportSec });
+}
+
+export const getPassportSec = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    const eta = await Eta.findByPk(id);
+    if (eta) {
+        res.json(eta);
+    } else {
+        res.status(404).json({
+            msg: `No existe un usuario con el id ${id}`
+        });
+    }
+}
+
+export const getUserPassportSec = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    console.log('id++++', id);
+
+    const passportSec = await PassportSec.findAll({
+        where: {
+            user_id: id
+        }
+    })
+
+    if (passportSec) {
+        res.json(passportSec);
+    } else {
+        console.log("errorrr")
+        res.status(404).json({
+            msg: `No existe un usuario con el id ${id}`
+        });
+    }
+}
+
+export const postUserPassportSec = async (req: Request, res: Response) => { }
+
+export const putUserPassportSec = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    const { body } = req;
+    try {
+        const passportSec = await PassportSec.findByPk(id);
+        if (!passportSec) {
+            return res.status(404).json({
+                msg: 'No existe un usuario con el id ' + id
+            });
+        }
+
+        await passportSec.update({
+            ...body,
+        });
+
+        const allFieldsFilled = (
+            passportSec.passport_no !== (null||"")  &&
+            passportSec.validFrom !== (null||"") &&
+            passportSec.dueDate !== (null||"") &&
+            passportSec.cityOfBirth !== (null||"") &&
+            passportSec.passportCountry !== (null||"") ?true :false 
+        );
+
+        const isCompleted = allFieldsFilled ? true : false;
+        await passportSec.update({
+            isCompleted: isCompleted
+        });
+
+        res.json(passportSec);
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            msg: 'Hable con el administrador'
+        })
+    }
+}
+
+export const deleteEtas = async (req: Request, res: Response) => { }

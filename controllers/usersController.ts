@@ -71,26 +71,11 @@ export const putUsuario = async (req: Request, res: Response) => {
             const newEta =await Eta.create({
                 user_id: usuario.id,
               }, { transaction: t });
-              console.log('newEta',newEta)
-              const newPassportSec = await PassportSec.create({
-                eta_id: newEta.id,
-              }, { transaction: t });
-              const personalInfoSec = await PersonalInfoSec.create({
-                eta_id: newEta.id,
-              }, { transaction: t });
-              const newStatusiiSec = await StatusiiSec.create({
-                eta_id: newEta.id,
-              }, { transaction: t });
-              const newTravelToCanada = await TravelToCanada.create({
-                eta_id: newEta.id,
-              }, { transaction: t });
-            //   await newEta.update({ passportSec_id: newPassportSec.id,
-            //     personalInfoSec_id: personalInfoSec.id,
-            //     statusIISec_id: newStatusiiSec.id,
-            //     travelToCanadaSec_id: newTravelToCanada.id,
-            // }, { transaction: t });
 
-            console.log("newEtavvvv=====================================",newEta.id)
+              const newPassportSec = await PassportSec.create( { transaction: t });
+              const personalInfoSec = await PersonalInfoSec.create({ transaction: t });
+              const newStatusiiSec = await StatusiiSec.create({ transaction: t });
+              const newTravelToCanada = await TravelToCanada.create({ transaction: t });
 
             await newEta.update({
                 where: {
@@ -105,12 +90,12 @@ export const putUsuario = async (req: Request, res: Response) => {
         }
        // for( let i = 0; i<= etas_num; i++ ){
       //  }
-      await t.commit(); // Confirma la transacción
+      await t.commit(); 
       }
    
       res.json(usuario);
     } catch (error) {
-        await t.rollback(); // Revierte la transacción en caso de error
+        await t.rollback();
         console.log(error);
         res.status(500).json({
             msg: 'Hable con el administrador'

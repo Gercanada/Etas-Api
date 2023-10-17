@@ -107,41 +107,42 @@ export const deleteEtas = async (req: Request, res: Response) => {
             msg: 'No existe un usuario con el id ' + id
         });
     }
-    try {
-        await PassportSec.destroy({
-            where: {
-                eta_id: eta.id
-            },
-            transaction: t
-        });
-    
-        await PersonalInfoSec.destroy({
-          where: {
-            eta_id: eta.id
-          },
-          transaction: t
-        });
-    
-        await StatusiiSec.destroy({
-          where: {
-            eta_id: eta.id
-          },
-          transaction: t
-        });
-    
-        await TravelToCanada.destroy({
-          where: {
-            eta_id: eta.id
-          },
-          transaction: t
-        });
-        
+    try { 
         await Eta.destroy({
             where: {
               id: id
             },
             transaction: t
           });
+ 
+        await PassportSec.destroy({
+            where: {
+                id: eta.passportSec_id
+            },
+            transaction: t
+        });
+    
+        await PersonalInfoSec.destroy({
+          where: {
+            id: eta.personalInfoSec_id
+          },
+          transaction: t
+        });
+    
+        await StatusiiSec.destroy({
+          where: {
+            id: eta.statusIISec_id
+          },
+          transaction: t
+        });
+    
+        await TravelToCanada.destroy({
+          where: {
+            id: eta.travelToCanadaSec_id
+          },
+          transaction: t
+        });
+        
 
         const usuario = await Usuario.findOne({
           where: { id: eta.user_id }

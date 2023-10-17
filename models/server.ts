@@ -2,6 +2,10 @@ import express, { Application } from 'express';
 import userRoutes from '../routes/usersRoute';
 import authRoutes from '../routes/auth';
 import etasRoutes from '../routes/etasRoute'
+import passportRoutes from '../routes/passportSecRoute'
+import personalInfoRoutes from '../routes/personalInfoSecRoute'
+import statusRoutes from '../routes/statusiiSecRoute'
+import travelToCanadaRoutes from '../routes/travelToCanadaSecRoute'
 import cors from 'cors';
 
 import db from '../db/connection';
@@ -15,7 +19,11 @@ class Server {
         usuarios: '/api/users',
         auth: '/api/auth',
         etas:'/api/etas',
-        payments:'/api/payments'
+        payments:'/api/payments',
+        passportSec:'/api/passport-sec',
+        personalInfoSec:'/api/personal-sec',
+        statusSec:'/api/status-sec',
+        travelCanadaSec:'/api/travel-sec'
     }
 
     constructor() {
@@ -57,6 +65,10 @@ class Server {
         this.app.use(this.apiPaths.usuarios, userRoutes)
         this.app.use(this.apiPaths.auth, authRoutes)
         this.app.use(this.apiPaths.etas, etasRoutes)
+        this.app.use(this.apiPaths.passportSec, passportRoutes)
+        this.app.use(this.apiPaths.personalInfoSec, personalInfoRoutes)
+        this.app.use(this.apiPaths.statusSec, statusRoutes)
+        this.app.use(this.apiPaths.travelCanadaSec, travelToCanadaRoutes)
     }
 
 

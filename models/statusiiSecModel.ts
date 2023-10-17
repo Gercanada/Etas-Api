@@ -2,9 +2,6 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const StatusiiSec = db.define('statusii', {
-    eta_id: {
-        type: DataTypes.INTEGER,
-    },
     countryResidence: {
         type: DataTypes.STRING
     },

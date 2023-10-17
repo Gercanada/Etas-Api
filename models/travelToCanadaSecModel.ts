@@ -2,9 +2,6 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const TravelToCanada = db.define('traveltocanada', {
-    eta_id: {
-        type: DataTypes.INTEGER,
-    },
     whenTravelToCanada: {
         type: DataTypes.STRING
     },

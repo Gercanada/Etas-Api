@@ -2,9 +2,6 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const PassportSec = db.define('passportsec', {
-    eta_id: {
-        type: DataTypes.INTEGER,
-    },
     passport_no: {
         type: DataTypes.STRING
     },
