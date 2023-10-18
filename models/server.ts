@@ -51,7 +51,16 @@ class Server {
     middlewares() {
 
         // CORS
-        this.app.use(cors());
+        //this.app.use(cors());
+        const corsOptions = {
+            origin: 'http://localhost:3000',
+            methods: 'GET, POST, OPTIONS, PUT, DELETE',
+            allowedHeaders: 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method',
+            credentials: true, // Habilitar credenciales
+        };
+        
+        this.app.use(cors(corsOptions));
+        
 
         // Lectura del body
         this.app.use(express.json());

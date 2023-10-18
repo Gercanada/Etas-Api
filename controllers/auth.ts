@@ -55,3 +55,42 @@ console.log("usuariooopapu",usuario)
     }
 
 }
+
+export const renovarToken = async (req: Request, res: Response) => {
+    const { usuario } = req;
+    // Generar el JWT
+    const token = await generarJWT(usuario.id);
+
+    res.json({
+        usuario,
+        token,
+    });
+};
+
+
+
+
+export const token = async (req: Request, res: Response) => {
+    try {
+        const authorizationHeader = req.header('Authorization');
+        let token;
+
+        if (authorizationHeader && authorizationHeader.startsWith('Bearer ')) {
+            token = authorizationHeader.substring(7); // Para eliminar "Bearer " del encabezado
+        }
+        // console.log({ token })
+
+        if (!token) {
+            return res.status(401).json({
+                msg: 'No hay token en la petición',
+            });
+        }
+        return res.json(token);
+    } catch (error) {
+        console.log(error);
+        res.status(401).json({
+            msg: 'Token no válido',
+        });
+    }
+
+};

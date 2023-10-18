@@ -4,7 +4,15 @@ import { Request, Response, NextFunction } from 'express';
 import Usuario from '../models/usersModel';
 
 export const validarJWT = async (req: Request, res: Response, next: NextFunction) => {
-  const token = req.header('x-token');
+  //const token = req.header('x-token');
+
+let token;
+if (req?.headers?.authorization && req?.headers?.authorization?.startsWith('Bearer ')) {
+  token = req?.headers?.authorization?.substring(7);
+}else{
+  token=req?.headers?.authorization
+}
+//const token = req?.headers?.authorization?.substring(7);
 
   if (!token) {
     return res.status(401).json({
@@ -26,7 +34,7 @@ export const validarJWT = async (req: Request, res: Response, next: NextFunction
     }
 
     // Verificar si el uid tiene estado true
-    if (!usuario.status) {
+    if (!usuario?.status) {
       return res.status(401).json({
         msg: 'Token no válido - usuario con estado: false',
       });
