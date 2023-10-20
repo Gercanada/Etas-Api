@@ -7,7 +7,7 @@ import { validarJWT } from '../middlewares/validar-jwt';
 
 import { getUsuario, getUsuarios, postUsuario, putUsuario, deleteUsuario } from '../controllers/usersController';
 import { emailExiste, existeUsuarioPorId } from '../helpers/db-validators';
-import { deleteEtas, getEta, getEtas, getUserEtas, postEtas, putEtas } from '../controllers/etasController';
+import { deleteEtas, getCompletedEta, getEta, getEtas, getPendingEta, getUserEtas, postEtas, putEtas } from '../controllers/etasController';
 
 const router = Router();
 
@@ -25,6 +25,17 @@ router.get('/:id', [
    validarCampos
 ], getEta);
 
+router.get('/pending/:id', [
+    validarJWT,
+   validarCampos
+], getPendingEta);
+
+
+router.get('/completed/:id', [
+    validarJWT,
+   validarCampos
+], getCompletedEta);
+
 router.get('/user/:id', [
     validarJWT,
    // esAdminRole,
@@ -33,7 +44,6 @@ router.get('/user/:id', [
    // check('id').custom(existeUsuarioPorId),
    validarCampos
 ], getUserEtas);
-
 
 router.put('/:id', [
     check('id', 'No es un ID válido').isMongoId(),

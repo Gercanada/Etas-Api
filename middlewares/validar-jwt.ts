@@ -12,7 +12,6 @@ if (req?.headers?.authorization && req?.headers?.authorization?.startsWith('Bear
 }else{
   token=req?.headers?.authorization
 }
-//const token = req?.headers?.authorization?.substring(7);
 
   if (!token) {
     return res.status(401).json({

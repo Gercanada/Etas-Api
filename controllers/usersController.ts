@@ -81,6 +81,7 @@ export const putUsuario = async (req: Request, res: Response) => {
                 where: {
                     id: newEta.id
                 },
+                eta_name:body.eta_name,
                 travelToCanadaSec_id: newTravelToCanada.id,
                 statusIISec_id:newStatusiiSec.id,
                 passportSec_id:newPassportSec.id,

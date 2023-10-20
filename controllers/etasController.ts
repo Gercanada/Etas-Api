@@ -26,6 +26,49 @@ export const getEta = async (req: Request, res: Response) => {
     }
 }
 
+export const getPendingEta = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    try {
+        const eta = await Eta.findAll({
+            where: {
+                user_id: id,
+                isCompleted: false
+            }
+        });
+
+        if (eta) {
+            res.json([eta]);
+        } else {
+            res.json([]);
+        }
+    } catch (error) {
+        res.status(500).json({
+            error: `No pending etas`
+        });
+    }
+}
+export const getCompletedEta = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    try {
+        const eta = await Eta.findAll({
+            where: {
+                user_id: id,
+                isCompleted: true
+            }
+        });
+
+        if (eta) {
+            res.json([eta]);
+        } else {
+            res.json([]);
+        }
+    } catch (error) {
+        res.status(500).json({
+            error: `No completed etas`
+        });
+    }
+}
+
 export const getUserEtas = async (req: Request, res: Response) => {
     const { id } = req.params;
     console.log('id++++',id);

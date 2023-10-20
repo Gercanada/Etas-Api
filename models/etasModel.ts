@@ -24,8 +24,11 @@ const Eta = db.define('etas', {
     travelToCanadaSec_id: {
         type: DataTypes.INTEGER
     },
-    status_id: {
-        type: DataTypes.INTEGER
+    eta_name: {
+        type: DataTypes.STRING
+    },
+    isCompleted: {
+        type: DataTypes.BOOLEAN
     },
 });
 export default Eta;
