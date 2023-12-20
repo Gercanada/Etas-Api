@@ -17,21 +17,23 @@ export const getPersonalInfoSec = async (req: Request, res: Response) => {
 
 export const getPersonalInfoSecs = async (req: Request, res: Response) => {
     const { id } = req.params;
-
-    const personalInfo = await PersonalInfoSec.findAll({
-        where: {
-            user_id: id
-        }
-    })
-
-    if (personalInfo) {
-        res.json(personalInfo);
+    const personalSec = await PersonalInfoSec.findByPk(id);
+    try {
+    if (personalSec) {
+        res.json(personalSec);
     } else {
         res.status(404).json({
-            msg: `No existe un usuario con el id ${id}`
+            msg: `No existe un PersonalInfoSec con el id ${id}`
         });
     }
+}catch (error) {
+    console.log(error);
+    res.status(500).json({
+        msg: 'Hable con el administrador'
+    })
 }
+}
+
 
 export const postPersonalInfoSec = async (req: Request, res: Response) => { }
 

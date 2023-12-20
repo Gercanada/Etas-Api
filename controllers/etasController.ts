@@ -37,7 +37,7 @@ export const getPendingEta = async (req: Request, res: Response) => {
         });
 
         if (eta) {
-            res.json([eta]);
+            res.json(eta);
         } else {
             res.json([]);
         }
@@ -58,7 +58,7 @@ export const getCompletedEta = async (req: Request, res: Response) => {
         });
 
         if (eta) {
-            res.json([eta]);
+            res.json(eta);
         } else {
             res.json([]);
         }

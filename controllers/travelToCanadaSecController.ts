@@ -14,20 +14,21 @@ export const getTravelToCanadaSec = async (req: Request, res: Response) => {
 
 export const getTravelToCanadaSecs = async (req: Request, res: Response) => {
     const { id } = req.params;
-
-    const travelCanada = await TravelToCanada.findAll({
-        where: {
-            user_id: id
-        }
-    })
-
-    if (travelCanada) {
-        res.json(travelCanada);
+    const travelSec = await TravelToCanada.findByPk(id);
+    try {
+    if (travelSec) {
+        res.json(travelSec);
     } else {
         res.status(404).json({
-            msg: `No existe un usuario con el id ${id}`
+            msg: `No existe un travelSec con el id ${id}`
         });
     }
+}catch (error) {
+    console.log(error);
+    res.status(500).json({
+        msg: 'Hable con el administrador'
+    })
+}
 }
 
 export const postTravelToCanadaSec = async (req: Request, res: Response) => { }

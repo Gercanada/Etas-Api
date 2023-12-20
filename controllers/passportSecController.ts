@@ -17,33 +17,46 @@ export const getPassportsSecs = async (req: Request, res: Response) => {
 
 export const getPassportSec = async (req: Request, res: Response) => {
     const { id } = req.params;
-    const eta = await Eta.findByPk(id);
-    if (eta) {
-        res.json(eta);
+    const passportSec = await PassportSec.findByPk(id);
+    try {
+    if (passportSec) {
+        res.json(passportSec);
     } else {
         res.status(404).json({
-            msg: `No existe un usuario con el id ${id}`
+            msg: `No existe un passportSec con el id ${id}`
         });
     }
+}catch (error) {
+    console.log(error);
+    res.status(500).json({
+        msg: 'Hable con el administrador'
+    })
+}
 }
 
 export const getUserPassportSec = async (req: Request, res: Response) => {
     const { id } = req.params;
     console.log('id++++', id);
+    try {
+        const passportSec = await PassportSec.findAll({
+            where: {
+                user_id: id
+            }
+        })
 
-    const passportSec = await PassportSec.findAll({
-        where: {
-            user_id: id
+        if (passportSec) {
+            res.json(passportSec);
+        } else {
+            console.log("errorrr")
+            res.status(404).json({
+                msg: `No existe un usuario con el id ${id}`
+            });
         }
-    })
-
-    if (passportSec) {
-        res.json(passportSec);
-    } else {
-        console.log("errorrr")
-        res.status(404).json({
-            msg: `No existe un usuario con el id ${id}`
-        });
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            msg: 'Hable con el administrador'
+        })
     }
 }
 
@@ -65,11 +78,11 @@ export const putUserPassportSec = async (req: Request, res: Response) => {
         });
 
         const allFieldsFilled = (
-            passportSec.passport_no !== (null||"")  &&
-            passportSec.validFrom !== (null||"") &&
-            passportSec.dueDate !== (null||"") &&
-            passportSec.cityOfBirth !== (null||"") &&
-            passportSec.passportCountry !== (null||"") ?true :false 
+            passportSec.passport_no !== (null || "") &&
+                passportSec.validFrom !== (null || "") &&
+                passportSec.dueDate !== (null || "") &&
+                passportSec.cityOfBirth !== (null || "") &&
+                passportSec.passportCountry !== (null || "") ? true : false
         );
 
         const isCompleted = allFieldsFilled ? true : false;

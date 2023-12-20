@@ -5,7 +5,6 @@ import Usuario from '../models/usersModel';
 
 export const validarJWT = async (req: Request, res: Response, next: NextFunction) => {
   //const token = req.header('x-token');
-
 let token;
 if (req?.headers?.authorization && req?.headers?.authorization?.startsWith('Bearer ')) {
   token = req?.headers?.authorization?.substring(7);

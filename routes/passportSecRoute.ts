@@ -24,7 +24,7 @@ router.get('/:id', [
   // check('id', 'No es un ID válido').isMongoId(),
    // check('id').custom(existeUsuarioPorId),
    validarCampos
-], getUserPassportSec);
+], getPassportSec);
 
 router.put('/:id', [
     validarJWT,
