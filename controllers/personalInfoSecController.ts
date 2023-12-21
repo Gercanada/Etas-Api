@@ -53,11 +53,13 @@ export const putPersonalInfoSec = async (req: Request, res: Response) => {
         });
 
         const allFieldsFilled = (
-            personalInfo.passport_no !== (null||"")  &&
-            personalInfo.validFrom !== (null||"") &&
-            personalInfo.dueDate !== (null||"") &&
+            personalInfo.fullName !== (null||"")  &&
+            personalInfo.birthDate !== (null||"") &&
             personalInfo.cityOfBirth !== (null||"") &&
-            personalInfo.passportCountry !== (null||"") ?true :false 
+            personalInfo.countryOfBirth !== (null||"") &&
+            personalInfo.phone !== (null||"") &&
+            personalInfo.gender_id !== (null||"") &&
+            personalInfo.email !== (null||"") ?true :false 
         );
 
         const isCompleted = allFieldsFilled ? true : false;
