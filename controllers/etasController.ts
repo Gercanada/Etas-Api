@@ -125,6 +125,9 @@ export const putEtas = async (req: Request, res: Response) => {
                 msg: 'No existe un usuario con el id ' + id
             });
         }
+        const questionsId = await PassportSec.findByPk(passportSec_id);
+
+
         await usuario.update(body);
         res.json(usuario);
     } catch (error) {
