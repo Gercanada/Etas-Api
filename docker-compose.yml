@@ -4,14 +4,16 @@ services:
     build:
       context: . # Directorio donde se encuentra el Dockerfile
     ports:
-      - "80:8000" # Mapeo del puerto del contenedor al puerto del host
+      - "8000:8000" # Mapeo del puerto del contenedor al puerto del host
     volumes:
-      - '.:/usr/src/app' # Mapeo del directorio de trabajo del proyecto al contenedor
+      - ".:/usr/src/app" # Mapeo del directorio de trabajo del proyecto al contenedor
     networks:
       - node
-    # depends_on:
-    #   - mysql
-
+    depends_on:
+      - mysql
+    environment:
+      DB_HOST: mysql
+      # Otras variables de entorno necesarias
   mysql:
     image: mariadb:10.2.43
     container_name: mysql-node
@@ -23,7 +25,7 @@ services:
       MYSQL_ROOT_PASSWORD: "password"
       MYSQL_DATABASE: etas
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes" # Esto permite que el usuario root se conecte sin contraseña
-      MYSQL_USER: node
+      MYSQL_USER: etas
       MYSQL_PASSWORD: password
     ports:
       - "3307:3306"
@@ -35,16 +37,16 @@ services:
     ports:
       - "81:80"
     networks:
-      - node  
+      - node
     environment:
-       PMA_ARBITRARY: 1
-      # PMA_HOST: mysql-node
-      # PMA_USER: "node-serv"
-      # PMA_PASSWORD: "password"
-        # PMA_PORT: 3306
-        # PMA_ROOT_PASSWORD: ''
+      #PMA_ARBITRARY: 1
+      # PMA_PORT: 3306
+      PMA_HOST: mysql-node
+      PMA_USER: "root"
+      PMA_PASSWORD: "password"
+      # PMA_ROOT_PASSWORD: ""
 volumes:
-  logs: # 
+  logs: #
   node-data:
 
 networks:
