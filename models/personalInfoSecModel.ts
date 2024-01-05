@@ -20,6 +20,9 @@ const PersonalInfoSec = db.define('personalinfosec', {
     phone: {
         type: DataTypes.STRING
     },
+    gender_id: {
+        type: DataTypes.INTEGER
+    },
     isCompleted: {
         type: DataTypes.BOOLEAN
     }

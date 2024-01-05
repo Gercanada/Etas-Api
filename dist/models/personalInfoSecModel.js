@@ -24,6 +24,9 @@ const PersonalInfoSec = connection_1.default.define('personalinfosec', {
     phone: {
         type: sequelize_1.DataTypes.STRING
     },
+    gender_id: {
+        type: sequelize_1.DataTypes.INTEGER
+    },
     isCompleted: {
         type: sequelize_1.DataTypes.BOOLEAN
     }
