@@ -19,6 +19,7 @@ const etasRoute_1 = __importDefault(require("../routes/etasRoute"));
 const passportSecRoute_1 = __importDefault(require("../routes/passportSecRoute"));
 const personalInfoSecRoute_1 = __importDefault(require("../routes/personalInfoSecRoute"));
 const statusiiSecRoute_1 = __importDefault(require("../routes/statusiiSecRoute"));
+const paymentsRoute_1 = __importDefault(require("../routes/paymentsRoute"));
 const travelToCanadaSecRoute_1 = __importDefault(require("../routes/travelToCanadaSecRoute"));
 const cors_1 = __importDefault(require("cors"));
 const connection_1 = __importDefault(require("../db/connection"));
@@ -75,6 +76,7 @@ class Server {
         this.app.use(this.apiPaths.personalInfoSec, personalInfoSecRoute_1.default);
         this.app.use(this.apiPaths.statusSec, statusiiSecRoute_1.default);
         this.app.use(this.apiPaths.travelCanadaSec, travelToCanadaSecRoute_1.default);
+        this.app.use(this.apiPaths.payments, paymentsRoute_1.default);
     }
     listen() {
         this.app.listen(this.port, () => {
