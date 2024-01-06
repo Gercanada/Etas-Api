@@ -7,8 +7,11 @@ const validar_jwt_1 = require("../middlewares/validar-jwt");
 // import validaRoles from '../middlewares/validar-roles';
 const usersController_1 = require("../controllers/usersController");
 const db_validators_1 = require("../helpers/db-validators");
+const paymentsController_1 = require("../controllers/paymentsController");
 const router = (0, express_1.Router)();
-router.get('/', [validar_jwt_1.validarJWT], usersController_1.getUsuarios);
+router.get('/', 
+// [validarJWT],
+paymentsController_1.list);
 router.put('/:id', [
     (0, express_validator_1.check)('id', 'No es un ID válido').isMongoId(),
     // check('id').custom(existeUsuarioPorId),

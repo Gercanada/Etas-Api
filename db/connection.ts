@@ -1,8 +1,6 @@
 import { Sequelize } from 'sequelize';
 
 
-
-console.log(process.env.DB_PORT??'hasnt');
 const dbPort: number = parseInt(process.env.DB_PORT || '3306');
 const dbHost: string = process.env.DB_HOST || 'localhost';
 const dbName: string = process.env.DB_NAME || 'etas';

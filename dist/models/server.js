@@ -16,10 +16,12 @@ const express_1 = __importDefault(require("express"));
 const usersRoute_1 = __importDefault(require("../routes/usersRoute"));
 const auth_1 = __importDefault(require("../routes/auth"));
 const etasRoute_1 = __importDefault(require("../routes/etasRoute"));
+const paymentsRoute_1 = __importDefault(require("../routes/paymentsRoute"));
 const passportSecRoute_1 = __importDefault(require("../routes/passportSecRoute"));
 const personalInfoSecRoute_1 = __importDefault(require("../routes/personalInfoSecRoute"));
 const statusiiSecRoute_1 = __importDefault(require("../routes/statusiiSecRoute"));
 const travelToCanadaSecRoute_1 = __importDefault(require("../routes/travelToCanadaSecRoute"));
+const listRoutes_1 = __importDefault(require("../routes/listRoutes"));
 const cors_1 = __importDefault(require("cors"));
 const connection_1 = __importDefault(require("../db/connection"));
 class Server {
@@ -32,7 +34,8 @@ class Server {
             passportSec: '/api/passport-sec',
             personalInfoSec: '/api/personal-sec',
             statusSec: '/api/status-sec',
-            travelCanadaSec: '/api/travel-sec'
+            travelCanadaSec: '/api/travel-sec',
+            routes: '/api/routes'
         };
         this.app = (0, express_1.default)();
         this.port = process.env.PORT || '8000';
@@ -40,6 +43,7 @@ class Server {
         this.dbConnection();
         this.middlewares();
         this.routes();
+        // listRoutes(th);
     }
     dbConnection() {
         return __awaiter(this, void 0, void 0, function* () {
@@ -75,6 +79,8 @@ class Server {
         this.app.use(this.apiPaths.personalInfoSec, personalInfoSecRoute_1.default);
         this.app.use(this.apiPaths.statusSec, statusiiSecRoute_1.default);
         this.app.use(this.apiPaths.travelCanadaSec, travelToCanadaSecRoute_1.default);
+        this.app.use(this.apiPaths.payments, paymentsRoute_1.default);
+        this.app.use(this.apiPaths.routes, listRoutes_1.default); //!List all app routes
     }
     listen() {
         this.app.listen(this.port, () => {

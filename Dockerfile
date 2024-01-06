@@ -24,7 +24,7 @@ RUN npm install
 RUN chown -R www-data:www-data /usr/src/app
 
 # CMD ["tsc","node"]
-CMD ["node", "dist/app.js"]
+CMD ["tsc" , "--watch", "nodemon", "dist/app.js"]
 # docker compose up
 # docker compose up --build 
 # docker compose build --no-cache 
@@ -33,3 +33,4 @@ CMD ["node", "dist/app.js"]
 #! CMD tsc --watch
 #!Si no se crean dist y node modules, ejecutae en el contenedor  tsc && npm i
 #! Si no arranca, instalar y construir directamente con npm i y tsc , Luego se puede compose up
+#! Correr tsc --watch y nodemon app.js dentro de sh 
