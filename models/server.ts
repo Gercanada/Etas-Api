@@ -6,6 +6,7 @@ import paymentsRoutes from '../routes/paymentsRoute'
 import passportRoutes from '../routes/passportSecRoute'
 import personalInfoRoutes from '../routes/personalInfoSecRoute'
 import statusRoutes from '../routes/statusiiSecRoute'
+import paymentsRoutes from '../routes/paymentsRoute'
 import travelToCanadaRoutes from '../routes/travelToCanadaSecRoute'
 import listRoutes from '../routes/listRoutes'
 import cors from 'cors';
@@ -89,8 +90,7 @@ class Server {
         this.app.use(this.apiPaths.statusSec, statusRoutes)
         this.app.use(this.apiPaths.travelCanadaSec, travelToCanadaRoutes)
 
-        
-        this.app.use(this.apiPaths.payments, paymentsRoutes);
+        this.app.use(this.apiPaths.payments, paymentsRoutes)
         this.app.use(this.apiPaths.routes, listRoutes); //!List all app routes
 
     }
