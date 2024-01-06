@@ -7,12 +7,13 @@ import { validarJWT } from '../middlewares/validar-jwt';
 
 import { getUsuario, getUsuarios, postUsuario, putUsuario, deleteUsuario } from '../controllers/usersController';
 import { emailExiste, existeUsuarioPorId } from '../helpers/db-validators';
+import { list } from '../controllers/paymentsController';
 
 const router = Router();
 
 router.get('/',
-    [validarJWT],
-    getUsuarios,);
+    // [validarJWT],
+    list,);
 
 router.put('/:id', [
     check('id', 'No es un ID válido').isMongoId(),
