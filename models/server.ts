@@ -81,7 +81,6 @@ class Server {
 
 
     routes() {
-
         this.app.use(this.apiPaths.usuarios, userRoutes)
         this.app.use(this.apiPaths.auth, authRoutes)
         this.app.use(this.apiPaths.etas, etasRoutes)

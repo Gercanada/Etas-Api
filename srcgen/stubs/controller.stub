@@ -1,0 +1,9 @@
+class [CLASS_NAME]Controller {
+    constructor() {
+        // Controlador inicializado
+    }
+}
+
+module.exports = [CLASS_NAME]Controller;
+
+

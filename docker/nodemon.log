@@ -1,0 +1,1104 @@
+[33m[nodemon] 3.0.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32mGET[39m      /api/users/
+[34mPUT[39m      /api/users/:id
+[32mGET[39m      /api/users/:id
+[33mPOST[39m     /api/users/
+[31mDELETE[39m   /api/users/:id
+[33mPOST[39m     /api/auth/login
+[32mGET[39m      /api/auth/token
+[32mGET[39m      /api/auth/
+[32mGET[39m      /api/etas/
+[32mGET[39m      /api/etas/:id
+[32mGET[39m      /api/etas/pending/:id
+[32mGET[39m      /api/etas/completed/:id
+[32mGET[39m      /api/etas/user/:id
+[34mPUT[39m      /api/etas/:id
+[33mPOST[39m     /api/etas/
+[31mDELETE[39m   /api/etas/:id
+[32mGET[39m      /api/passport-sec/
+[32mGET[39m      /api/passport-sec/:id
+[34mPUT[39m      /api/passport-sec/:id
+[31mDELETE[39m   /api/passport-sec/:id
+[32mGET[39m      /api/personal-sec/
+[32mGET[39m      /api/personal-sec/:id
+[34mPUT[39m      /api/personal-sec/:id
+[31mDELETE[39m   /api/personal-sec/:id
+[32mGET[39m      /api/status-sec/
+[32mGET[39m      /api/status-sec/:id
+[34mPUT[39m      /api/status-sec/:id
+[31mDELETE[39m   /api/status-sec/:id
+[32mGET[39m      /api/travel-sec/
+[32mGET[39m      /api/travel-sec/:id
+[34mPUT[39m      /api/travel-sec/:id
+[31mDELETE[39m   /api/travel-sec/:id
+[32mGET[39m      /api/payments/
+[34mPUT[39m      /api/payments/:id
+[33mPOST[39m     /api/payments/
+[31mDELETE[39m   /api/payments/:id
+[32mGET[39m      /api/routes/
+{
+  routelist: [
+    { method: 'GET', path: '/api/users/' },
+    { method: 'PUT', path: '/api/users/:id' },
+    { method: 'GET', path: '/api/users/:id' },
+    { method: 'POST', path: '/api/users/' },
+    { method: 'DELETE', path: '/api/users/:id' },
+    { method: 'POST', path: '/api/auth/login' },
+    { method: 'GET', path: '/api/auth/token' },
+    { method: 'GET', path: '/api/auth/' },
+    { method: 'GET', path: '/api/etas/' },
+    { method: 'GET', path: '/api/etas/:id' },
+    { method: 'GET', path: '/api/etas/pending/:id' },
+    { method: 'GET', path: '/api/etas/completed/:id' },
+    { method: 'GET', path: '/api/etas/user/:id' },
+    { method: 'PUT', path: '/api/etas/:id' },
+    { method: 'POST', path: '/api/etas/' },
+    { method: 'DELETE', path: '/api/etas/:id' },
+    { method: 'GET', path: '/api/passport-sec/' },
+    { method: 'GET', path: '/api/passport-sec/:id' },
+    { method: 'PUT', path: '/api/passport-sec/:id' },
+    { method: 'DELETE', path: '/api/passport-sec/:id' },
+    { method: 'GET', path: '/api/personal-sec/' },
+    { method: 'GET', path: '/api/personal-sec/:id' },
+    { method: 'PUT', path: '/api/personal-sec/:id' },
+    { method: 'DELETE', path: '/api/personal-sec/:id' },
+    { method: 'GET', path: '/api/status-sec/' },
+    { method: 'GET', path: '/api/status-sec/:id' },
+    { method: 'PUT', path: '/api/status-sec/:id' },
+    { method: 'DELETE', path: '/api/status-sec/:id' },
+    { method: 'GET', path: '/api/travel-sec/' },
+    { method: 'GET', path: '/api/travel-sec/:id' },
+    { method: 'PUT', path: '/api/travel-sec/:id' },
+    { method: 'DELETE', path: '/api/travel-sec/:id' },
+    { method: 'GET', path: '/api/payments/' },
+    { method: 'PUT', path: '/api/payments/:id' },
+    { method: 'POST', path: '/api/payments/' },
+    { method: 'DELETE', path: '/api/payments/:id' },
+    { method: 'GET', path: '/api/routes/' }
+  ]
+}
+[32mGET[39m      /api/users/
+[34mPUT[39m      /api/users/:id
+[32mGET[39m      /api/users/:id
+[33mPOST[39m     /api/users/
+[31mDELETE[39m   /api/users/:id
+[33mPOST[39m     /api/auth/login
+[32mGET[39m      /api/auth/token
+[32mGET[39m      /api/auth/
+[32mGET[39m      /api/etas/
+[32mGET[39m      /api/etas/:id
+[32mGET[39m      /api/etas/pending/:id
+[32mGET[39m      /api/etas/completed/:id
+[32mGET[39m      /api/etas/user/:id
+[34mPUT[39m      /api/etas/:id
+[33mPOST[39m     /api/etas/
+[31mDELETE[39m   /api/etas/:id
+[32mGET[39m      /api/passport-sec/
+[32mGET[39m      /api/passport-sec/:id
+[34mPUT[39m      /api/passport-sec/:id
+[31mDELETE[39m   /api/passport-sec/:id
+[32mGET[39m      /api/personal-sec/
+[32mGET[39m      /api/personal-sec/:id
+[34mPUT[39m      /api/personal-sec/:id
+[31mDELETE[39m   /api/personal-sec/:id
+[32mGET[39m      /api/status-sec/
+[32mGET[39m      /api/status-sec/:id
+[34mPUT[39m      /api/status-sec/:id
+[31mDELETE[39m   /api/status-sec/:id
+[32mGET[39m      /api/travel-sec/
+[32mGET[39m      /api/travel-sec/:id
+[34mPUT[39m      /api/travel-sec/:id
+[31mDELETE[39m   /api/travel-sec/:id
+[32mGET[39m      /api/payments/
+[34mPUT[39m      /api/payments/:id
+[33mPOST[39m     /api/payments/
+[31mDELETE[39m   /api/payments/:id
+[32mGET[39m      /api/routes/
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online

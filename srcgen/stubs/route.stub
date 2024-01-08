@@ -1,0 +1,8 @@
+const express = require('express');
+const router = express.Router();
+const [CLASS_NAME]Controller = require('../controllers/[FILENAME]Controller');
+
+// Define tus rutas aquí
+
+module.exports = router;
+

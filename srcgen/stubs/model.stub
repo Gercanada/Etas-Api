@@ -1,0 +1,7 @@
+class [CLASS_NAME] {
+    constructor() {
+        // Modelo inicializado
+    }
+}
+
+module.exports = [CLASS_NAME];
