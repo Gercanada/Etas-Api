@@ -1102,3 +1102,28 @@ Database online
 Servidor corriendo en puerto 8000
 Executing (default): SELECT 1+1 AS result
 Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online

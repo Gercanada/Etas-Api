@@ -5601,3 +5601,323 @@ models/server.ts(9,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
 models/server.ts(52,29): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string | undefined'.
 
 7:25:15 PM - Found 55 errors. Watching for file changes.
+c7:34:27 PM - File change detected. Starting incremental compilation...
+
+controllers/auth.ts(27,22): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(34,70): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(43,48): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(60,13): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+controllers/etasController.ts(104,33): error TS2554: Expected 0 arguments, but got 1.
+controllers/etasController.ts(106,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(128,56): error TS2552: Cannot find name 'passportSec_id'. Did you mean 'PassportSec'?
+controllers/etasController.ts(145,26): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(149,12): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any> | null'.
+controllers/etasController.ts(166,25): error TS2339: Property 'passportSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(173,21): error TS2339: Property 'personalInfoSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(180,21): error TS2339: Property 'statusIISec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(187,21): error TS2339: Property 'travelToCanadaSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(194,28): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(198,27): error TS18047: 'usuario' is possibly 'null'.
+controllers/etasController.ts(198,35): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(199,15): error TS18047: 'usuario' is possibly 'null'.
+controllers/passportSecController.ts(81,25): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(82,29): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(83,29): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(84,29): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(85,29): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(56,26): error TS2339: Property 'fullName' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(57,26): error TS2339: Property 'birthDate' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(58,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(59,26): error TS2339: Property 'countryOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(60,26): error TS2339: Property 'phone' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(61,26): error TS2339: Property 'gender_id' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(62,26): error TS2339: Property 'email' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(54,22): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(55,22): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(56,22): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(57,22): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(58,22): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(52,26): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(53,26): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(54,26): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(55,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(56,26): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(41,37): error TS2554: Expected 0 arguments, but got 1.
+controllers/usersController.ts(43,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(72,34): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(82,32): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(85,57): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(86,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(87,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(88,52): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+helpers/db-validators.ts(11,47): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any> | undefined): Promise<Model<any, any> | null>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+helpers/db-validators.ts(18,39): error TS2339: Property 'findById' does not exist on type 'ModelCtor<Model<any, any>>'.
+helpers/generar-jwt.ts(19,29): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string | PromiseLike<string>'.
+  Type 'undefined' is not assignable to type 'string | PromiseLike<string>'.
+middlewares/validar-jwt.ts(35,19): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+middlewares/validar-jwt.ts(41,9): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+models/server.ts(5,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(9,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(52,29): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string | undefined'.
+
+7:34:27 PM - Found 55 errors. Watching for file changes.
+c7:35:26 PM - File change detected. Starting incremental compilation...
+
+controllers/auth.ts(27,22): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(34,70): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(43,48): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(60,13): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+controllers/etasController.ts(104,33): error TS2554: Expected 0 arguments, but got 1.
+controllers/etasController.ts(106,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(128,56): error TS2552: Cannot find name 'passportSec_id'. Did you mean 'PassportSec'?
+controllers/etasController.ts(145,26): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(149,12): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any> | null'.
+controllers/etasController.ts(166,25): error TS2339: Property 'passportSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(173,21): error TS2339: Property 'personalInfoSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(180,21): error TS2339: Property 'statusIISec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(187,21): error TS2339: Property 'travelToCanadaSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(194,28): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(198,27): error TS18047: 'usuario' is possibly 'null'.
+controllers/etasController.ts(198,35): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(199,15): error TS18047: 'usuario' is possibly 'null'.
+controllers/passportSecController.ts(81,25): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(82,29): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(83,29): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(84,29): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(85,29): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(56,26): error TS2339: Property 'fullName' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(57,26): error TS2339: Property 'birthDate' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(58,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(59,26): error TS2339: Property 'countryOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(60,26): error TS2339: Property 'phone' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(61,26): error TS2339: Property 'gender_id' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(62,26): error TS2339: Property 'email' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(54,22): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(55,22): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(56,22): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(57,22): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(58,22): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(52,26): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(53,26): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(54,26): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(55,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(56,26): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(41,37): error TS2554: Expected 0 arguments, but got 1.
+controllers/usersController.ts(43,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(72,34): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(82,32): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(85,57): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(86,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(87,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(88,52): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+helpers/db-validators.ts(11,47): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any> | undefined): Promise<Model<any, any> | null>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+helpers/db-validators.ts(18,39): error TS2339: Property 'findById' does not exist on type 'ModelCtor<Model<any, any>>'.
+helpers/generar-jwt.ts(19,29): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string | PromiseLike<string>'.
+  Type 'undefined' is not assignable to type 'string | PromiseLike<string>'.
+middlewares/validar-jwt.ts(35,19): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+middlewares/validar-jwt.ts(41,9): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+models/server.ts(5,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(9,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(52,29): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string | undefined'.
+
+7:35:26 PM - Found 55 errors. Watching for file changes.
+c7:35:35 PM - File change detected. Starting incremental compilation...
+
+controllers/auth.ts(27,22): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(34,70): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(43,48): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(60,13): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+controllers/etasController.ts(104,33): error TS2554: Expected 0 arguments, but got 1.
+controllers/etasController.ts(106,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(128,56): error TS2552: Cannot find name 'passportSec_id'. Did you mean 'PassportSec'?
+controllers/etasController.ts(145,26): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(149,12): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any> | null'.
+controllers/etasController.ts(166,25): error TS2339: Property 'passportSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(173,21): error TS2339: Property 'personalInfoSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(180,21): error TS2339: Property 'statusIISec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(187,21): error TS2339: Property 'travelToCanadaSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(194,28): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(198,27): error TS18047: 'usuario' is possibly 'null'.
+controllers/etasController.ts(198,35): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(199,15): error TS18047: 'usuario' is possibly 'null'.
+controllers/passportSecController.ts(81,25): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(82,29): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(83,29): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(84,29): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(85,29): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(56,26): error TS2339: Property 'fullName' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(57,26): error TS2339: Property 'birthDate' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(58,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(59,26): error TS2339: Property 'countryOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(60,26): error TS2339: Property 'phone' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(61,26): error TS2339: Property 'gender_id' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(62,26): error TS2339: Property 'email' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(54,22): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(55,22): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(56,22): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(57,22): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(58,22): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(52,26): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(53,26): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(54,26): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(55,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(56,26): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(41,37): error TS2554: Expected 0 arguments, but got 1.
+controllers/usersController.ts(43,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(72,34): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(82,32): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(85,57): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(86,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(87,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(88,52): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+helpers/db-validators.ts(11,47): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any> | undefined): Promise<Model<any, any> | null>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+helpers/db-validators.ts(18,39): error TS2339: Property 'findById' does not exist on type 'ModelCtor<Model<any, any>>'.
+helpers/generar-jwt.ts(19,29): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string | PromiseLike<string>'.
+  Type 'undefined' is not assignable to type 'string | PromiseLike<string>'.
+middlewares/validar-jwt.ts(35,19): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+middlewares/validar-jwt.ts(41,9): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+models/server.ts(5,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(9,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(52,29): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string | undefined'.
+
+7:35:35 PM - Found 55 errors. Watching for file changes.
+c7:35:48 PM - File change detected. Starting incremental compilation...
+
+controllers/auth.ts(27,22): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(34,70): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(43,48): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(60,13): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+controllers/etasController.ts(104,33): error TS2554: Expected 0 arguments, but got 1.
+controllers/etasController.ts(106,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(128,56): error TS2552: Cannot find name 'passportSec_id'. Did you mean 'PassportSec'?
+controllers/etasController.ts(145,26): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(149,12): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any> | null'.
+controllers/etasController.ts(166,25): error TS2339: Property 'passportSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(173,21): error TS2339: Property 'personalInfoSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(180,21): error TS2339: Property 'statusIISec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(187,21): error TS2339: Property 'travelToCanadaSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(194,28): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(198,27): error TS18047: 'usuario' is possibly 'null'.
+controllers/etasController.ts(198,35): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(199,15): error TS18047: 'usuario' is possibly 'null'.
+controllers/passportSecController.ts(81,25): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(82,29): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(83,29): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(84,29): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(85,29): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(56,26): error TS2339: Property 'fullName' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(57,26): error TS2339: Property 'birthDate' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(58,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(59,26): error TS2339: Property 'countryOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(60,26): error TS2339: Property 'phone' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(61,26): error TS2339: Property 'gender_id' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(62,26): error TS2339: Property 'email' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(54,22): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(55,22): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(56,22): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(57,22): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(58,22): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(52,26): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(53,26): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(54,26): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(55,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(56,26): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(41,37): error TS2554: Expected 0 arguments, but got 1.
+controllers/usersController.ts(43,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(72,34): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(82,32): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(85,57): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(86,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(87,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(88,52): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+helpers/db-validators.ts(11,47): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any> | undefined): Promise<Model<any, any> | null>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+helpers/db-validators.ts(18,39): error TS2339: Property 'findById' does not exist on type 'ModelCtor<Model<any, any>>'.
+helpers/generar-jwt.ts(19,29): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string | PromiseLike<string>'.
+  Type 'undefined' is not assignable to type 'string | PromiseLike<string>'.
+middlewares/validar-jwt.ts(35,19): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+middlewares/validar-jwt.ts(41,9): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+models/server.ts(5,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(9,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(52,29): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string | undefined'.
+
+7:35:48 PM - Found 55 errors. Watching for file changes.
+c7:36:05 PM - File change detected. Starting incremental compilation...
+
+controllers/auth.ts(27,22): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(34,70): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(43,48): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/auth.ts(60,13): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+controllers/etasController.ts(104,33): error TS2554: Expected 0 arguments, but got 1.
+controllers/etasController.ts(106,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(128,56): error TS2552: Cannot find name 'passportSec_id'. Did you mean 'PassportSec'?
+controllers/etasController.ts(145,26): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(149,12): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any> | null'.
+controllers/etasController.ts(166,25): error TS2339: Property 'passportSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(173,21): error TS2339: Property 'personalInfoSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(180,21): error TS2339: Property 'statusIISec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(187,21): error TS2339: Property 'travelToCanadaSec_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(194,28): error TS2339: Property 'user_id' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(198,27): error TS18047: 'usuario' is possibly 'null'.
+controllers/etasController.ts(198,35): error TS2339: Property 'etas_num' does not exist on type 'Model<any, any>'.
+controllers/etasController.ts(199,15): error TS18047: 'usuario' is possibly 'null'.
+controllers/passportSecController.ts(81,25): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(82,29): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(83,29): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(84,29): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/passportSecController.ts(85,29): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(56,26): error TS2339: Property 'fullName' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(57,26): error TS2339: Property 'birthDate' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(58,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(59,26): error TS2339: Property 'countryOfBirth' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(60,26): error TS2339: Property 'phone' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(61,26): error TS2339: Property 'gender_id' does not exist on type 'Model<any, any>'.
+controllers/personalInfoSecController.ts(62,26): error TS2339: Property 'email' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(54,22): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(55,22): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(56,22): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(57,22): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/statusiiSecController.ts(58,22): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(52,26): error TS2339: Property 'passport_no' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(53,26): error TS2339: Property 'validFrom' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(54,26): error TS2339: Property 'dueDate' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(55,26): error TS2339: Property 'cityOfBirth' does not exist on type 'Model<any, any>'.
+controllers/travelToCanadaSecController.ts(56,26): error TS2339: Property 'passportCountry' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(41,37): error TS2554: Expected 0 arguments, but got 1.
+controllers/usersController.ts(43,17): error TS2339: Property 'password' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(72,34): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(82,32): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(85,57): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(86,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(87,47): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+controllers/usersController.ts(88,52): error TS2339: Property 'id' does not exist on type 'Model<any, any>'.
+helpers/db-validators.ts(11,47): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(this: ModelStatic<Model<any, any>>, options: NonNullFindOptions<any>): Promise<Model<any, any>>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'NonNullFindOptions<any>'.
+  Overload 2 of 2, '(this: ModelStatic<Model<any, any>>, options?: FindOptions<any> | undefined): Promise<Model<any, any> | null>', gave the following error.
+    Object literal may only specify known properties, and 'email' does not exist in type 'FindOptions<any>'.
+helpers/db-validators.ts(18,39): error TS2339: Property 'findById' does not exist on type 'ModelCtor<Model<any, any>>'.
+helpers/generar-jwt.ts(19,29): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string | PromiseLike<string>'.
+  Type 'undefined' is not assignable to type 'string | PromiseLike<string>'.
+middlewares/validar-jwt.ts(35,19): error TS2339: Property 'status' does not exist on type 'Model<any, any>'.
+middlewares/validar-jwt.ts(41,9): error TS2339: Property 'usuario' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+models/server.ts(5,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(9,8): error TS2300: Duplicate identifier 'paymentsRoutes'.
+models/server.ts(52,29): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string | undefined'.
+
+7:36:05 PM - Found 55 errors. Watching for file changes.

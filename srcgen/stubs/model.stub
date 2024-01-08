@@ -1,7 +1,12 @@
-class [CLASS_NAME] {
-    constructor() {
-        // Modelo inicializado
-    }
-}
+import { DataTypes } from 'sequelize';
+import db from '../db/connection';
 
-module.exports = [CLASS_NAME];
+
+const [CLASS_NAME] = db.define('etas', {
+    /* 
+    user_id: {
+        type: DataTypes.INTEGER,
+    },
+    */
+});
+export default [CLASS_NAME];
