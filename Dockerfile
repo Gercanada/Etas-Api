@@ -25,6 +25,12 @@ RUN npm install
 
 # Dar permiso al usuario www-data
 RUN chown -R www-data:www-data /usr/src/app
+# Cambiar al usuario 'node'
+# USER www-data
+# RUN groupadd --force -g $WWWGROUP node
+# RUN useradd -ms /bin/bash --no-user-group -g $WWWGROUP -u 1337 node
+# RUN usermod -aG docker node
+# RUN newgrp docker
 
 # Exponer el puerto (ajustar según sea necesario)
 EXPOSE 8000
@@ -42,3 +48,4 @@ CMD ["/usr/local/bin/start-container"]
 
 # # docker build -t mi-app-node .
 # # docker run -p 3000:3000 mi-app-node
+# chown -R www-data:www-data /usr/src/app

@@ -6,14 +6,16 @@ import paymentsRoutes from '../routes/paymentsRoute'
 import passportRoutes from '../routes/passportSecRoute'
 import personalInfoRoutes from '../routes/personalInfoSecRoute'
 import statusRoutes from '../routes/statusiiSecRoute'
-import paymentsRoutes from '../routes/paymentsRoute'
 import travelToCanadaRoutes from '../routes/travelToCanadaSecRoute'
 import listRoutes from '../routes/listRoutes'
+import PaymentIntentRoute from '../routes/PaymentIntentRoute'
+import stripeProductRoute from '../routes/StripeProductRoute'
+import stripeWebhooksRoutes from '../routes/stripeWebhooksRoutes'
+
 import cors from 'cors';
 
 import db from '../db/connection';
 
-import expressListRoutes from 'express-list-routes';
 
 class Server {
 
@@ -28,7 +30,10 @@ class Server {
         personalInfoSec: '/api/personal-sec',
         statusSec: '/api/status-sec',
         travelCanadaSec: '/api/travel-sec',
-        routes: '/api/routes'
+        routes: '/api/routes',
+        paymentintents: '/api/paymentintents',
+        stripeproducts: '/api/stripe/products',
+        stripewebhooks: '/api/stripe/webhooks'
     }
 
     constructor() {
@@ -48,7 +53,7 @@ class Server {
             await db.authenticate();
             console.log('Database online');
 
-        } catch (error) {
+        } catch (error: any) {
             throw new Error(error);
         }
 
@@ -73,10 +78,6 @@ class Server {
 
         // Carpeta pública
         this.app.use(express.static('public'));
-
-
-
-
     }
 
 
@@ -91,6 +92,9 @@ class Server {
 
         this.app.use(this.apiPaths.payments, paymentsRoutes)
         this.app.use(this.apiPaths.routes, listRoutes); //!List all app routes
+        this.app.use(this.apiPaths.paymentintents, PaymentIntentRoute); 
+        this.app.use(this.apiPaths.stripeproducts, stripeProductRoute); 
+        this.app.use(this.apiPaths.stripewebhooks, stripeWebhooksRoutes); 
 
     }
 
