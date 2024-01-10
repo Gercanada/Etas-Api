@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
-const StatusiiSec = db.define('statusii', {
+const StatusiiSec = db.define('statusiisec', {
     countryResidence: {
         type: DataTypes.STRING
     },

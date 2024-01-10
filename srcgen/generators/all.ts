@@ -12,7 +12,7 @@ if (!className) {
     process.exit(1);
 }
 
-createMigration();
+// createMigration();
 createModel();
 createRoute();
 createResourceController();
