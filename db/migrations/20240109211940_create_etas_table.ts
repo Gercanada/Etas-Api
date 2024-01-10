@@ -9,10 +9,15 @@ export async function up(knex: Knex): Promise<void> {
       table.datetime('updatedAt').defaultTo(knex.fn.now());
       table.integer('personal_info_sec_id').notNullable();
       table.integer('passport_sec_id').notNullable();
+      table.integer('user_id').notNullable();
       table.integer('status_ii_sec_id').notNullable();
       table.integer('travel_to_canada_sec_id').notNullable();
       table.string('eta_name', 200);
-      table.tinyint('is_completed').defaultTo('0');
+      table.tinyint('questions_are_completed').defaultTo('0');
+      table.tinyint('eta_completed').defaultTo('0');
+      table.string('documents');
+      table.boolean('needs_documents').defaultTo('0');
+      table.foreign('user_id').references('id').inTable('users');
       table.foreign('personal_info_sec_id').references('id').inTable('personal_info_sec');
       table.foreign('passport_sec_id').references('id').inTable('passport_sec');
       table.foreign('status_ii_sec_id').references('id').inTable('status_ii_sec');

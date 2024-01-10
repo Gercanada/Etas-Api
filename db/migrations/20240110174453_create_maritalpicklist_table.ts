@@ -2,21 +2,21 @@ import type { Knex } from "knex";
 
 
 export async function up(knex: Knex): Promise<void> {
-    await knex.schema.createTable('gender_picklist', table => {
+    await knex.schema.createTable('marital_picklist', table => {
         table.increments('id').notNullable().primary();
         table.string('value');
         table.datetime('createdAt').defaultTo(knex.fn.now());
         table.datetime('updatedAt').defaultTo(knex.fn.now());
       });
 
-      await knex('gender_picklist').insert([
-        { value: 'Female' },
-        { value: 'Male' }
+      await knex('marital_picklist').insert([
+        { value: 'Married' },
+        { value: 'Single' },
+        { value: 'Divorced' }
       ]);
 }
 
 
 export async function down(knex: Knex): Promise<void> {
-    await knex.schema.dropTable('gender_picklist');
+    await knex.schema.dropTable('marital_picklist');
 }
-
