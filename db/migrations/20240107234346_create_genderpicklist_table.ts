@@ -3,7 +3,7 @@ import type { Knex } from "knex";
 
 export async function up(knex: Knex): Promise<void> {
     await knex.schema.createTable('gender_picklist', table => {
-        table.increments('id').notNullable().primary();
+        table.increments('id').primary().notNullable();
         table.string('value');
         table.datetime('createdAt').defaultTo(knex.fn.now());
         table.datetime('updatedAt').defaultTo(knex.fn.now());

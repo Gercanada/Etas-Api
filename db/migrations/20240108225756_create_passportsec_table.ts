@@ -11,11 +11,11 @@ export async function up(knex: Knex): Promise<void> {
           table.tinyint('is_completed').defaultTo(0);
           table.tinyint('has_green_card_id').defaultTo(0);
           table.tinyint('citizen_another_country_id').defaultTo(0);
-          table.integer('marital_situation_id');
+          table.integer('marital_situation_id').unsigned();;
           table.datetime('due_date');
           table.datetime('createdAt').defaultTo(knex.fn.now());
           table.datetime('updatedAt').defaultTo(knex.fn.now());
-          table.foreign('marital_situation_id').references('id').inTable('marital_situation')
+          table.foreign('marital_situation_id').references('id').inTable('marital_picklist')
         });
 }
 

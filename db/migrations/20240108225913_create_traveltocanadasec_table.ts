@@ -13,8 +13,8 @@ export async function up(knex: Knex): Promise<void> {
         table.boolean('had_tuberculosis').defaultTo(0);
         table.boolean('other').defaultTo(0);
         table.string('other_reason');
-        table.boolean('how_contact_us_id').defaultTo(0);
-        table.integer('how_contact_us_id').references('id').inTable('social_media_picklist')
+        table.integer('how_contact_us_id').unsigned();
+        table.foreign('how_contact_us_id').references('id').inTable('social_media_picklist')
         table.datetime('createdAt').defaultTo(knex.fn.now());
         table.datetime('updatedAt').defaultTo(knex.fn.now());
       });
