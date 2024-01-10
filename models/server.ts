@@ -92,9 +92,9 @@ class Server {
 
         this.app.use(this.apiPaths.payments, paymentsRoutes)
         this.app.use(this.apiPaths.routes, listRoutes); //!List all app routes
-        this.app.use(this.apiPaths.paymentintents, PaymentIntentRoute); 
-        this.app.use(this.apiPaths.stripeproducts, stripeProductRoute); 
-        this.app.use(this.apiPaths.stripewebhooks, stripeWebhooksRoutes); 
+        this.app.use(this.apiPaths.paymentintents, PaymentIntentRoute);
+        this.app.use(this.apiPaths.stripeproducts, stripeProductRoute);
+        this.app.use(this.apiPaths.stripewebhooks, stripeWebhooksRoutes);
 
     }
 

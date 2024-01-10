@@ -48,4 +48,4 @@ CMD ["/usr/local/bin/start-container"]
 
 # # docker build -t mi-app-node .
 # # docker run -p 3000:3000 mi-app-node
-# chown -R www-data:www-data /usr/src/app
+# chown -R www-data:www-data /usr/src/app  #! 

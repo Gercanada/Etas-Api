@@ -1,6 +1,7 @@
 // This example uses Express to receive webhooks
 
 import { Request, Response } from "express";
+import { store } from "./PaymentIntentController";
 
 
 // Match the raw body to content type application/json
@@ -10,25 +11,11 @@ import { Request, Response } from "express";
 
 export const webhookEvents = (req: Request, res: Response) => {
     const event: 'application/json' | any = req.body;
-
     // Handle the event
     console.log({ 'called event': event });
-    /*    switch (event.type) {
-           case 'payment_intent.succeeded':
-               const paymentIntent = event.data.object;
-               // Then define and call a method to handle the successful payment intent.
-               // handlePaymentIntentSucceeded(paymentIntent);
-               break;
-           case 'payment_method.attached':
-               const paymentMethod = event.data.object;
-               // Then define and call a method to handle the successful attachment of a PaymentMethod.
-               // handlePaymentMethodAttached(paymentMethod);
-               break;
-           // ... handle other event types
-           default:
-               console.log(`Unhandled event type ${event.type}`);
-       } */
-
+    /*   if (event.type.startsWith('payment_intent.')) {
+          paymentIntentEvents(event);
+      } else { */
     switch (event.type) {
         case 'billing_portal.configuration.created':
             const billingPortalConfigurationCreated = event.data.object;
@@ -322,38 +309,50 @@ export const webhookEvents = (req: Request, res: Response) => {
             const mandateUpdated = event.data.object;
             // Then define and call a function to handle the event mandate.updated
             break;
+
         case 'payment_intent.amount_capturable_updated':
             const paymentIntentAmountCapturableUpdated = event.data.object;
             // Then define and call a function to handle the event payment_intent.amount_capturable_updated
             break;
         case 'payment_intent.canceled':
+
             const paymentIntentCanceled = event.data.object;
             // Then define and call a function to handle the event payment_intent.canceled
+                 store(paymentIntentCanceled, res.status(200));
             break;
         case 'payment_intent.created':
             const paymentIntentCreated = event.data.object;
             // Then define and call a function to handle the event payment_intent.created
+                      store(paymentIntentCreated, res.status(200));
             break;
         case 'payment_intent.partially_funded':
             const paymentIntentPartiallyFunded = event.data.object;
             // Then define and call a function to handle the event payment_intent.partially_funded
+            // store(event);
             break;
         case 'payment_intent.payment_failed':
             const paymentIntentPaymentFailed = event.data.object;
             // Then define and call a function to handle the event payment_intent.payment_failed
+            store(paymentIntentPaymentFailed, res.status(500).json(paymentIntentPaymentFailed));
             break;
         case 'payment_intent.processing':
             const paymentIntentProcessing = event.data.object;
             // Then define and call a function to handle the event payment_intent.processing
+            store(paymentIntentProcessing, res.status(200));
             break;
         case 'payment_intent.requires_action':
             const paymentIntentRequiresAction = event.data.object;
+            store(paymentIntentRequiresAction, res.status(200).json(paymentIntentRequiresAction));
             // Then define and call a function to handle the event payment_intent.requires_action
+
             break;
         case 'payment_intent.succeeded':
             const paymentIntentSucceeded = event.data.object;
-            // Then define and call a function to handle the event payment_intent.succeeded
+            // Then define and call a function to handle the event payment_intent.succeeded          
+            store(paymentIntentSucceeded, res.status(201).json(paymentIntentSucceeded));
             break;
+
+
         case 'payment_link.created':
             const paymentLinkCreated = event.data.object;
             // Then define and call a function to handle the event payment_link.created
@@ -575,13 +574,10 @@ export const webhookEvents = (req: Request, res: Response) => {
             console.log(`Unhandled event type ${event.type}`);
     }
 
+    // }
+
+
+
     // Return a 200 response to acknowledge receipt of the event
     res.send();
 }
-
-// Return a response to acknowledge receipt of the event
-/* res.json({ received: true });
-} */
-// });
-
-// app.listen(8000, () => console.log('Running on port 8000'));

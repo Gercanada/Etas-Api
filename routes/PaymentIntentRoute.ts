@@ -7,7 +7,7 @@ import { index, store, show, update, destroy } from '../controllers/PaymentInten
 
 const router = Router();
 
-router.get('/', [validarJWT], index,);
+router.get('/', [/* validarJWT */], index,);
 
 router.post('/', [
     //validarCampos

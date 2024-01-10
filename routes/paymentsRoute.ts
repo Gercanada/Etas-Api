@@ -8,6 +8,7 @@ import { validarJWT } from '../middlewares/validar-jwt';
 import { getUsuario, getUsuarios, postUsuario, putUsuario, deleteUsuario } from '../controllers/usersController';
 import { emailExiste, existeUsuarioPorId } from '../helpers/db-validators';
 import { list } from '../controllers/paymentsController';
+import { failedPay, newOxxoSession, successPay } from '../controllers/StripeProductController';
 
 const router = Router();
 
@@ -33,12 +34,21 @@ router.post('/', [
 ], postUsuario);
 
 router.delete('/:id', [
-     validarJWT,
+    validarJWT,
     // esAdminRole,
     // tieneRole('ADMIN_ROLE', 'VENTAR_ROLE', 'OTRO_ROLE'),
-   // check('id', 'No es un ID válido').isMongoId(),
+    // check('id', 'No es un ID válido').isMongoId(),
     // check('id').custom(existeUsuarioPorId),
     validarCampos
 ], deleteUsuario);
 
-export default router;
+router.get('/stripe/:eta_id/:id/:currency', [
+    //check('id', 'No es un ID válido').isMongoId(),
+    //validarCampos
+], newOxxoSession);
+
+router.get('success_paid', [], successPay
+);
+router.get('failed_pay', [], failedPay);
+
+export default router; 
