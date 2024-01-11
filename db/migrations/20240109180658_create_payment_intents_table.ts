@@ -3,9 +3,12 @@ import { isJSDocNullableType } from "typescript";
 
 
 export async function up(knex: Knex): Promise<void> {
+
     return knex.schema.createTable('payment_intents', table => {
         table.increments('id');
-        table.string('stripe_paymentintent_id');
+        table.enum('platform', ['stripe', 'converge', 'conekta']);
+        table.string('paymentintent_id');
+
         table.double('amount').notNullable();
         table.double('amount_received');
         table.string('email');

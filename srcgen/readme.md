@@ -19,8 +19,6 @@ node generate-request.js UserRequest
 ## Correr migraciones
 
 - npx ts-node node_modules/.bin/knex migrate:latest --knexfile ./srcgen/knexfile.ts
-or
-- npx knex migrate:latest --knexfile ./srcgen/knexfile.ts
 
 ## Crear conjunto de archivos (Model, Controller, Route)
 
