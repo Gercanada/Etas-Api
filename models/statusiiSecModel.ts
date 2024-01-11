@@ -1,8 +1,10 @@
 import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
+
 const StatusiiSec = db.define('status_ii_sec', {
     country_residence: {
+
         type: DataTypes.STRING
     },
     address: {
