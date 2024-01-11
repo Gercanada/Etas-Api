@@ -2,12 +2,12 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 import PersonalInfoSec from './personalInfoSecModel';
 
-const Genders = db.define('genderpicklist', {
-    valor: {
+const Genders = db.define('gender_picklist', {
+    value: {
         type: DataTypes.STRING
     }
 },{
-    tableName: 'genderpicklist',
+    tableName: 'gender_picklist',
     timestamps: false,
   })
 

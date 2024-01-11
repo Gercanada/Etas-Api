@@ -1,40 +1,37 @@
 import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
-const PassportSec = db.define('passportsec', {
+const PassportSec = db.define('passport_sec', {
     passport_no: {
         type: DataTypes.STRING
     },
-    validFrom: {
+    passport_img: {
         type: DataTypes.STRING
     },
-    dueDate: {
+    valid_from: {
+        type: DataTypes.DATE
+    },
+    due_date: {
         type: DataTypes.STRING
     },
-    cityOfBirth: {
+    passport_country: {
         type: DataTypes.STRING
     },
-    passportCountry: {
-        type: DataTypes.STRING
-    },
-    isCompleted: {
+    is_completed: {
         type: DataTypes.BOOLEAN
-    }
+    },
+    has_green_card_id: {
+        type: DataTypes.BOOLEAN
+    },
+    citizen_another_country_id: {
+        type: DataTypes.BOOLEAN
+    },
+    marital_situation_id: {
+        type: DataTypes.INTEGER
+    },
 }, {
-    tableName: 'passportsec'
+    tableName: 'passport_sec'
   });
 
 
 export default PassportSec;
-
-// id int AI PK 
-// id_eta int 
-// passport_no text 
-// validFrom text 
-// dueDate text 
-// cityOfBirth text 
-// passportCountry text 
-// isCompleted tinyint(1) 
-// hasGreenCard_id int 
-// citizenAnotherCountry_id int 
-// maritalSituation_id int

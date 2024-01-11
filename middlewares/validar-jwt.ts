@@ -32,11 +32,11 @@ if (req?.headers?.authorization && req?.headers?.authorization?.startsWith('Bear
     }
 
     // Verificar si el uid tiene estado true
-    if (!usuario?.status) {
-      return res.status(401).json({
-        msg: 'Token no válido - usuario con estado: false',
-      });
-    }
+    // if (!usuario?.status) {
+    //   return res.status(401).json({
+    //     msg: 'Token no válido - usuario con estado: false',
+    //   });
+    // }
 
     req.usuario = usuario; // Cambio aquí, asignando a req.usuario
     next();

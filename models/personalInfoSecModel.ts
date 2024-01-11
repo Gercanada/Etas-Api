@@ -1,17 +1,17 @@
 import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
-const PersonalInfoSec = db.define('personalinfosec', {
-    fullName: {
+const PersonalInfoSec = db.define('personal_info_sec', {
+    full_name: {
         type: DataTypes.STRING
     },
-    birthDate: {
+    birthday: {
         type: DataTypes.STRING
     },
-    cityOfBirth: {
+    city_of_birth: {
         type: DataTypes.STRING
     },
-    countryOfBirth: {
+    country_of_birth: {
         type: DataTypes.STRING
     },
     email: {
@@ -23,23 +23,13 @@ const PersonalInfoSec = db.define('personalinfosec', {
     gender_id: {
         type: DataTypes.INTEGER
     },
-    isCompleted: {
+    is_completed: {
         type: DataTypes.BOOLEAN
     }
 },{
-    tableName: 'personalinfosec'
+    tableName: 'personal_info_sec'
   });
 
 
 export default PersonalInfoSec;
 
-// id int AI PK 
-// id_eta int 
-// fullName text 
-// birthDate text 
-// cityOfBirth text 
-// countryOfBirth text 
-// email text 
-// phone text 
-// isCompleted tinyint(1) 
-// gender_id int
