@@ -50,6 +50,7 @@ export const postUsuario = async (req: Request, res: Response) => {
         })
     }
 }
+
 export const createUser = async (req: Request, res: Response) => {
         const { body } = req;
         try {
@@ -111,15 +112,14 @@ export const putUsuario = async (req: Request, res: Response) => {
                             id: newEta.id
                         },
                         eta_name: body.eta_name,
-                        travelToCanadaSec_id: newTravelToCanada.id,
-                        statusIISec_id: newStatusiiSec.id,
-                        passportSec_id: newPassportSec.id,
-                        personalInfoSec_id: personalInfoSec.id
+                        personal_info_sec_id: personalInfoSec.id,
+                        status_ii_sec_id: newStatusiiSec.id,
+                        passport_sec_id: newPassportSec.id,
+                        travel_to_canada_sec_id: newTravelToCanada.id
                     }, { transaction: t });
 
                 }
-                // for( let i = 0; i<= etas_num; i++ ){
-                //  }
+
                 await t.commit();
             }
 

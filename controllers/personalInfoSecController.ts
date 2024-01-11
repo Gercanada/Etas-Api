@@ -35,7 +35,7 @@ export const getPersonalInfoSecs = async (req: Request, res: Response) => {
             if(responseData.gender_id){
             responseData.gender_id = {
                 id: responseData.gender.id,
-                valor: responseData.gender.valor
+                value: responseData.gender.value
             };
         }
             res.json(responseData);
@@ -72,10 +72,10 @@ export const putPersonalInfoSec = async (req: Request, res: Response) => {
         });
 
         const allFieldsFilled = (
-            personalInfo.fullName !== (null||"")  &&
-            personalInfo.birthDate !== (null||"") &&
-            personalInfo.cityOfBirth !== (null||"") &&
-            personalInfo.countryOfBirth !== (null||"") &&
+            personalInfo.full_name !== (null||"")  &&
+            personalInfo.birthday !== (null||"") &&
+            personalInfo.city_of_birth !== (null||"") &&
+            personalInfo.country_of_birth !== (null||"") &&
             personalInfo.phone !== (null||"") &&
             personalInfo.gender_id !== (null||"") &&
             personalInfo.email !== (null||"") ?true :false 
@@ -83,7 +83,7 @@ export const putPersonalInfoSec = async (req: Request, res: Response) => {
 
         const isCompleted = allFieldsFilled ? true : false;
         await personalInfo.update({
-            isCompleted: isCompleted
+            is_completed: isCompleted
         });
 
         res.json(personalInfo);

@@ -1,5 +1,9 @@
 # Usar una imagen base de Ubuntu
-FROM ubuntu:latest
+FROM ubuntu:22.04
+
+
+ARG UID
+ARG GID
 
 # Definir el directorio de trabajo
 WORKDIR /usr/src/app
@@ -24,7 +28,14 @@ RUN npm install
 # COPY . .
 
 # Dar permiso al usuario www-data
+# RUN chown -R www-data:www-data /usr/src/app
+RUN groupadd -g $GID user && \
+    useradd -u $UID -g user -m user
+
+USER user
+
 RUN chown -R www-data:www-data /usr/src/app
+
 # Cambiar al usuario 'node'
 # USER www-data
 # RUN groupadd --force -g $WWWGROUP node
@@ -43,7 +54,7 @@ COPY ./docker/start-container /usr/local/bin/start-container
 RUN chmod +x /usr/local/bin/start-container
 
 # Iniciar con el script de inicio
-CMD ["/usr/local/bin/start-container"]
+CMD ["docker/start-container"]
 
 
 # # docker build -t mi-app-node .
