@@ -7,11 +7,11 @@ export async function up(knex: Knex): Promise<void> {
       table.increments('id').notNullable().primary();
       table.datetime('createdAt').defaultTo(knex.fn.now());
       table.datetime('updatedAt').defaultTo(knex.fn.now());
-      table.integer('personal_info_sec_id').notNullable().unsigned();;
-      table.integer('passport_sec_id').notNullable().unsigned();
-      table.integer('user_id').notNullable().unsigned();
-      table.integer('status_ii_sec_id').notNullable().unsigned();;
-      table.integer('travel_to_canada_sec_id').notNullable().unsigned();;
+      table.integer('personal_info_sec_id').unsigned();;
+      table.integer('passport_sec_id').unsigned();
+      table.integer('user_id').unsigned();
+      table.integer('status_ii_sec_id').unsigned();;
+      table.integer('travel_to_canada_sec_id').unsigned();;
       table.string('eta_name', 200);
       table.tinyint('questions_are_completed').defaultTo('0');
       table.tinyint('eta_completed').defaultTo('0');

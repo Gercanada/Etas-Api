@@ -32,7 +32,7 @@ export const getPendingEta = async (req: Request, res: Response) => {
         const eta = await Eta.findAll({
             where: {
                 user_id: id,
-                isCompleted: false
+                eta_completed: false
             }
         });
 
@@ -47,13 +47,14 @@ export const getPendingEta = async (req: Request, res: Response) => {
         });
     }
 }
+
 export const getCompletedEta = async (req: Request, res: Response) => {
     const { id } = req.params;
     try {
         const eta = await Eta.findAll({
             where: {
                 user_id: id,
-                isCompleted: true
+                is_completed: true
             }
         });
 
@@ -125,11 +126,9 @@ export const putEtas = async (req: Request, res: Response) => {
                 msg: 'No existe un usuario con el id ' + id
             });
         }
-        const questionsId = await PassportSec.findByPk(passportSec_id);
-
-
-        await usuario.update(body);
-        res.json(usuario);
+        // const questionsId = await PassportSec.findByPk(passportSec_id);
+        // ?await usuario.update(body);
+        res.json("updated");
     } catch (error) {
         console.log(error);
         res.status(500).json({
@@ -163,28 +162,28 @@ export const deleteEtas = async (req: Request, res: Response) => {
  
         await PassportSec.destroy({
             where: {
-                id: eta.passportSec_id
+                id: eta.passport_sec_id
             },
             transaction: t
         });
     
         await PersonalInfoSec.destroy({
           where: {
-            id: eta.personalInfoSec_id
+            id: eta.personal_info_sec_id
           },
           transaction: t
         });
     
         await StatusiiSec.destroy({
           where: {
-            id: eta.statusIISec_id
+            id: eta.status_ii_sec_id
           },
           transaction: t
         });
     
         await TravelToCanada.destroy({
           where: {
-            id: eta.travelToCanadaSec_id
+            id: eta.travel_to_canada_sec_id
           },
           transaction: t
         });
@@ -202,7 +201,7 @@ export const deleteEtas = async (req: Request, res: Response) => {
     
         res.json(eta);
       }catch(error){
-    await t.rollback(); // Revierte la transacción en caso de error
+    await t.rollback();
     console.log(error);
     res.status(500).json({
         msg: 'Hable con el administrador'

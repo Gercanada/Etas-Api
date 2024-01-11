@@ -49,16 +49,21 @@ export const putTravelToCanadaSec = async (req: Request, res: Response) => {
         });
 
         const allFieldsFilled = (
-            travelCanada.passport_no !== (null||"")  &&
-            travelCanada.validFrom !== (null||"") &&
-            travelCanada.dueDate !== (null||"") &&
-            travelCanada.cityOfBirth !== (null||"") &&
-            travelCanada.passportCountry !== (null||"") ?true :false 
+            travelCanada.travel_hour !== (null||"")  &&
+            travelCanada.crime_any_country !== (null||"") &&
+            travelCanada.travel_propouse !== (null||"") &&
+            travelCanada.more_info !== (null||"") &&
+            travelCanada.denied_enter_country !== (null||"") &&
+            travelCanada.had_tuberculosis !== (null||"") &&
+            travelCanada.other !== (null||"")  &&
+            travelCanada.other_reason !== (null||"") &&
+            travelCanada.how_contact_us_id !== (null||"") &&
+            travelCanada.is_completed !== (null||"") ?true :false 
         );
 
         const isCompleted = allFieldsFilled ? true : false;
         await travelCanada.update({
-            isCompleted: isCompleted
+            is_completed: isCompleted
         });
 
         res.json(travelCanada);

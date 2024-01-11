@@ -79,15 +79,18 @@ export const putUserPassportSec = async (req: Request, res: Response) => {
 
         const allFieldsFilled = (
             passportSec.passport_no !== (null || "") &&
-                passportSec.validFrom !== (null || "") &&
-                passportSec.dueDate !== (null || "") &&
+                passportSec.valid_from !== (null || "") &&
+                passportSec.due_date !== (null || "") &&
                 passportSec.cityOfBirth !== (null || "") &&
-                passportSec.passportCountry !== (null || "") ? true : false
+                passportSec.citizen_another_country_id !== (null || "") &&
+                passportSec.marital_situation_id !== (null || "") &&
+                passportSec.has_green_card_id !== (null || "") &&
+                passportSec.passport_country !== (null || "") ? true : false
         );
 
         const isCompleted = allFieldsFilled ? true : false;
         await passportSec.update({
-            isCompleted: isCompleted
+            is_completed: isCompleted
         });
 
         res.json(passportSec);
