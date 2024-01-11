@@ -3567,3 +3567,1383 @@ controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
 controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
 
 12:34:50 AM - Found 1 error. Watching for file changes.
+c12:38:16 AM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+12:38:17 AM - Found 1 error. Watching for file changes.
+c12:38:18 AM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+12:38:18 AM - Found 1 error. Watching for file changes.
+c12:38:24 AM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+12:38:25 AM - Found 1 error. Watching for file changes.
+c12:38:25 AM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+12:38:25 AM - Found 1 error. Watching for file changes.
+c3:15:25 PM - Starting compilation in watch mode...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:15:31 PM - Found 1 error. Watching for file changes.
+c3:17:55 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:17:57 PM - Found 1 error. Watching for file changes.
+c3:21:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:21:18 PM - Found 1 error. Watching for file changes.
+c3:25:00 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(294,23): error TS1005: ';' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:25:01 PM - Found 2 errors. Watching for file changes.
+c3:25:35 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(294,23): error TS1005: ';' expected.
+controllers/StripeProductController.ts(306,23): error TS1005: ',' expected.
+controllers/StripeProductController.ts(306,29): error TS1005: '=>' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:25:36 PM - Found 4 errors. Watching for file changes.
+c3:25:44 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(294,23): error TS1005: ';' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:25:44 PM - Found 2 errors. Watching for file changes.
+c3:25:48 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(294,23): error TS1005: ';' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:25:49 PM - Found 2 errors. Watching for file changes.
+c3:25:50 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(294,23): error TS1005: ';' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:25:50 PM - Found 2 errors. Watching for file changes.
+c3:26:09 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(295,23): error TS1005: ';' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:26:09 PM - Found 2 errors. Watching for file changes.
+c3:27:24 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:27:24 PM - Found 1 error. Watching for file changes.
+c3:27:30 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:27:30 PM - Found 1 error. Watching for file changes.
+c3:27:31 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:27:31 PM - Found 1 error. Watching for file changes.
+c3:27:36 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:27:37 PM - Found 1 error. Watching for file changes.
+c3:27:45 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:27:45 PM - Found 1 error. Watching for file changes.
+c3:27:48 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:27:49 PM - Found 1 error. Watching for file changes.
+c3:27:50 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:27:50 PM - Found 1 error. Watching for file changes.
+c3:28:26 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:28:26 PM - Found 1 error. Watching for file changes.
+c3:28:28 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:28:28 PM - Found 1 error. Watching for file changes.
+c3:28:35 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:28:35 PM - Found 1 error. Watching for file changes.
+c3:28:45 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:28:45 PM - Found 1 error. Watching for file changes.
+c3:28:51 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:28:51 PM - Found 1 error. Watching for file changes.
+c3:29:49 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:29:50 PM - Found 1 error. Watching for file changes.
+c3:29:54 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:29:54 PM - Found 1 error. Watching for file changes.
+c3:29:56 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:29:56 PM - Found 1 error. Watching for file changes.
+c3:30:06 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(240,42): error TS1005: ',' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:30:06 PM - Found 2 errors. Watching for file changes.
+c3:30:08 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(240,42): error TS1005: ',' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:30:08 PM - Found 2 errors. Watching for file changes.
+c3:30:14 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:30:15 PM - Found 1 error. Watching for file changes.
+c3:30:28 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:30:29 PM - Found 1 error. Watching for file changes.
+c3:30:39 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:30:39 PM - Found 1 error. Watching for file changes.
+c3:30:47 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:30:48 PM - Found 1 error. Watching for file changes.
+c3:30:49 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:30:49 PM - Found 1 error. Watching for file changes.
+c3:31:13 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:31:13 PM - Found 1 error. Watching for file changes.
+c3:31:16 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:31:16 PM - Found 1 error. Watching for file changes.
+c3:33:20 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:33:20 PM - Found 1 error. Watching for file changes.
+c3:33:21 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:33:21 PM - Found 1 error. Watching for file changes.
+c3:33:27 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:33:27 PM - Found 1 error. Watching for file changes.
+c3:33:30 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:33:30 PM - Found 1 error. Watching for file changes.
+c3:34:02 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:34:02 PM - Found 1 error. Watching for file changes.
+c3:34:06 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:34:06 PM - Found 1 error. Watching for file changes.
+c3:34:13 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:34:13 PM - Found 1 error. Watching for file changes.
+c3:34:14 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:34:15 PM - Found 1 error. Watching for file changes.
+c3:34:26 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:34:26 PM - Found 1 error. Watching for file changes.
+c3:34:40 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:34:40 PM - Found 1 error. Watching for file changes.
+c3:34:53 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:34:53 PM - Found 1 error. Watching for file changes.
+c3:35:29 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:35:29 PM - Found 1 error. Watching for file changes.
+c3:36:03 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:36:03 PM - Found 1 error. Watching for file changes.
+c3:36:05 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:36:05 PM - Found 1 error. Watching for file changes.
+c3:36:17 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:36:17 PM - Found 1 error. Watching for file changes.
+c3:36:38 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:36:39 PM - Found 1 error. Watching for file changes.
+c3:38:38 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:38:38 PM - Found 1 error. Watching for file changes.
+c3:38:42 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:38:42 PM - Found 1 error. Watching for file changes.
+c3:38:49 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:38:49 PM - Found 1 error. Watching for file changes.
+c3:39:04 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:39:04 PM - Found 1 error. Watching for file changes.
+c3:39:09 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:39:09 PM - Found 1 error. Watching for file changes.
+c3:40:30 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:40:31 PM - Found 1 error. Watching for file changes.
+c3:40:35 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:40:35 PM - Found 1 error. Watching for file changes.
+c3:58:35 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:58:36 PM - Found 1 error. Watching for file changes.
+c3:58:47 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:58:48 PM - Found 1 error. Watching for file changes.
+c3:58:58 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:58:58 PM - Found 1 error. Watching for file changes.
+c3:59:05 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:59:05 PM - Found 1 error. Watching for file changes.
+c3:59:44 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+3:59:44 PM - Found 1 error. Watching for file changes.
+c4:01:14 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:01:15 PM - Found 1 error. Watching for file changes.
+c4:01:16 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:01:16 PM - Found 1 error. Watching for file changes.
+c4:01:28 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:01:28 PM - Found 1 error. Watching for file changes.
+c4:02:06 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:02:07 PM - Found 1 error. Watching for file changes.
+c4:02:19 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:02:20 PM - Found 1 error. Watching for file changes.
+c4:03:19 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:03:20 PM - Found 1 error. Watching for file changes.
+c4:06:08 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:06:08 PM - Found 1 error. Watching for file changes.
+c4:06:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:06:18 PM - Found 1 error. Watching for file changes.
+c4:06:27 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(243,31): error TS1005: ',' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:06:28 PM - Found 2 errors. Watching for file changes.
+c4:06:29 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(243,31): error TS1005: ',' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:06:29 PM - Found 2 errors. Watching for file changes.
+c4:06:37 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:06:38 PM - Found 1 error. Watching for file changes.
+c4:06:39 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:06:39 PM - Found 1 error. Watching for file changes.
+c4:07:11 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:07:11 PM - Found 1 error. Watching for file changes.
+c4:07:12 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:07:13 PM - Found 1 error. Watching for file changes.
+c4:07:56 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(246,60): error TS1005: ',' expected.
+controllers/StripeProductController.ts(248,30): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(250,25): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(253,21): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(253,22): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(254,21): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(254,22): error TS1005: 'try' expected.
+controllers/StripeProductController.ts(254,34): error TS1005: ')' expected.
+controllers/StripeProductController.ts(257,22): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(258,13): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(258,14): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(259,13): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(259,14): error TS1005: 'try' expected.
+controllers/StripeProductController.ts(259,26): error TS1005: ')' expected.
+controllers/StripeProductController.ts(261,14): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(262,5): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(262,7): error TS1005: 'try' expected.
+controllers/StripeProductController.ts(268,1): error TS1128: Declaration or statement expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:07:56 PM - Found 19 errors. Watching for file changes.
+c4:07:58 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(246,61): error TS1005: ',' expected.
+controllers/StripeProductController.ts(248,2): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(250,25): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(253,21): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(253,22): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(254,21): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(254,22): error TS1005: 'try' expected.
+controllers/StripeProductController.ts(254,35): error TS1005: ')' expected.
+controllers/StripeProductController.ts(257,2): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(258,13): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(258,14): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(259,13): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(259,14): error TS1005: 'try' expected.
+controllers/StripeProductController.ts(259,27): error TS1005: ')' expected.
+controllers/StripeProductController.ts(261,2): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(262,5): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(262,7): error TS1005: 'try' expected.
+controllers/StripeProductController.ts(268,1): error TS1128: Declaration or statement expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:07:58 PM - Found 19 errors. Watching for file changes.
+c4:08:02 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:08:02 PM - Found 1 error. Watching for file changes.
+c4:08:15 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:08:16 PM - Found 1 error. Watching for file changes.
+c4:08:36 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:08:36 PM - Found 1 error. Watching for file changes.
+c4:09:42 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:09:42 PM - Found 1 error. Watching for file changes.
+c4:09:48 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:09:49 PM - Found 1 error. Watching for file changes.
+c4:13:19 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:13:19 PM - Found 1 error. Watching for file changes.
+c4:13:20 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:13:20 PM - Found 1 error. Watching for file changes.
+c4:13:25 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:13:26 PM - Found 1 error. Watching for file changes.
+c4:14:04 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:14:05 PM - Found 1 error. Watching for file changes.
+c4:14:23 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:14:23 PM - Found 1 error. Watching for file changes.
+c4:14:45 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:14:46 PM - Found 1 error. Watching for file changes.
+c4:14:57 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:14:58 PM - Found 1 error. Watching for file changes.
+c4:15:04 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(248,51): error TS1005: '}' expected.
+controllers/StripeProductController.ts(248,55): error TS1005: ',' expected.
+controllers/StripeProductController.ts(248,56): error TS1128: Declaration or statement expected.
+controllers/StripeProductController.ts(248,58): error TS1434: Unexpected keyword or identifier.
+controllers/StripeProductController.ts(267,21): error TS1005: ';' expected.
+controllers/StripeProductController.ts(267,24): error TS1434: Unexpected keyword or identifier.
+controllers/StripeProductController.ts(319,1): error TS1160: Unterminated template literal.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:15:04 PM - Found 8 errors. Watching for file changes.
+c4:15:06 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:15:06 PM - Found 1 error. Watching for file changes.
+c4:15:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:15:18 PM - Found 1 error. Watching for file changes.
+c4:15:19 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:15:19 PM - Found 1 error. Watching for file changes.
+c4:15:34 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:15:34 PM - Found 1 error. Watching for file changes.
+c4:15:51 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:15:51 PM - Found 1 error. Watching for file changes.
+c4:15:54 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:15:55 PM - Found 1 error. Watching for file changes.
+c4:15:56 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:15:57 PM - Found 1 error. Watching for file changes.
+c4:16:12 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:16:12 PM - Found 1 error. Watching for file changes.
+c4:16:16 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:16:16 PM - Found 1 error. Watching for file changes.
+c4:16:25 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:16:25 PM - Found 1 error. Watching for file changes.
+c4:16:38 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:16:38 PM - Found 1 error. Watching for file changes.
+c4:16:48 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:16:48 PM - Found 1 error. Watching for file changes.
+c4:16:52 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:16:53 PM - Found 1 error. Watching for file changes.
+c4:16:55 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:16:55 PM - Found 1 error. Watching for file changes.
+c4:17:00 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:17:00 PM - Found 1 error. Watching for file changes.
+c4:17:33 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:17:33 PM - Found 1 error. Watching for file changes.
+c4:17:36 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:17:37 PM - Found 1 error. Watching for file changes.
+c4:17:40 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:17:41 PM - Found 1 error. Watching for file changes.
+c4:17:59 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:17:59 PM - Found 1 error. Watching for file changes.
+c4:18:23 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:18:23 PM - Found 1 error. Watching for file changes.
+c4:18:53 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:18:53 PM - Found 1 error. Watching for file changes.
+c4:19:12 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:19:12 PM - Found 1 error. Watching for file changes.
+c4:19:44 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:19:44 PM - Found 1 error. Watching for file changes.
+c4:20:04 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:20:04 PM - Found 1 error. Watching for file changes.
+c4:20:20 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:20:20 PM - Found 1 error. Watching for file changes.
+c4:21:02 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:21:03 PM - Found 1 error. Watching for file changes.
+c4:21:12 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:21:13 PM - Found 1 error. Watching for file changes.
+c4:21:17 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:21:17 PM - Found 1 error. Watching for file changes.
+c4:21:33 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:21:33 PM - Found 1 error. Watching for file changes.
+c4:21:45 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:21:45 PM - Found 1 error. Watching for file changes.
+c4:22:47 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:22:47 PM - Found 1 error. Watching for file changes.
+c4:22:49 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:22:49 PM - Found 1 error. Watching for file changes.
+c4:22:52 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:22:52 PM - Found 1 error. Watching for file changes.
+c4:22:58 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:22:58 PM - Found 1 error. Watching for file changes.
+c4:23:04 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:23:04 PM - Found 1 error. Watching for file changes.
+c4:23:24 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:23:25 PM - Found 1 error. Watching for file changes.
+c4:23:48 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:23:48 PM - Found 1 error. Watching for file changes.
+c4:23:53 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:23:53 PM - Found 1 error. Watching for file changes.
+c4:24:00 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:24:00 PM - Found 1 error. Watching for file changes.
+c4:24:09 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:24:09 PM - Found 1 error. Watching for file changes.
+c4:24:10 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:24:10 PM - Found 1 error. Watching for file changes.
+c4:24:35 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:24:36 PM - Found 1 error. Watching for file changes.
+c4:24:52 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:24:52 PM - Found 1 error. Watching for file changes.
+c4:25:58 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:25:58 PM - Found 1 error. Watching for file changes.
+c4:26:26 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:26:26 PM - Found 1 error. Watching for file changes.
+c4:26:41 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:26:41 PM - Found 1 error. Watching for file changes.
+c4:26:48 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:26:48 PM - Found 1 error. Watching for file changes.
+c4:26:49 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:26:49 PM - Found 1 error. Watching for file changes.
+c4:26:58 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(248,51): error TS1005: ',' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:26:58 PM - Found 2 errors. Watching for file changes.
+c4:27:00 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:27:01 PM - Found 1 error. Watching for file changes.
+c4:27:02 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(248,51): error TS1005: ',' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:27:03 PM - Found 2 errors. Watching for file changes.
+c4:27:05 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:27:06 PM - Found 1 error. Watching for file changes.
+c4:27:19 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:27:20 PM - Found 1 error. Watching for file changes.
+c4:27:52 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:27:52 PM - Found 1 error. Watching for file changes.
+c4:29:01 PM - File change detected. Starting incremental compilation...
+
+controllers/StripeProductController.ts(7,16): error TS1005: ',' expected.
+controllers/StripeProductController.ts(7,19): error TS1005: ',' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:29:02 PM - Found 3 errors. Watching for file changes.
+c4:29:06 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:29:06 PM - Found 1 error. Watching for file changes.
+c4:29:16 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:29:16 PM - Found 1 error. Watching for file changes.
+c4:29:20 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:29:20 PM - Found 1 error. Watching for file changes.
+c4:29:25 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:29:25 PM - Found 1 error. Watching for file changes.
+c4:30:07 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:30:07 PM - Found 1 error. Watching for file changes.
+c4:30:15 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:30:15 PM - Found 1 error. Watching for file changes.
+c4:30:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:30:18 PM - Found 1 error. Watching for file changes.
+c4:30:39 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:30:39 PM - Found 1 error. Watching for file changes.
+c4:31:20 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:31:20 PM - Found 1 error. Watching for file changes.
+c4:31:23 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:31:23 PM - Found 1 error. Watching for file changes.
+c4:31:48 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:31:48 PM - Found 1 error. Watching for file changes.
+c4:32:02 PM - File change detected. Starting incremental compilation...
+
+controllers/PaymentIntentController.ts(35,36): error TS1005: ':' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:32:02 PM - Found 2 errors. Watching for file changes.
+c4:32:04 PM - File change detected. Starting incremental compilation...
+
+controllers/PaymentIntentController.ts(35,37): error TS1005: ':' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:32:04 PM - Found 2 errors. Watching for file changes.
+c4:32:08 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:32:09 PM - Found 1 error. Watching for file changes.
+c4:32:27 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:32:28 PM - Found 1 error. Watching for file changes.
+c4:32:47 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:32:48 PM - Found 1 error. Watching for file changes.
+c4:33:09 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:33:10 PM - Found 1 error. Watching for file changes.
+c4:33:38 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:33:38 PM - Found 1 error. Watching for file changes.
+c4:34:05 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:34:06 PM - Found 1 error. Watching for file changes.
+c4:34:27 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:34:28 PM - Found 1 error. Watching for file changes.
+c4:34:32 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:34:32 PM - Found 1 error. Watching for file changes.
+c4:35:20 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:35:20 PM - Found 1 error. Watching for file changes.
+c4:35:27 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:35:28 PM - Found 1 error. Watching for file changes.
+c4:35:29 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:35:29 PM - Found 1 error. Watching for file changes.
+c4:35:36 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:35:37 PM - Found 1 error. Watching for file changes.
+c4:36:57 PM - File change detected. Starting incremental compilation...
+
+controllers/PaymentIntentController.ts(84,70): error TS1005: ';' expected.
+controllers/PaymentIntentController.ts(85,69): error TS1005: ';' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:36:57 PM - Found 3 errors. Watching for file changes.
+c4:37:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:37:18 PM - Found 1 error. Watching for file changes.
+c4:37:35 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:37:35 PM - Found 1 error. Watching for file changes.
+c4:38:03 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:38:04 PM - Found 1 error. Watching for file changes.
+c4:40:13 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:40:14 PM - Found 1 error. Watching for file changes.
+c4:40:17 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:40:17 PM - Found 1 error. Watching for file changes.
+c4:40:21 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:40:21 PM - Found 1 error. Watching for file changes.
+c4:40:27 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:40:27 PM - Found 1 error. Watching for file changes.
+c4:41:52 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:41:52 PM - Found 1 error. Watching for file changes.
+c4:41:54 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:41:54 PM - Found 1 error. Watching for file changes.
+c4:42:05 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:42:05 PM - Found 1 error. Watching for file changes.
+c4:42:10 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:42:11 PM - Found 1 error. Watching for file changes.
+c4:42:16 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:42:17 PM - Found 1 error. Watching for file changes.
+c4:42:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:42:18 PM - Found 1 error. Watching for file changes.
+c4:43:02 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:43:02 PM - Found 1 error. Watching for file changes.
+c4:43:05 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:43:06 PM - Found 1 error. Watching for file changes.
+c4:43:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:43:18 PM - Found 1 error. Watching for file changes.
+c4:43:27 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:43:27 PM - Found 1 error. Watching for file changes.
+c4:43:41 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:43:42 PM - Found 1 error. Watching for file changes.
+c4:44:01 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:44:01 PM - Found 1 error. Watching for file changes.
+c4:45:21 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:45:22 PM - Found 1 error. Watching for file changes.
+c4:45:47 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:45:48 PM - Found 1 error. Watching for file changes.
+c4:46:09 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:46:09 PM - Found 1 error. Watching for file changes.
+c4:46:21 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:46:22 PM - Found 1 error. Watching for file changes.
+c4:46:45 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:46:46 PM - Found 1 error. Watching for file changes.
+c4:46:48 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:46:48 PM - Found 1 error. Watching for file changes.
+c4:47:06 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:47:06 PM - Found 1 error. Watching for file changes.
+c4:47:28 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:47:28 PM - Found 1 error. Watching for file changes.
+c4:47:43 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:47:44 PM - Found 1 error. Watching for file changes.
+c4:47:59 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:47:59 PM - Found 1 error. Watching for file changes.
+c4:48:00 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:48:01 PM - Found 1 error. Watching for file changes.
+c4:48:26 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:48:26 PM - Found 1 error. Watching for file changes.
+c4:48:46 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:48:46 PM - Found 1 error. Watching for file changes.
+c4:48:58 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:48:58 PM - Found 1 error. Watching for file changes.
+c4:49:03 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:49:03 PM - Found 1 error. Watching for file changes.
+c4:49:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:49:18 PM - Found 1 error. Watching for file changes.
+c4:49:31 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:49:32 PM - Found 1 error. Watching for file changes.
+c4:49:57 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:49:58 PM - Found 1 error. Watching for file changes.
+c4:50:16 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:50:17 PM - Found 1 error. Watching for file changes.
+c4:50:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:50:18 PM - Found 1 error. Watching for file changes.
+c4:50:41 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:50:41 PM - Found 1 error. Watching for file changes.
+c4:51:02 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:51:02 PM - Found 1 error. Watching for file changes.
+c4:51:10 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:51:11 PM - Found 1 error. Watching for file changes.
+c4:51:26 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:51:26 PM - Found 1 error. Watching for file changes.
+c4:51:44 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:51:45 PM - Found 1 error. Watching for file changes.
+c4:51:47 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:51:47 PM - Found 1 error. Watching for file changes.
+c4:52:17 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:52:17 PM - Found 1 error. Watching for file changes.
+c4:52:33 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:52:33 PM - Found 1 error. Watching for file changes.
+c4:52:34 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:52:35 PM - Found 1 error. Watching for file changes.
+c4:53:13 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:53:13 PM - Found 1 error. Watching for file changes.
+c4:53:14 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:53:14 PM - Found 1 error. Watching for file changes.
+c4:53:16 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:53:17 PM - Found 1 error. Watching for file changes.
+c4:53:29 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:53:29 PM - Found 1 error. Watching for file changes.
+c4:53:45 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+4:53:45 PM - Found 1 error. Watching for file changes.
+c5:52:18 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+5:52:18 PM - Found 1 error. Watching for file changes.
+c5:52:21 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+5:52:21 PM - Found 1 error. Watching for file changes.
+c5:52:23 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+5:52:23 PM - Found 1 error. Watching for file changes.
+c5:53:07 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+5:53:07 PM - Found 1 error. Watching for file changes.
+c5:53:08 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+5:53:08 PM - Found 1 error. Watching for file changes.
+c5:57:38 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+5:57:39 PM - Found 1 error. Watching for file changes.
+c5:57:52 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+5:57:52 PM - Found 1 error. Watching for file changes.
+c5:58:28 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+5:58:28 PM - Found 1 error. Watching for file changes.
+c6:01:49 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:01:49 PM - Found 1 error. Watching for file changes.
+c6:06:09 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:06:09 PM - Found 1 error. Watching for file changes.
+c6:06:12 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:06:12 PM - Found 1 error. Watching for file changes.
+c6:06:13 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:06:14 PM - Found 1 error. Watching for file changes.
+c6:06:22 PM - File change detected. Starting incremental compilation...
+
+controllers/PaymentIntentController.ts(92,55): error TS1109: Expression expected.
+controllers/PaymentIntentController.ts(92,60): error TS1005: ';' expected.
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:06:23 PM - Found 3 errors. Watching for file changes.
+c6:06:34 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:06:35 PM - Found 1 error. Watching for file changes.
+c6:06:59 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:06:59 PM - Found 1 error. Watching for file changes.
+c6:07:52 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:07:52 PM - Found 1 error. Watching for file changes.
+c6:08:52 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:08:52 PM - Found 1 error. Watching for file changes.
+c6:09:05 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:09:06 PM - Found 1 error. Watching for file changes.
+c6:09:07 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:09:07 PM - Found 1 error. Watching for file changes.
+c6:09:11 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:09:11 PM - Found 1 error. Watching for file changes.
+c6:09:20 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:09:20 PM - Found 1 error. Watching for file changes.
+c6:09:26 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:09:26 PM - Found 1 error. Watching for file changes.
+c6:09:39 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:09:39 PM - Found 1 error. Watching for file changes.
+c6:09:41 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:09:41 PM - Found 1 error. Watching for file changes.
+c6:10:19 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:19 PM - Found 1 error. Watching for file changes.
+c6:10:21 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:21 PM - Found 1 error. Watching for file changes.
+c6:10:22 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:22 PM - Found 1 error. Watching for file changes.
+c6:10:24 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:25 PM - Found 1 error. Watching for file changes.
+c6:10:27 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:27 PM - Found 1 error. Watching for file changes.
+c6:10:31 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:31 PM - Found 1 error. Watching for file changes.
+c6:10:39 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:39 PM - Found 1 error. Watching for file changes.
+c6:10:50 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:50 PM - Found 1 error. Watching for file changes.
+c6:10:51 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:51 PM - Found 1 error. Watching for file changes.
+c6:10:51 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:52 PM - Found 1 error. Watching for file changes.
+c6:10:56 PM - File change detected. Starting incremental compilation...
+
+controllers/etasController copy.ts(3,38): error TS1005: ':' expected.
+
+6:10:56 PM - Found 1 error. Watching for file changes.

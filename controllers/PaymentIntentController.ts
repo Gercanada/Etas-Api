@@ -34,7 +34,9 @@ export const store = async (req: Request, res: Response) => {
         const pi_body: any = [];
 
         if (body.object === 'payment_intent') {
-            if (body.id) pi_body['stripe_paymentintent_id'] = body.id;
+            pi_body['platform'] = 'stripe';
+
+            if (body.id) pi_body['paymentintent_id'] = body.id;
             if (body.amount) pi_body['amount'] = body.amount;
             if (body.amount_received) pi_body['amount_received'] = body.amount_received;
             if ((body.charges.data) && (body.charges.data[0]) && 'email' in body.charges.data[0].billing_details) pi_body['email'] = body.charges.data[0].billing_details.email;
@@ -45,10 +47,11 @@ export const store = async (req: Request, res: Response) => {
 
             if ((body.charges.data) && (body.charges.data[0]) && 'payment_method_details' in body.charges.data[0]) pi_body['payment_method_type'] = body.charges.data[0].payment_method_details.type;
             if ((body.charges.data) && (body.charges.data[0]) && 'payment_method_details' in body.charges.data[0]) pi_body['payment_method_details'] = JSON.stringify(body.charges.data[0].payment_method_details);
-            updateOrCreatePi(pi_body, { 'stripe_paymentintent_id': pi_body['stripe_paymentintent_id'] });
+            updateOrCreatePi(pi_body, { 'paymentintent_id': pi_body['paymentintent_id'] });
         }
-
+        
         if (body.object === 'checkout.session') {
+            pi_body['platform'] = 'stripe';
             console.log('Update session info');
             const vals: any = [];
             const eta = await Eta.findOne({
@@ -62,7 +65,7 @@ export const store = async (req: Request, res: Response) => {
             vals['status'] = body.status;
 
             //TODO retrieve intent 
-            const pi = PaymentIntent.findOne({ raw: true, where: { 'stripe_paymentintent_id': body.payment_intent } });
+            const pi = PaymentIntent.findOne({ raw: true, where: { 'paymentintent_id': body.payment_intent } });
             if (typeof (pi) === undefined) {
                 const retrieved: any = retrievePaymentIntent(body.payment_intent);
                 vals['amount'] = retrieved?.amount;
@@ -71,10 +74,23 @@ export const store = async (req: Request, res: Response) => {
                 vals['name'] = retrieved?.charges?.data[0]?.billing_details?.name;
                 vals['charge_at'] = new Date(retrieved?.created * 1000);
             }
-            if (body.metadata.eta_id) updateOrCreatePi(vals, { 'stripe_paymentintent_id': body.payment_intent });
+            if (body.metadata.eta_id) updateOrCreatePi(vals, { 'paymentintent_id': body.payment_intent });
         }
 
-        res.status(201);
+        if (body.converge) {
+            pi_body['platform'] = 'converge';
+            const convergePayment = body.converge;
+            console.log({ body: (body) })
+            if (convergePayment['ssl_txn_id']) pi_body['paymentintent_id'] = convergePayment['ssl_txn_id'];
+            if (convergePayment['ssl_amount']) pi_body['amount'] = Math.round(Number(convergePayment['ssl_amount']).toFixed(2) * 100); /* convergePayment['ssl_amount'] */;
+            if (convergePayment['ssl_email']) pi_body['email'] = convergePayment['ssl_email'];
+            // if (body.id) pi_body['name'] = convergePayment?.ssl_email:;
+            if (convergePayment['ssl_card_type']) pi_body['payment_method_type'] = convergePayment['ssl_card_type'];
+            if (convergePayment['ssl_result_message']) pi_body['status'] = convergePayment['ssl_result_message'];
+            updateOrCreatePi(pi_body, { 'paymentintent_id': pi_body['paymentintent_id'] });
+        }
+
+        res.status(201).json('success');
     } catch (error) {
         console.log({ error });
         res.status(500).json({

@@ -1,10 +1,12 @@
 import { Request, Response } from "express";
 import PaymentIntent from "../models/PaymentIntentModel";
 import * as https from 'https';
+import { parseString } from 'xml2js';
 import * as querystring from 'querystring';
+import { Json } from "sequelize/types/utils";
+import { store as storePaymentIntent } from "./PaymentIntentController";
 
 // const stripe = require('stripe')(process.env.STRIPE_SECRET ?? 'sk_test_51IW5C7JFpQqnD8HRoQYUZGJ40oaWhgQYSqaOcPPIWMK7lq6fDzo98stP2UsQW9qrNRHrSHUBScNu4x7evkWaleUb00bEJbd1so');
-
 
 export const index = async (req: Request, res: Response) => {
     try {
@@ -98,7 +100,7 @@ export const newOxxoSession = async (req: Request, res: Response) => {
             // cancel_url: 'https://tusitio.com/cancel',
             success_url: process.env.APP_URL + '/api/payments/' + eta_id + '/success_paid',
             cancel_url: process.env.APP_URL + '/api/payments/failed_pay',
-            //! test https://e93e-189-143-174-180.ngrok-free.app/api/payments/stripe/1/price_1OWphbJFpQqnD8HRInCZoMqL/mxn
+            //! test https://163e-189-143-174-180.ngrok-free.app/api/payments/stripe/1/price_1OWphbJFpQqnD8HRInCZoMqL/mxn
         });
 
         // console.log(session.id);
@@ -187,13 +189,7 @@ export const newConvergePayment = async (req: Request, res: Response) => {
         const ssl_pin: string | any = process.env.CONVERGE_SSL_PIN;
         const convergeUrl: string | any = process.env.CONVERGE_MERCHANT_URL;
         const ssl_transaction_type: string | any = 'CCSALE';
-        /*  res.send([
-             ssl_merchant_id,
-             ssl_user_id,
-             ssl_pin,
-             convergeUrl,
-             ssl_transaction_type]);
-         return; */
+
         //* Selected currency !default usd 
         const transaction_currency: string | any = query.currency;
         const ssl_transaction_currency: string | any = transaction_currency ?? 'USD';
@@ -213,6 +209,7 @@ export const newConvergePayment = async (req: Request, res: Response) => {
         const ssl_city: string | any = body?.city;
         const ssl_state: string | any = body?.state;
         const ssl_country: string | any = body?.country;
+        const ssl_description: string | any = body?.description;
 
         let xmlData = `<txn>
         <ssl_merchant_id>${ssl_merchant_id}</ssl_merchant_id>
@@ -236,28 +233,35 @@ export const newConvergePayment = async (req: Request, res: Response) => {
         if (ssl_city) xmlData += `<ssl_city>${ssl_city}</ssl_city>`;
         if (ssl_state) xmlData += `<ssl_state>${ssl_state}</ssl_state>`;
         if (ssl_country) xmlData += `<ssl_country>${ssl_country}</ssl_country>`;
-        // if (ssl_transaction_currency) xmlData += `<ssl_transaction_currency>'USD'</ssl_transaction_currency>`;
-
+        if (ssl_description) xmlData += `<ssl_description>${ssl_description}</ssl_description>`;
+        // if (ssl_transaction_currency) xmlData += `<ssl_transaction_currency>USD</ssl_transaction_currency>`;
         xmlData += '</txn>';
-        // res.send(xmlData);
-        //here   
-        // res.send(sendPostRequest(xmlData, convergeUrl));
-        const result = await sendPostRequest(xmlData)
+
+        await sendPostRequest(xmlData)
             .then(response => {
                 console.log('Respuesta call:', response);
-                return response;
-                // Convertir de XML a JSON si es necesario
+                convertXmlToJson(response)
+                    .then((json: any) => {
+                        if (json.txn) {
+                            const resToSave: any = [];
+                            for (const [key, value] of Object.entries(json.txn)) {
+                                resToSave[key] = value.Length > 1
+                                    ? JSON.stringify(value)
+                                    : value[0];
+                            }
+                            storePaymentIntent({ 'converge': (resToSave) }, res.status(200));
+                        }
+
+                        res.send('Stored payment');
+                    })
+                    .catch(error => {
+                        console.error('Error al convertir XML a JSON:', error);
+                        // res.send(error)
+                    });
             })
             .catch(error => {
                 console.error('Error :(', error);
             });
-
-
-
-        res.json(result);
-
-
-        // res.status(200).json(output);
     } catch (error) {
         console.log({ newConvergePayment: error })
         res.status(500).json({
@@ -300,5 +304,16 @@ const sendPostRequest = (xmlData: string) => {
     });
 }
 
-// Uso de la función
-// const xmlData = '<txn><ssl_merchant_id>' + ssl_merchant_id + '</ssl_merchant_id>...<txn>'; // Construye tu XML aquí
+const convertXmlToJson = (xml: XMLDocument | any) => {
+    return new Promise((resolve, reject) => {
+        parseString(xml, (err: any, result: Json) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(result);
+            }
+        });
+    });
+}
+
+
