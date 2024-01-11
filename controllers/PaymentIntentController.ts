@@ -28,11 +28,11 @@ export const index = async (req: Request, res: Response) => {
            });
     }
 } */
-
+    
 export const store = async (req: Request, res: Response) => {
     try {
         const body: any = req;
-        const pi_body: any = [];
+        const pi_body: any = [];       
 
         if (body.object === 'payment_intent') {
             pi_body['platform'] = 'stripe';
@@ -77,7 +77,7 @@ export const store = async (req: Request, res: Response) => {
             }
             if (body.metadata.eta_id) updateOrCreatePi(vals, { 'paymentintent_id': body.payment_intent });
         }
-
+ 
         if (body.converge) {
             pi_body['platform'] = 'converge';
             const convergePayment = body.converge;
@@ -94,7 +94,7 @@ export const store = async (req: Request, res: Response) => {
         res.status(201).json('success');
 
     } catch (error) {
-        console.log({ error });
+        console.log({ error }); 
         res.status(500).json({
             error: `No pending etas`
         });

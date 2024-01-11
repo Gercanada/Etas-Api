@@ -9,7 +9,7 @@ const dbPassword: string = process.env.DB_PASSWORD || 'password';
 
 
 
-
+/* 
  const db = new Sequelize('etas', 'root', 'password', {
     // host: 'mysql-node',
     dialect: 'mysql',
@@ -18,7 +18,7 @@ const dbPassword: string = process.env.DB_PASSWORD || 'password';
     port: dbPort,
     // logging: false,
 
-});
+}); */
 
 const db = new Sequelize(dbName, dbUser, dbPassword, {
     dialect: 'mysql',
@@ -27,7 +27,7 @@ const db = new Sequelize(dbName, dbUser, dbPassword, {
     port: dbPort,
     // logging: false,
     // host: 'mysql-node',
-});
+}); 
 
 
 export default db;

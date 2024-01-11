@@ -17,9 +17,9 @@ export const index = async (req: Request, res: Response) => {
     } catch (error) {
         res.status(500).json({ error });
     }
-}
+} 
 
-
+   
 export const store = async (req: Request, res: Response) => {
     try {
         //create 
@@ -32,7 +32,6 @@ export const store = async (req: Request, res: Response) => {
 
 export const show = async (req: Request, res: Response) => {
     const { id } = req.params;
-
 }
 
 export const update = async (req: Request, res: Response) => {
