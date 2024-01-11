@@ -1,6 +1,0 @@
-const validate = (req, res, next) => {
-    // Aquí la lógica de validación
-    next();
-};
-
-module.exports = validate;
