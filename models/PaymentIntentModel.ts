@@ -3,12 +3,14 @@ import db from '../db/connection';
 
 
 const PaymentIntent = db.define('payment_intents', {
+
     paymentintent_id: {
         type: DataTypes.STRING
     },
     eta_id: {
         type: DataTypes.INTEGER
     },
+
     amount: {
         type: DataTypes.DOUBLE
     },
@@ -36,10 +38,12 @@ const PaymentIntent = db.define('payment_intents', {
     charge_at: {
         type: DataTypes.DATE
     },
+
     platform: {
         type: DataTypes.STRING
     },
 }
+
     , {
         timestamps: false
     }

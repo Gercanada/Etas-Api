@@ -8,7 +8,9 @@ import { validarJWT } from '../middlewares/validar-jwt';
 import { getUsuario, getUsuarios, postUsuario, putUsuario, deleteUsuario } from '../controllers/usersController';
 import { emailExiste, existeUsuarioPorId } from '../helpers/db-validators';
 import { list } from '../controllers/paymentsController';
+
 import { failedPay, newConvergePayment, newOxxoSession, successPay } from '../controllers/StripeProductController';
+
 
 const router = Router();
 
@@ -53,5 +55,6 @@ router.post('/converge/:eta_id/:id', [ //?currency=mxn
 
 router.get('/:eta_id/success_paid', [], successPay);
 router.get('/failed_pay', [], failedPay);
+
 
 export default router; 

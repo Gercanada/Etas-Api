@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import PaymentIntent from "../models/PaymentIntentModel";
+
 import * as https from 'https';
 import { parseString } from 'xml2js';
 import * as querystring from 'querystring';
@@ -31,6 +32,7 @@ export const store = async (req: Request, res: Response) => {
 
 export const show = async (req: Request, res: Response) => {
     const { id } = req.params;
+
 }
 
 export const update = async (req: Request, res: Response) => {
@@ -56,7 +58,6 @@ export const destroy = async (req: Request, res: Response) => {
         // Delete record 
         res.status(204).json('Success');
     } catch (error) {
-        console.log({ error });
         res.status(500).json({
             error: `No completed etas`
         });
@@ -68,8 +69,10 @@ export const destroy = async (req: Request, res: Response) => {
 export const newOxxoSession = async (req: Request, res: Response) => {
     try {
         const stripe = require('stripe')('sk_test_51IW5C7JFpQqnD8HRoQYUZGJ40oaWhgQYSqaOcPPIWMK7lq6fDzo98stP2UsQW9qrNRHrSHUBScNu4x7evkWaleUb00bEJbd1so');
+
         console.log({ params: req.params });
         const { eta_id, id, currency } = req.params;
+
         const methods = [];
 
         if (currency === 'mxn') {
@@ -81,17 +84,20 @@ export const newOxxoSession = async (req: Request, res: Response) => {
             methods.push('card');
         }
         if (currency === 'cad') {
+
             methods.push('link');
             methods.push('card');
         }
 
         const session = await stripe.checkout.sessions.create({
             currency: currency ?? 'usd',
+
             payment_method_types: methods/*  ['oxxo', 'card'] */, //card 
             line_items: [{
                 price: id,
                 quantity: 1,
             }],
+
             metadata: {
                 eta_id: eta_id
             },
@@ -104,6 +110,7 @@ export const newOxxoSession = async (req: Request, res: Response) => {
         });
 
         // console.log(session.id);
+
         res.send(`
         <!DOCTYPE html>
         <html> 
@@ -315,5 +322,4 @@ const convertXmlToJson = (xml: XMLDocument | any) => {
         });
     });
 }
-
 

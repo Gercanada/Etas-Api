@@ -2,7 +2,7 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const Usuario = db.define('users', {
-    name: {
+    first_name: {
         type: DataTypes.STRING
     },
     last_name: {
@@ -14,13 +14,12 @@ const Usuario = db.define('users', {
     password: {
         type: DataTypes.STRING
     },
-    status: {
-        type: DataTypes.BOOLEAN
-    },
     etas_num: {
         type: DataTypes.INTEGER
     },
-});
+},{
+    tableName: 'users'
+  });
 
 
 export default Usuario;

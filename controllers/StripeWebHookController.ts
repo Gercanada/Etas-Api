@@ -91,8 +91,10 @@ export const webhookEvents = (req: Request, res: Response) => {
             break;
         case 'checkout.session.completed':
             const checkoutSessionCompleted = event.data.object;
+
             //TODO Update payment intent record eta_id field from this event metadata.
             store(checkoutSessionCompleted, res.status(200));
+
             // Then define and call a function to handle the event checkout.session.completed
             break;
         case 'checkout.session.expired':
@@ -320,12 +322,16 @@ export const webhookEvents = (req: Request, res: Response) => {
 
             const paymentIntentCanceled = event.data.object;
             // Then define and call a function to handle the event payment_intent.canceled
+
             store(paymentIntentCanceled, res.status(200));
+
             break;
         case 'payment_intent.created':
             const paymentIntentCreated = event.data.object;
             // Then define and call a function to handle the event payment_intent.created
+
             store(paymentIntentCreated, res.status(200));
+
             break;
         case 'payment_intent.partially_funded':
             const paymentIntentPartiallyFunded = event.data.object;

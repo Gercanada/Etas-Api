@@ -1,54 +1,44 @@
 import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
-const StatusiiSec = db.define('statusiisec', {
-    countryResidence: {
+
+const StatusiiSec = db.define('status_ii_sec', {
+    country_residence: {
+
         type: DataTypes.STRING
     },
     address: {
         type: DataTypes.STRING
     },
-    zipCode: {
+    zip_code: {
         type: DataTypes.STRING
     },
     state: {
         type: DataTypes.STRING
     },
-    ocupation: {
+    occupation_id: {
+        type: DataTypes.INTEGER
+    },
+    job_location: {
         type: DataTypes.STRING
     },
-    jobLocation: {
+    company_name: {
         type: DataTypes.STRING
     },
-    companyName: {
+    // company: {
+    //     type: DataTypes.STRING
+    // },
+    worked_time: {
         type: DataTypes.STRING
     },
-    company: {
-        type: DataTypes.STRING
+    permit_for_canada: {
+        type: DataTypes.BOOLEAN
     },
-    workedTime: {
-        type: DataTypes.STRING
-    },
-    isCompleted: {
+    is_completed: {
         type: DataTypes.BOOLEAN
     }}
     ,{
-        tableName: 'statusii'
+        tableName: 'status_ii_sec'
       });
 
 export default StatusiiSec;
-
-// id int AI PK 
-// id_eta int 
-// countryResidence text 
-// address text 
-// zipCode text 
-// state text 
-// ocupation text 
-// jobLocation text 
-// companyName text 
-// company text 
-// workedTime text 
-// isCompleted tinyint(1) 
-// permitForCanada_id int 
-// occupation_id int

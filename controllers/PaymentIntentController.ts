@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 import PaymentIntent from "../models/PaymentIntentModel";
 import Eta from "../models/etasModel";
 
+
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 export const index = async (req: Request, res: Response) => {
@@ -91,6 +92,7 @@ export const store = async (req: Request, res: Response) => {
         }
 
         res.status(201).json('success');
+
     } catch (error) {
         console.log({ error });
         res.status(500).json({
@@ -155,16 +157,16 @@ const updateOrCreatePi = (values: any, condition: any) => {
             .then(async (obj) => {
                 // update
                 if (obj) {
-                    console.log('Payment updated');
+
                     return obj.update(values);
                 } else {
                     // insert
                     const payment = new PaymentIntent(values);
+
                     console.log('Payment created');
                     await payment.save();
                     return payment;
-                    /*   obj =   PaymentIntent.create(values);
-                         return obj; */
+
 
                 }
             });
@@ -181,3 +183,4 @@ const retrievePaymentIntent = async (paymentIntentId: string) => {
     const paymentIntent = await stripe.paymentIntents.retrieve(paymentIntentId);
     return paymentIntent;
 }
+

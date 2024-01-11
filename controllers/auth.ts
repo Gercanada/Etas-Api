@@ -4,13 +4,9 @@ import bcryptjs from 'bcryptjs';
 import { generarJWT } from '../helpers/generar-jwt';
 
 export const login = async (req: Request, res: Response) => {
-
     const { email, password } = req.body;
     const { body } = req;
-
     try {
-        // return res.json(body.email);
-        // Verificar si el email existe
         const usuario = await Usuario.findOne({
             where: {
                 email: body.email
@@ -18,42 +14,60 @@ export const login = async (req: Request, res: Response) => {
         });
         if (!usuario) {
             return res.status(400).json({
-                msg: 'Usuario / Password no son correctos - correo'
+                msg: 'Usuario11 / Password no son correctos - correo'
             });
         }
-
-console.log("usuariooopapu",usuario)
-        // SI el usuario está activo
-        if (!usuario.status) {
-            return res.status(400).json({
-                msg: 'Usuario / Password no son correctos - estado: false'
-            });
-        }
-
-        // Verificar la contraseña
+        // if (!usuario.status) {
+        //     return res.status(400).json({
+        //         msg: 'Usuario / Password no son correctos - estado: false'
+        //     });
+        // }
+        console.log("usuario/",usuario)
+        // const validPassword = bcryptjs.compareSync(password, usuario.password);
         const validPassword = bcryptjs.compareSync(password, usuario.password);
         if (!validPassword) {
             return res.status(400).json({
-                msg: 'Usuario / Password no son correctos - password'
+                msg: 'Usuario222 / Password no son correctos - password'
             });
         }
-        // return res.json('ok')
-
-        // Generar el JWT
         const token = await generarJWT(usuario.id);
-
         res.json({
             usuario,
             token
         })
-
     } catch (error) {
         console.log({ error })
         res.status(500).json({
             msg: 'Hable con el administrador'
         });
     }
+}
 
+export const UserRegister = async (req: Request, res: Response) => {
+    const { body } = req;
+    try {
+        const existeEmail = await Usuario.findOne({
+            where: {
+                email: body.email
+            }
+        });
+        if (existeEmail) {
+            return res.status(400).json({
+                msg: 'Ya existe un usuario con el email ' + body.email
+            });
+        }
+        const salt = bcryptjs.genSaltSync();
+        body.password = bcryptjs.hashSync(body.password, salt);
+        const newUser = await Usuario.create(
+            body
+        );
+         res.json(newUser.get);
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            msg: 'Hable con el administrador'
+        })
+    }
 }
 
 export const renovarToken = async (req: Request, res: Response) => {

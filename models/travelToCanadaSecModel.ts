@@ -1,40 +1,43 @@
 import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
-const TravelToCanada = db.define('traveltocanada', {
+const TravelToCanada = db.define('travel_to_canada_sec', {
     whenTravelToCanada: {
         type: DataTypes.STRING
     },
-    travelHour: {
+    travel_hour: {
         type: DataTypes.STRING
     },
-    crimeAnyCountry: {
+    crime_any_country: {
         type: DataTypes.STRING
     },
-    travelPropouse: {
+    travel_propouse: {
         type: DataTypes.STRING
     },
-    moreInfo: {
+    more_info: {
         type: DataTypes.STRING
     },
-    isCompleted: {
+    is_completed: {
         type: DataTypes.BOOLEAN
-    }}
-    ,{
-        tableName: 'traveltocanada'
-      });
+    },
+    how_contact_us_id: {
+        type: DataTypes.INTEGER
+    },
+    denied_enter_country: {
+        type: DataTypes.INTEGER
+    },
+    had_tuberculosis: {
+        type: DataTypes.BOOLEAN
+    },
+    other: {
+        type: DataTypes.BOOLEAN
+    },
+    other_reason: {
+        type: DataTypes.STRING
+    },
+}
+    , {
+        tableName: 'travel_to_canada_sec'
+    });
 
 export default TravelToCanada;
-
-// id int AI PK 
-// id_eta int 
-// whenTravelToCanada text 
-// travelHour text 
-// crimeAnyCountry text 
-// travelPropouse text 
-// moreInfo text 
-// isCompleted tinyint(1) 
-// deniedEnterCountry_id int 
-// hadTuberculosis_id int 
-// anyDisease_id int 
-// howContactUs_id int
