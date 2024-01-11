@@ -1,35 +1,51 @@
-FROM node:18
-# RUN npm install -g npm@^9.3
+# Usar una imagen base de Ubuntu
+FROM ubuntu:latest
+
+# Definir el directorio de trabajo
 WORKDIR /usr/src/app
-RUN chown -R www-data:www-data .
 
-# Copia el archivo de configuración del servidor de nginx
-COPY nginx.conf /etc/nginx/nginx.conf.d
-# Instala nodemon y typescript globalmente
-RUN npm install -g npm@^9.3 nodemon typescript dotenv
+# Instalar Node.js, npm y supervisor
+RUN apt-get update && \
+    apt-get install -y curl software-properties-common supervisor && \
+    curl -sL https://deb.nodesource.com/setup_18.x | bash - && \
+    apt-get install -y nodejs
 
-# Copia los archivos de configuración de la aplicación (por ejemplo, package.json)
-COPY package*.json ./
-# Instala dependencias del proyecto
+# Instalar nodemon y typescript globalmente
+RUN npm install -g nodemon typescript
+
+# Copiar archivos de configuración del proyecto
+COPY package*.json /usr/src/app
+COPY tsconfig.json /usr/src/app
+
+# Instalar dependencias del proyecto
 RUN npm install
-# ENV NODE_PATH=node_modules
-#CMD npm install || true
-# RUN /bin/bash 'npm install'
-# si no jala correr en bash container
 
-# Copia el código fuente de la aplicación
+# Copiar el resto de los archivos del proyecto
 # COPY . .
-# CMD tsc
-# Cambiar la propiedad después de la instalación y compilación
-RUN chown -R www-data:www-data /usr/src/app
 
-# CMD ["tsc","node"]
-CMD ["node", "dist/app.js"]
-# docker compose up
-# docker compose up --build 
-# docker compose build --no-cache 
-# docker compose down
-# docker exec -it "container name" /bim/bash
-#! CMD tsc --watch
-#!Si no se crean dist y node modules, ejecutae en el contenedor  tsc && npm i
-#! Si no arranca, instalar y construir directamente con npm i y tsc , Luego se puede compose up
+# Dar permiso al usuario www-data
+RUN chown -R www-data:www-data /usr/src/app
+# Cambiar al usuario 'node'
+# USER www-data
+# RUN groupadd --force -g $WWWGROUP node
+# RUN useradd -ms /bin/bash --no-user-group -g $WWWGROUP -u 1337 node
+# RUN usermod -aG docker node
+# RUN newgrp docker
+
+# Exponer el puerto (ajustar según sea necesario)
+EXPOSE 8000
+
+# Copiar la configuración de Supervisor
+COPY ./docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+
+# Usar el script de inicio personalizado
+COPY ./docker/start-container /usr/local/bin/start-container
+RUN chmod +x /usr/local/bin/start-container
+
+# Iniciar con el script de inicio
+CMD ["/usr/local/bin/start-container"]
+
+
+# # docker build -t mi-app-node .
+# # docker run -p 3000:3000 mi-app-node
+# chown -R www-data:www-data /usr/src/app  #! 

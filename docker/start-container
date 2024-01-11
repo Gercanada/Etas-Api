@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Iniciar Supervisor para gestionar los procesos de Node.js
+exec supervisord -c /etc/supervisor/conf.d/supervisord.conf

@@ -2,8 +2,7 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const Eta = db.define('etas', {
-
-    user_id: {
+/*     user_id: {
         type: DataTypes.INTEGER,
     },
     payment_id: {
@@ -29,6 +28,6 @@ const Eta = db.define('etas', {
     },
     isCompleted: {
         type: DataTypes.BOOLEAN
-    },
+    }, */
 });
 export default Eta;
