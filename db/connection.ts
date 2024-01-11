@@ -10,15 +10,15 @@ const dbPassword: string = process.env.DB_PASSWORD || 'password';
 
 
 
- const db = new Sequelize('etas', 'root', 'password', {
-    // host: 'mysql-node',
-    dialect: 'mysql',
-    host: dbHost,
-    database: dbName,
-    port: dbPort,
-    // logging: false,
+//  const db = new Sequelize('etas', 'root', 'password', {
+//     // host: 'mysql-node',
+//     dialect: 'mysql',
+//     host: dbHost,
+//     database: dbName,
+//     port: dbPort,
+//     // logging: false,
 
-});
+// });
 
 const db = new Sequelize(dbName, dbUser, dbPassword, {
     dialect: 'mysql',

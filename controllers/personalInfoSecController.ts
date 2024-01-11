@@ -35,7 +35,7 @@ export const getPersonalInfoSecs = async (req: Request, res: Response) => {
             if(responseData.gender_id){
             responseData.gender_id = {
                 id: responseData.gender.id,
-                valor: responseData.gender.valor
+                value: responseData.gender.value
             };
         }
             res.json(responseData);
