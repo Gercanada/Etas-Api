@@ -1255,3 +1255,3040 @@ Try to up a file
 Servidor corriendo en puerto 8000
 Executing (default): SELECT 1+1 AS result
 Database online
+Try to up a file
+Try to up a file
+Try to up a file
+Try to up a file
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: Empty value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:9:19)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+Try to up a file
+{
+  error: NoSuchKey: UnknownError
+      at de_NoSuchKeyRes (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:5196:23)
+      at de_GetObjectCommandError (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:3440:25)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async /usr/src/app/node_modules/@smithy/middleware-serde/dist-cjs/deserializerMiddleware.js:7:24
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthMiddleware.js:30:20
+      at async /usr/src/app/node_modules/@smithy/middleware-retry/dist-cjs/retryMiddleware.js:31:46
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-flexible-checksums/dist-cjs/flexibleChecksumsMiddleware.js:63:20
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-endpoint-middleware.js:14:24
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-middleware.js:9:20
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-logger/dist-cjs/loggerMiddleware.js:7:26 {
+    '$fault': 'client',
+    '$metadata': {
+      httpStatusCode: 404,
+      requestId: 'tx000006af9c6973cd4629e-0065a07e9a-150d942e-sjc1',
+      extendedRequestId: undefined,
+      cfId: undefined,
+      attempts: 1,
+      totalRetryDelay: 0
+    },
+    Code: 'NoSuchKey',
+    BucketName: 'etas-portal',
+    RequestId: 'tx000006af9c6973cd4629e-0065a07e9a-150d942e-sjc1',
+    HostId: '150d942e-sjc1-us'
+  }
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: NoSuchKey: UnknownError
+      at de_NoSuchKeyRes (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:5196:23)
+      at de_GetObjectCommandError (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:3440:25)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async /usr/src/app/node_modules/@smithy/middleware-serde/dist-cjs/deserializerMiddleware.js:7:24
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthMiddleware.js:30:20
+      at async /usr/src/app/node_modules/@smithy/middleware-retry/dist-cjs/retryMiddleware.js:31:46
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-flexible-checksums/dist-cjs/flexibleChecksumsMiddleware.js:63:20
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-endpoint-middleware.js:14:24
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-middleware.js:9:20
+      at async /usr/src/app/node_modules/@aws-sdk/middleware-logger/dist-cjs/loggerMiddleware.js:7:26 {
+    '$fault': 'client',
+    '$metadata': {
+      httpStatusCode: 404,
+      requestId: 'tx00000e7be2dff4e86888d-0065a07eba-150d4a85-sjc1',
+      extendedRequestId: undefined,
+      cfId: undefined,
+      attempts: 1,
+      totalRetryDelay: 0
+    },
+    Code: 'NoSuchKey',
+    BucketName: 'etas-portal',
+    RequestId: 'tx00000e7be2dff4e86888d-0065a07eba-150d4a85-sjc1',
+    HostId: '150d4a85-sjc1-us'
+  }
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: Empty value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:9:19)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: ReferenceError: GetObjectAttributesCommand is not defined
+      at /usr/src/app/dist/controllers/AttachmentController.js:169:25
+      at Generator.next (<anonymous>)
+      at /usr/src/app/dist/controllers/AttachmentController.js:31:71
+      at new Promise (<anonymous>)
+      at __awaiter (/usr/src/app/dist/controllers/AttachmentController.js:27:12)
+      at getObject (/usr/src/app/dist/controllers/AttachmentController.js:162:33)
+      at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)
+      at next (/usr/src/app/node_modules/express/lib/router/route.js:144:13)
+      at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:114:3)
+      at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  data: {
+    '$metadata': {
+      httpStatusCode: 200,
+      requestId: 'tx000004764afb32904b291-0065a07f74-150d4a85-sjc1',
+      extendedRequestId: undefined,
+      cfId: undefined,
+      attempts: 1,
+      totalRetryDelay: 0
+    },
+    AcceptRanges: 'bytes',
+    LastModified: 2024-01-11T23:38:49.000Z,
+    ContentLength: 879792,
+    ETag: '"4e64752618e12c4d7973b0c2919b38d2"',
+    CacheControl: 'no-cache',
+    ContentType: 'image/webp',
+    Expires: 2024-01-11T23:53:24.000Z,
+    Metadata: {},
+    Body: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: false,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      transformToByteArray: [AsyncFunction: transformToByteArray],
+      transformToString: [AsyncFunction: transformToString],
+      transformToWebStream: [Function: transformToWebStream],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 28,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    }
+  }
+}
+{
+  error: TypeError: Converting circular structure to JSON
+      --> starting at object with constructor 'TLSSocket'
+      |     property 'parser' -> object with constructor 'HTTPParser'
+      --- property 'socket' closes the circle
+      at JSON.stringify (<anonymous>)
+      at stringify (/usr/src/app/node_modules/express/lib/response.js:1150:12)
+      at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:271:14)
+      at /usr/src/app/dist/controllers/AttachmentController.js:172:25
+      at Generator.next (<anonymous>)
+      at fulfilled (/usr/src/app/dist/controllers/AttachmentController.js:28:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+      at new NodeError (node:internal/errors:405:5)
+      at ServerResponse.setHeader (node:_http_outgoing:648:11)
+      at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+      at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+      at /usr/src/app/dist/controllers/AttachmentController.js:191:25
+      at Generator.next (<anonymous>)
+      at fulfilled (/usr/src/app/dist/controllers/AttachmentController.js:28:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'ERR_HTTP_HEADERS_SENT'
+  }
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+<ref *2> IncomingMessage {
+  _readableState: ReadableState {
+    state: 137264,
+    highWaterMark: 16384,
+    buffer: BufferList { head: null, tail: null, length: 0 },
+    length: 0,
+    pipes: [],
+    flowing: null,
+    errored: null,
+    defaultEncoding: 'utf8',
+    awaitDrainWriters: null,
+    decoder: null,
+    encoding: null,
+    [Symbol(kPaused)]: null
+  },
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _closeAfterHandlingError: false,
+    _readableState: ReadableState {
+      state: 4184,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      errored: null,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Function: socketOnError],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1308,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1308,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    parser: HTTPParser {
+      '0': null,
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [Circular *2],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      joinDuplicateHeaders: null,
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      _closed: false,
+      socket: [Circular *1],
+      _header: null,
+      _keepAliveTimeout: 5000,
+      _onPendingData: [Function: bound updateOutgoingData],
+      req: [Circular *2],
+      _sent100: false,
+      _expect_continue: false,
+      _maxRequestsPerSocket: 0,
+      locals: [Object: null prototype] {},
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    [Symbol(async_id_symbol)]: 58,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kSetNoDelay)]: true,
+    [Symbol(kSetKeepAlive)]: false,
+    [Symbol(kSetKeepAliveInitialDelay)]: 0,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  rawHeaders: [
+    'User-Agent',
+    'PostmanRuntime/7.36.0',
+    'Accept',
+    '*/*',
+    'Cache-Control',
+    'no-cache',
+    'Postman-Token',
+    '6e5029ed-7530-4425-b715-c8e557b84dfa',
+    'Host',
+    'ger-server.local:8000',
+    'Accept-Encoding',
+    'gzip, deflate, br',
+    'Connection',
+    'keep-alive',
+    'Content-Type',
+    'multipart/form-data; boundary=--------------------------814341614606087506640324',
+    'Content-Length',
+    '7745'
+  ],
+  rawTrailers: [],
+  joinDuplicateHeaders: null,
+  aborted: false,
+  upgrade: false,
+  url: '/object/mclure',
+  method: 'DELETE',
+  statusCode: null,
+  statusMessage: null,
+  client: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _closeAfterHandlingError: false,
+    _readableState: ReadableState {
+      state: 4184,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      errored: null,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Function: socketOnError],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1308,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1308,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    parser: HTTPParser {
+      '0': null,
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [Circular *2],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      joinDuplicateHeaders: null,
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      _closed: false,
+      socket: [Circular *1],
+      _header: null,
+      _keepAliveTimeout: 5000,
+      _onPendingData: [Function: bound updateOutgoingData],
+      req: [Circular *2],
+      _sent100: false,
+      _expect_continue: false,
+      _maxRequestsPerSocket: 0,
+      locals: [Object: null prototype] {},
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    [Symbol(async_id_symbol)]: 58,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kSetNoDelay)]: true,
+    [Symbol(kSetKeepAlive)]: false,
+    [Symbol(kSetKeepAliveInitialDelay)]: 0,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '/api/attachments',
+  originalUrl: '/api/attachments/object/mclure',
+  _parsedUrl: Url {
+    protocol: null,
+    slashes: null,
+    auth: null,
+    host: null,
+    port: null,
+    hostname: null,
+    hash: null,
+    search: null,
+    query: null,
+    pathname: '/object/mclure',
+    path: '/object/mclure',
+    href: '/object/mclure',
+    _raw: '/object/mclure'
+  },
+  params: { obj_path: 'mclure' },
+  query: {},
+  res: <ref *3> ServerResponse {
+    _events: [Object: null prototype] { finish: [Function: bound resOnFinish] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: true,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: false,
+    _headerSent: false,
+    _closed: false,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      setEncoding: [Function: socketSetEncoding],
+      _paused: false,
+      _httpMessage: [Circular *3],
+      [Symbol(async_id_symbol)]: 58,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: false,
+      [Symbol(kSetKeepAliveInitialDelay)]: 0,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: null,
+    _keepAliveTimeout: 5000,
+    _onPendingData: [Function: bound updateOutgoingData],
+    req: [Circular *2],
+    _sent100: false,
+    _expect_continue: false,
+    _maxRequestsPerSocket: 0,
+    locals: [Object: null prototype] {},
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      'x-powered-by': [Array],
+      'access-control-allow-origin': [Array],
+      vary: [Array],
+      'access-control-allow-credentials': [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  body: {},
+  route: Route {
+    path: '/object/:obj_path',
+    stack: [ [Layer] ],
+    methods: { delete: true }
+  },
+  [Symbol(kCapture)]: false,
+  [Symbol(kHeaders)]: {
+    'user-agent': 'PostmanRuntime/7.36.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': '6e5029ed-7530-4425-b715-c8e557b84dfa',
+    host: 'ger-server.local:8000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------814341614606087506640324',
+    'content-length': '7745'
+  },
+  [Symbol(kHeadersCount)]: 18,
+  [Symbol(kTrailers)]: null,
+  [Symbol(kTrailersCount)]: 0
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+      at new NodeError (node:internal/errors:405:5)
+      at ServerResponse.setHeader (node:_http_outgoing:648:11)
+      at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+      at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+      at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+      at /usr/src/app/dist/controllers/AttachmentController.js:191:25
+      at Generator.next (<anonymous>)
+      at fulfilled (/usr/src/app/dist/controllers/AttachmentController.js:28:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'ERR_HTTP_HEADERS_SENT'
+  }
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: TypeError: Converting circular structure to JSON
+      --> starting at object with constructor 'Socket'
+      |     property 'parser' -> object with constructor 'HTTPParser'
+      --- property 'socket' closes the circle
+      at JSON.stringify (<anonymous>)
+      at stringify (/usr/src/app/node_modules/express/lib/response.js:1150:12)
+      at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:271:14)
+      at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:162:21)
+      at /usr/src/app/dist/controllers/AttachmentController.js:184:13
+      at Generator.next (<anonymous>)
+      at /usr/src/app/dist/controllers/AttachmentController.js:31:71
+      at new Promise (<anonymous>)
+      at __awaiter (/usr/src/app/dist/controllers/AttachmentController.js:27:12)
+      at deleteObject (/usr/src/app/dist/controllers/AttachmentController.js:180:36)
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+<ref *2> IncomingMessage {
+  _readableState: ReadableState {
+    state: 137264,
+    highWaterMark: 16384,
+    buffer: BufferList { head: null, tail: null, length: 0 },
+    length: 0,
+    pipes: [],
+    flowing: null,
+    errored: null,
+    defaultEncoding: 'utf8',
+    awaitDrainWriters: null,
+    decoder: null,
+    encoding: null,
+    [Symbol(kPaused)]: null
+  },
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _closeAfterHandlingError: false,
+    _readableState: ReadableState {
+      state: 4184,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      errored: null,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Function: socketOnError],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1319,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1319,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    parser: HTTPParser {
+      '0': null,
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [Circular *2],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      joinDuplicateHeaders: null,
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      _closed: false,
+      socket: [Circular *1],
+      _header: null,
+      _keepAliveTimeout: 5000,
+      _onPendingData: [Function: bound updateOutgoingData],
+      req: [Circular *2],
+      _sent100: false,
+      _expect_continue: false,
+      _maxRequestsPerSocket: 0,
+      locals: [Object: null prototype] {},
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    [Symbol(async_id_symbol)]: 58,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kSetNoDelay)]: true,
+    [Symbol(kSetKeepAlive)]: false,
+    [Symbol(kSetKeepAliveInitialDelay)]: 0,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  rawHeaders: [
+    'User-Agent',
+    'PostmanRuntime/7.36.0',
+    'Accept',
+    '*/*',
+    'Cache-Control',
+    'no-cache',
+    'Postman-Token',
+    'a84ba0e3-7218-449b-9306-110c928a113a',
+    'Host',
+    'ger-server.local:8000',
+    'Accept-Encoding',
+    'gzip, deflate, br',
+    'Connection',
+    'keep-alive',
+    'Content-Type',
+    'multipart/form-data; boundary=--------------------------889813684370524394215371',
+    'Content-Length',
+    '7745'
+  ],
+  rawTrailers: [],
+  joinDuplicateHeaders: null,
+  aborted: false,
+  upgrade: false,
+  url: '/object/?delete=path/toami_me_vale_verga_meme.gif',
+  method: 'DELETE',
+  statusCode: null,
+  statusMessage: null,
+  client: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _closeAfterHandlingError: false,
+    _readableState: ReadableState {
+      state: 4184,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      errored: null,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Function: socketOnError],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1319,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1319,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    parser: HTTPParser {
+      '0': null,
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [Circular *2],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      joinDuplicateHeaders: null,
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      _closed: false,
+      socket: [Circular *1],
+      _header: null,
+      _keepAliveTimeout: 5000,
+      _onPendingData: [Function: bound updateOutgoingData],
+      req: [Circular *2],
+      _sent100: false,
+      _expect_continue: false,
+      _maxRequestsPerSocket: 0,
+      locals: [Object: null prototype] {},
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    [Symbol(async_id_symbol)]: 58,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kSetNoDelay)]: true,
+    [Symbol(kSetKeepAlive)]: false,
+    [Symbol(kSetKeepAliveInitialDelay)]: 0,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '/api/attachments',
+  originalUrl: '/api/attachments/object/?delete=path/toami_me_vale_verga_meme.gif',
+  _parsedUrl: Url {
+    protocol: null,
+    slashes: null,
+    auth: null,
+    host: null,
+    port: null,
+    hostname: null,
+    hash: null,
+    search: '?delete=path/toami_me_vale_verga_meme.gif',
+    query: 'delete=path/toami_me_vale_verga_meme.gif',
+    pathname: '/object/',
+    path: '/object/?delete=path/toami_me_vale_verga_meme.gif',
+    href: '/object/?delete=path/toami_me_vale_verga_meme.gif',
+    _raw: '/object/?delete=path/toami_me_vale_verga_meme.gif'
+  },
+  params: {},
+  query: { delete: 'path/toami_me_vale_verga_meme.gif' },
+  res: <ref *3> ServerResponse {
+    _events: [Object: null prototype] { finish: [Function: bound resOnFinish] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: true,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: false,
+    _headerSent: false,
+    _closed: false,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      setEncoding: [Function: socketSetEncoding],
+      _paused: false,
+      _httpMessage: [Circular *3],
+      [Symbol(async_id_symbol)]: 58,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: false,
+      [Symbol(kSetKeepAliveInitialDelay)]: 0,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: null,
+    _keepAliveTimeout: 5000,
+    _onPendingData: [Function: bound updateOutgoingData],
+    req: [Circular *2],
+    _sent100: false,
+    _expect_continue: false,
+    _maxRequestsPerSocket: 0,
+    locals: [Object: null prototype] {},
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      'x-powered-by': [Array],
+      'access-control-allow-origin': [Array],
+      vary: [Array],
+      'access-control-allow-credentials': [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  body: {},
+  route: Route {
+    path: '/object',
+    stack: [ [Layer] ],
+    methods: { delete: true }
+  },
+  [Symbol(kCapture)]: false,
+  [Symbol(kHeaders)]: {
+    'user-agent': 'PostmanRuntime/7.36.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'a84ba0e3-7218-449b-9306-110c928a113a',
+    host: 'ger-server.local:8000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------889813684370524394215371',
+    'content-length': '7745'
+  },
+  [Symbol(kHeadersCount)]: 18,
+  [Symbol(kTrailers)]: null,
+  [Symbol(kTrailersCount)]: 0
+}
+{
+  error: TypeError: Converting circular structure to JSON
+      --> starting at object with constructor 'Socket'
+      |     property 'parser' -> object with constructor 'HTTPParser'
+      --- property 'socket' closes the circle
+      at JSON.stringify (<anonymous>)
+      at stringify (/usr/src/app/node_modules/express/lib/response.js:1150:12)
+      at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:271:14)
+      at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:162:21)
+      at /usr/src/app/dist/controllers/AttachmentController.js:185:13
+      at Generator.next (<anonymous>)
+      at /usr/src/app/dist/controllers/AttachmentController.js:31:71
+      at new Promise (<anonymous>)
+      at __awaiter (/usr/src/app/dist/controllers/AttachmentController.js:27:12)
+      at deleteObject (/usr/src/app/dist/controllers/AttachmentController.js:180:36)
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+<ref *2> IncomingMessage {
+  _readableState: ReadableState {
+    state: 137264,
+    highWaterMark: 16384,
+    buffer: BufferList { head: null, tail: null, length: 0 },
+    length: 0,
+    pipes: [],
+    flowing: null,
+    errored: null,
+    defaultEncoding: 'utf8',
+    awaitDrainWriters: null,
+    decoder: null,
+    encoding: null,
+    [Symbol(kPaused)]: null
+  },
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _closeAfterHandlingError: false,
+    _readableState: ReadableState {
+      state: 4184,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      errored: null,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Function: socketOnError],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1338,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1338,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    parser: HTTPParser {
+      '0': null,
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [Circular *2],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      joinDuplicateHeaders: null,
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      _closed: false,
+      socket: [Circular *1],
+      _header: null,
+      _keepAliveTimeout: 5000,
+      _onPendingData: [Function: bound updateOutgoingData],
+      req: [Circular *2],
+      _sent100: false,
+      _expect_continue: false,
+      _maxRequestsPerSocket: 0,
+      locals: [Object: null prototype] {},
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    [Symbol(async_id_symbol)]: 58,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kSetNoDelay)]: true,
+    [Symbol(kSetKeepAlive)]: false,
+    [Symbol(kSetKeepAliveInitialDelay)]: 0,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  rawHeaders: [
+    'User-Agent',
+    'PostmanRuntime/7.36.0',
+    'Accept',
+    '*/*',
+    'Cache-Control',
+    'no-cache',
+    'Postman-Token',
+    'a3e527cd-198b-41f4-8230-8d15e2c052ba',
+    'Host',
+    'ger-server.local:8000',
+    'Accept-Encoding',
+    'gzip, deflate, br',
+    'Connection',
+    'keep-alive',
+    'Content-Type',
+    'multipart/form-data; boundary=--------------------------114639723063320849085208',
+    'Content-Length',
+    '7745'
+  ],
+  rawTrailers: [],
+  joinDuplicateHeaders: null,
+  aborted: false,
+  upgrade: false,
+  url: '/object/?delete=path/toami_me_vale_verga_meme.gif',
+  method: 'DELETE',
+  statusCode: null,
+  statusMessage: null,
+  client: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _closeAfterHandlingError: false,
+    _readableState: ReadableState {
+      state: 4184,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      errored: null,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Function: socketOnError],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1338,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      requestTimeout: 300000,
+      headersTimeout: 60000,
+      keepAliveTimeout: 5000,
+      connectionsCheckingInterval: 30000,
+      joinDuplicateHeaders: undefined,
+      rejectNonStandardBodyWrites: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      noDelay: true,
+      keepAlive: false,
+      keepAliveInitialDelay: 0,
+      highWaterMark: 16384,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      maxHeadersCount: null,
+      maxRequestsPerSocket: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 9,
+      [Symbol(kUniqueHeaders)]: null,
+      [Symbol(http.server.connections)]: ConnectionsList {},
+      [Symbol(http.server.connectionsCheckingInterval)]: Timeout {
+        _idleTimeout: 30000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 1338,
+        _onTimeout: [Function: bound checkConnections],
+        _timerArgs: undefined,
+        _repeat: 30000,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 11,
+        [Symbol(triggerId)]: 10
+      }
+    },
+    parser: HTTPParser {
+      '0': null,
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [Circular *2],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      joinDuplicateHeaders: null,
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 1,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      _closed: false,
+      socket: [Circular *1],
+      _header: null,
+      _keepAliveTimeout: 5000,
+      _onPendingData: [Function: bound updateOutgoingData],
+      req: [Circular *2],
+      _sent100: false,
+      _expect_continue: false,
+      _maxRequestsPerSocket: 0,
+      locals: [Object: null prototype] {},
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    [Symbol(async_id_symbol)]: 58,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kSetNoDelay)]: true,
+    [Symbol(kSetKeepAlive)]: false,
+    [Symbol(kSetKeepAliveInitialDelay)]: 0,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0
+  },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '/api/attachments',
+  originalUrl: '/api/attachments/object/?delete=path/toami_me_vale_verga_meme.gif',
+  _parsedUrl: Url {
+    protocol: null,
+    slashes: null,
+    auth: null,
+    host: null,
+    port: null,
+    hostname: null,
+    hash: null,
+    search: '?delete=path/toami_me_vale_verga_meme.gif',
+    query: 'delete=path/toami_me_vale_verga_meme.gif',
+    pathname: '/object/',
+    path: '/object/?delete=path/toami_me_vale_verga_meme.gif',
+    href: '/object/?delete=path/toami_me_vale_verga_meme.gif',
+    _raw: '/object/?delete=path/toami_me_vale_verga_meme.gif'
+  },
+  params: {},
+  query: { delete: 'path/toami_me_vale_verga_meme.gif' },
+  res: <ref *3> ServerResponse {
+    _events: [Object: null prototype] { finish: [Function: bound resOnFinish] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: true,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: false,
+    _headerSent: false,
+    _closed: false,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      setEncoding: [Function: socketSetEncoding],
+      _paused: false,
+      _httpMessage: [Circular *3],
+      [Symbol(async_id_symbol)]: 58,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: false,
+      [Symbol(kSetKeepAliveInitialDelay)]: 0,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: null,
+    _keepAliveTimeout: 5000,
+    _onPendingData: [Function: bound updateOutgoingData],
+    req: [Circular *2],
+    _sent100: false,
+    _expect_continue: false,
+    _maxRequestsPerSocket: 0,
+    locals: [Object: null prototype] {},
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      'x-powered-by': [Array],
+      'access-control-allow-origin': [Array],
+      vary: [Array],
+      'access-control-allow-credentials': [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  body: {},
+  route: Route {
+    path: '/object',
+    stack: [ [Layer] ],
+    methods: { delete: true }
+  },
+  [Symbol(kCapture)]: false,
+  [Symbol(kHeaders)]: {
+    'user-agent': 'PostmanRuntime/7.36.0',
+    accept: '*/*',
+    'cache-control': 'no-cache',
+    'postman-token': 'a3e527cd-198b-41f4-8230-8d15e2c052ba',
+    host: 'ger-server.local:8000',
+    'accept-encoding': 'gzip, deflate, br',
+    connection: 'keep-alive',
+    'content-type': 'multipart/form-data; boundary=--------------------------114639723063320849085208',
+    'content-length': '7745'
+  },
+  [Symbol(kHeadersCount)]: 18,
+  [Symbol(kTrailers)]: null,
+  [Symbol(kTrailersCount)]: 0
+}
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{ obj_path: undefined }
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{ obj_path: undefined }
+{
+  error: Error: No value provided for input HTTP label: Key.
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:19:15)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{ obj_path: { delete: 'path/toami_me_vale_verga_meme.gif' } }
+{
+  error: TypeError: labelValue.split is not a function
+      at resolvedPath (/usr/src/app/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js:13:18)
+      at /usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:51:58
+      at RequestBuilder.build (/usr/src/app/node_modules/@smithy/core/dist-cjs/protocols/requestBuilder.js:26:13)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{ obj_path: 'path/toami_me_vale_verga_meme.gif' }
+{
+  error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+      at new NodeError (node:internal/errors:405:5)
+      at ServerResponse.setHeader (node:_http_outgoing:648:11)
+      at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+      at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+      at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+      at /usr/src/app/dist/controllers/AttachmentController.js:193:29
+      at Generator.next (<anonymous>)
+      at fulfilled (/usr/src/app/dist/controllers/AttachmentController.js:28:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+    code: 'ERR_HTTP_HEADERS_SENT'
+  }
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{ obj_path: 'path/toami_me_vale_verga_meme.gif' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{ obj_path: 'files/ami-me-vale-verga-meme.gif' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+Try to up a file
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{ obj_path: 'files/ami-me-vale-verga-meme.gif' }
+Try to up a file
+{ obj_path: '\nfiles/Sin tÃ­tulo (2).pdf\n' }
+{ obj_path: 'files/Sin tÃ­tulo (2).pdf' }
+Try to up a file
+{ obj_path: 'files/apietas_etasdb.sql' }
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{ obj_path: 'files/apietas_etasdb.sql' }
+{ obj_path: 'files/apietas_etasdb.sql' }
+{ obj_path: 'FVheorlXEAActuE.jpg' }
+{ obj_path: 'FVheorlXEAActuE.jpg' }

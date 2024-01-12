@@ -301,3 +301,405 @@ Are you using a Stream of unknown length as the Body of a PutObject request? Con
 Are you using a Stream of unknown length as the Body of a PutObject request? Consider using Upload instead from @aws-sdk/lib-storage.
 Are you using a Stream of unknown length as the Body of a PutObject request? Consider using Upload instead from @aws-sdk/lib-storage.
 Are you using a Stream of unknown length as the Body of a PutObject request? Consider using Upload instead from @aws-sdk/lib-storage.
+/usr/src/app/dist/routes/AttachmentRoute.js:18
+], getObject);
+   ^
+
+ReferenceError: getObject is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/AttachmentRoute.js:18:4)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:28:43)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/AttachmentRoute.js:21
+], deleteObject);
+   ^
+
+ReferenceError: deleteObject is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/AttachmentRoute.js:21:4)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:28:43)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:197:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/AttachmentController.js:28:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/AttachmentController.js:197:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/AttachmentController.js:28:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:195:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:195:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/AttachmentController.js:196:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:197:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:200:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:200:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:200:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:200:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:201:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:275:10)
+    at /usr/src/app/dist/controllers/AttachmentController.js:201:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/AttachmentController.js:201:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/AttachmentController.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/AttachmentController.js:201:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/AttachmentController.js:28:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/AttachmentController.js:209
+const getObject = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+      ^
+
+SyntaxError: Identifier 'getObject' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/AttachmentRoute.js:8:32)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/AttachmentRoute.js:21
+], downloadObject);
+   ^
+
+ReferenceError: downloadObject is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/AttachmentRoute.js:21:4)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:28:43)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+NoSuchKey: UnknownError
+    at de_NoSuchKeyRes (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:5196:23)
+    at de_GetObjectCommandError (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:3440:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/src/app/node_modules/@smithy/middleware-serde/dist-cjs/deserializerMiddleware.js:7:24
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthMiddleware.js:30:20
+    at async /usr/src/app/node_modules/@smithy/middleware-retry/dist-cjs/retryMiddleware.js:31:46
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-flexible-checksums/dist-cjs/flexibleChecksumsMiddleware.js:63:20
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-endpoint-middleware.js:14:24
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-middleware.js:9:20
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-logger/dist-cjs/loggerMiddleware.js:7:26 {
+  '$fault': 'client',
+  '$metadata': {
+    httpStatusCode: 404,
+    requestId: 'tx00000a3bb02d98686d481-0065a08613-150d942e-sjc1',
+    extendedRequestId: undefined,
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  Code: 'NoSuchKey',
+  BucketName: 'etas-portal',
+  RequestId: 'tx00000a3bb02d98686d481-0065a08613-150d942e-sjc1',
+  HostId: '150d942e-sjc1-us'
+}
+NoSuchKey: UnknownError
+    at de_NoSuchKeyRes (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:5196:23)
+    at de_GetObjectCommandError (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:3440:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/src/app/node_modules/@smithy/middleware-serde/dist-cjs/deserializerMiddleware.js:7:24
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthMiddleware.js:30:20
+    at async /usr/src/app/node_modules/@smithy/middleware-retry/dist-cjs/retryMiddleware.js:31:46
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-flexible-checksums/dist-cjs/flexibleChecksumsMiddleware.js:63:20
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-endpoint-middleware.js:14:24
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-middleware.js:9:20
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-logger/dist-cjs/loggerMiddleware.js:7:26 {
+  '$fault': 'client',
+  '$metadata': {
+    httpStatusCode: 404,
+    requestId: 'tx000005ec7c2939e516299-0065a08794-150d70d8-sjc1',
+    extendedRequestId: undefined,
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  Code: 'NoSuchKey',
+  BucketName: 'etas-portal',
+  RequestId: 'tx000005ec7c2939e516299-0065a08794-150d70d8-sjc1',
+  HostId: '150d70d8-sjc1-us'
+}
+NoSuchKey: UnknownError
+    at de_NoSuchKeyRes (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:5196:23)
+    at de_GetObjectCommandError (/usr/src/app/node_modules/@aws-sdk/client-s3/dist-cjs/protocols/Aws_restXml.js:3440:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/src/app/node_modules/@smithy/middleware-serde/dist-cjs/deserializerMiddleware.js:7:24
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthMiddleware.js:30:20
+    at async /usr/src/app/node_modules/@smithy/middleware-retry/dist-cjs/retryMiddleware.js:31:46
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-flexible-checksums/dist-cjs/flexibleChecksumsMiddleware.js:63:20
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-endpoint-middleware.js:14:24
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/region-redirect-middleware.js:9:20
+    at async /usr/src/app/node_modules/@aws-sdk/middleware-logger/dist-cjs/loggerMiddleware.js:7:26 {
+  '$fault': 'client',
+  '$metadata': {
+    httpStatusCode: 404,
+    requestId: 'tx000006c4201c411fd85f1-0065a0882b-150daeb5-sjc1',
+    extendedRequestId: undefined,
+    cfId: undefined,
+    attempts: 1,
+    totalRetryDelay: 0
+  },
+  Code: 'NoSuchKey',
+  BucketName: 'etas-portal',
+  RequestId: 'tx000006c4201c411fd85f1-0065a0882b-150daeb5-sjc1',
+  HostId: '150daeb5-sjc1-us'
+}
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as get] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/AttachmentRoute.js:19:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:28:43)
+
+Node.js v18.19.0
