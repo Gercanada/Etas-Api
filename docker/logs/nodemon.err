@@ -703,3 +703,1210 @@ Error: Route.get() requires a callback function but got a [object Undefined]
     at Object.<anonymous> (/usr/src/app/dist/models/server.js:28:43)
 
 Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:48
+], newPaymentLink);
+   ^
+
+ReferenceError: newPaymentLink is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:48:4)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+{
+  err: Error: Sorry, `crearlinkDePago` does not appear to be a valid operation on this API.
+      at Proxy.<anonymous> (/usr/src/app/node_modules/api/dist/index.js:179:47)
+      at step (/usr/src/app/node_modules/api/dist/index.js:33:23)
+      at Object.next (/usr/src/app/node_modules/api/dist/index.js:14:53)
+      at fulfilled (/usr/src/app/node_modules/api/dist/index.js:5:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+{
+  err: Error: Sorry, `crearlinkDePago` does not appear to be a valid operation on this API.
+      at Proxy.<anonymous> (/usr/src/app/node_modules/api/dist/index.js:179:47)
+      at step (/usr/src/app/node_modules/api/dist/index.js:33:23)
+      at Object.next (/usr/src/app/node_modules/api/dist/index.js:14:53)
+      at fulfilled (/usr/src/app/node_modules/api/dist/index.js:5:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+{
+  err: Error: Sorry, `crearlinkDePago` does not appear to be a valid operation on this API.
+      at Proxy.<anonymous> (/usr/src/app/node_modules/api/dist/index.js:179:47)
+      at step (/usr/src/app/node_modules/api/dist/index.js:33:23)
+      at Object.next (/usr/src/app/node_modules/api/dist/index.js:14:53)
+      at fulfilled (/usr/src/app/node_modules/api/dist/index.js:5:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+{
+  err: Error: Sorry, `crearlinkDePago` does not appear to be a valid operation on this API.
+      at Proxy.<anonymous> (/usr/src/app/node_modules/api/dist/index.js:179:47)
+      at step (/usr/src/app/node_modules/api/dist/index.js:33:23)
+      at Object.next (/usr/src/app/node_modules/api/dist/index.js:14:53)
+      at fulfilled (/usr/src/app/node_modules/api/dist/index.js:5:58)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+}
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Module.require (node:internal/modules/cjs/loader:1218:3)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:13:18)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.19.0
+Error: ReferenceError: https is not defined
+    at /usr/src/app/dist/controllers/ConektaController.js:66:21
+    at new Promise (<anonymous>)
+    at enviarSolicitudConekta (/usr/src/app/dist/controllers/ConektaController.js:65:12)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:87:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+/usr/src/app/dist/controllers/ConektaController.js:87
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:87:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:87
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:87:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:87
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:87:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:87
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:87:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:88
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:88:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:92
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:92:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:92
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:92:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:92
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:92:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:91
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:91:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:92
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:92:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:94
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:94:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:94
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:94:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:94
+enviarSolicitudConekta(datosPago)
+^
+
+ReferenceError: enviarSolicitudConekta is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/ConektaController.js:94:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+(node:7) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+/usr/src/app/dist/controllers/ConektaController.js:37
+        '{;
+        ^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:37
+        '{;
+        ^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:83:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+Fri, 12 Jan 2024 18:27:54 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/ConektaController.js:53:13
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:83:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:89:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:89:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:91:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:91:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:59
+        const expiresAtToUnix = Math.floor(expireAt..getTime() / 1000);
+                                                    ^
+
+SyntaxError: Unexpected token '.'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:91:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:91:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:37
+            "name": "Payment Link for: ", body, : .customer_name,
+                                                ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:37
+        const customerName = body === null || body === void 0 ? void 0 : body.customer_email;
+              ^
+
+SyntaxError: Identifier 'customerName' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:38
+        const customerEmail = body === null || body === void 0 ? void 0 : body.customer_phone;
+              ^
+
+SyntaxError: Identifier 'customerEmail' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:51
+/conekta/webhooks;
+^
+
+SyntaxError: Invalid regular expression flags
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:50
+router.post('/conekta/webhooks', [], webhookEvents);
+                                     ^
+
+ReferenceError: webhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:50:38)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:50
+router.post('/conekta/webhooks', [], conektaWebhookEvents);
+                                     ^
+
+ReferenceError: conektaWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:50:38)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:50
+router.post('/conekta/webhooks', [], conektaWebhookEvents);
+                                     ^
+
+ReferenceError: conektaWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:50:38)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:50
+router.post('/conekta/webhooks', [], conektaWebhookEvents);
+                                     ^
+
+ReferenceError: conektaWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:50:38)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:50
+router.post('/conekta/webhooks', [], conektaWebhookEvents);
+                                     ^
+
+ReferenceError: conektaWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:50:38)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:50
+router.post('/conekta/webhooks', [], conektaWebhookEvents);
+                                     ^
+
+ReferenceError: conektaWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:50:38)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:50
+router.post('/conekta/webhooks', [], conektaWebhookEvents);
+                                     ^
+
+ReferenceError: conektaWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:50:38)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:50
+router.post('/conekta/webhooks', [], conektaWebhookEvents);
+                                     ^
+
+ReferenceError: conektaWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:50:38)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:50
+router.get('/conekta/webhooks', [], conektaWebhookEvents);
+                                    ^
+
+ReferenceError: conektaWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:50:37)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:30
+        const req;
+              ^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:74:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:75:25
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/ConektaController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/ConektaController.js:4:12) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:75:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:75:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:75:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/ConektaController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:81:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/ConektaController.js:6:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:47
+            "name": `Payment Link for:  ${customerName}`, ",: "type", "PaymentLink": ,
+                                                               ^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:47
+            "name":  /*  `Payment Link for:  ${customerName}` */,
+                                                                ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:70
+        } */;
+            ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:61
+                    "name": customerName, ",: "email", "juan.perez@conekta.com": ,
+                                               ^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:128
+            const object, resToSave = {};
+                  ^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/ConektaController.js:128
+            const object, resToSave = {};
+                  ^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:12:29)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error
+    at Query.run (/usr/src/app/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /usr/src/app/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (/usr/src/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async model.save (/usr/src/app/node_modules/sequelize/lib/model.js:2490:35) {
+  name: 'SequelizeDatabaseError',
+  parent: Error: Field 'amount' doesn't have a default value
+      at Packet.asError (/usr/src/app/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Execute.execute (/usr/src/app/node_modules/mysql2/lib/commands/command.js:29:26)
+      at Connection.handlePacket (/usr/src/app/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/usr/src/app/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/usr/src/app/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/usr/src/app/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_DEFAULT_FOR_FIELD',
+    errno: 1364,
+    sqlState: 'HY000',
+    sqlMessage: "Field 'amount' doesn't have a default value",
+    sql: 'INSERT INTO `payment_intents` (`id`,`paymentintent_id`) VALUES (DEFAULT,?);',
+    parameters: [ 'ord_2vEjJWJALHAgm8xuY' ]
+  },
+  original: Error: Field 'amount' doesn't have a default value
+      at Packet.asError (/usr/src/app/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Execute.execute (/usr/src/app/node_modules/mysql2/lib/commands/command.js:29:26)
+      at Connection.handlePacket (/usr/src/app/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/usr/src/app/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/usr/src/app/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/usr/src/app/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_DEFAULT_FOR_FIELD',
+    errno: 1364,
+    sqlState: 'HY000',
+    sqlMessage: "Field 'amount' doesn't have a default value",
+    sql: 'INSERT INTO `payment_intents` (`id`,`paymentintent_id`) VALUES (DEFAULT,?);',
+    parameters: [ 'ord_2vEjJWJALHAgm8xuY' ]
+  },
+  sql: 'INSERT INTO `payment_intents` (`id`,`paymentintent_id`) VALUES (DEFAULT,?);',
+  parameters: [ 'ord_2vEjJWJALHAgm8xuY' ]
+}
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:120
+            ;
+            ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:43:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:120
+            ;
+            ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:43:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:118
+                pi_body['paymentintent_id'] = conektaPayment === null || conektaPayment === void 0 ? void 0 : conektaPayment.id : ;
+                                                                                                                                  ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:43:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:118
+                pi_body['paymentintent_id'] = conektaPayment.id : ;
+                                                                  ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:43:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:118
+                pi_body['paymentintent_id'] = conektaPayment.id : ;
+                                                                  ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:43:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:118
+                pi_body['paymentintent_id'] = conektaPayment.id : ;
+                                                                  ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:43:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error
+    at Query.run (/usr/src/app/node_modules/sequelize/lib/dialects/mysql/query.js:52:25)
+    at /usr/src/app/node_modules/sequelize/lib/sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (/usr/src/app/node_modules/sequelize/lib/dialects/abstract/query-interface.js:308:21)
+    at async model.save (/usr/src/app/node_modules/sequelize/lib/model.js:2490:35) {
+  name: 'SequelizeDatabaseError',
+  parent: Error: Field 'amount' doesn't have a default value
+      at Packet.asError (/usr/src/app/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Execute.execute (/usr/src/app/node_modules/mysql2/lib/commands/command.js:29:26)
+      at Connection.handlePacket (/usr/src/app/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/usr/src/app/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/usr/src/app/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/usr/src/app/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_DEFAULT_FOR_FIELD',
+    errno: 1364,
+    sqlState: 'HY000',
+    sqlMessage: "Field 'amount' doesn't have a default value",
+    sql: 'INSERT INTO `payment_intents` (`id`,`paymentintent_id`) VALUES (DEFAULT,?);',
+    parameters: [ '65a1ab7449a82b001b53591e' ]
+  },
+  original: Error: Field 'amount' doesn't have a default value
+      at Packet.asError (/usr/src/app/node_modules/mysql2/lib/packets/packet.js:728:17)
+      at Execute.execute (/usr/src/app/node_modules/mysql2/lib/commands/command.js:29:26)
+      at Connection.handlePacket (/usr/src/app/node_modules/mysql2/lib/connection.js:456:32)
+      at PacketParser.onPacket (/usr/src/app/node_modules/mysql2/lib/connection.js:85:12)
+      at PacketParser.executeStart (/usr/src/app/node_modules/mysql2/lib/packet_parser.js:75:16)
+      at Socket.<anonymous> (/usr/src/app/node_modules/mysql2/lib/connection.js:92:25)
+      at Socket.emit (node:events:517:28)
+      at addChunk (node:internal/streams/readable:368:12)
+      at readableAddChunk (node:internal/streams/readable:341:9)
+      at Readable.push (node:internal/streams/readable:278:10) {
+    code: 'ER_NO_DEFAULT_FOR_FIELD',
+    errno: 1364,
+    sqlState: 'HY000',
+    sqlMessage: "Field 'amount' doesn't have a default value",
+    sql: 'INSERT INTO `payment_intents` (`id`,`paymentintent_id`) VALUES (DEFAULT,?);',
+    parameters: [ '65a1ab7449a82b001b53591e' ]
+  },
+  sql: 'INSERT INTO `payment_intents` (`id`,`paymentintent_id`) VALUES (DEFAULT,?);',
+  parameters: [ '65a1ab7449a82b001b53591e' ]
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:82:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/ConektaController.js:6:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:82:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/ConektaController.js:6:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/ConektaController.js:82:25
+    at Generator.throw (<anonymous>)
+    at rejected (/usr/src/app/dist/controllers/ConektaController.js:6:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0

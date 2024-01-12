@@ -10,6 +10,7 @@ import { emailExiste, existeUsuarioPorId } from '../helpers/db-validators';
 import { list } from '../controllers/paymentsController';
 
 import { failedPay, newConvergePayment, newOxxoSession, successPay } from '../controllers/StripeProductController';
+import { conektaWebhookEvents, newPaymentLink } from '../controllers/ConektaController';
 
 
 const router = Router();
@@ -55,6 +56,16 @@ router.post('/converge/:eta_id/:id', [ //?currency=mxn
 
 router.get('/:eta_id/success_paid', [], successPay);
 router.get('/failed_pay', [], failedPay);
+
+
+router.get('/conekta', [ //?currency=mxn //! :eta_id/:id
+], newPaymentLink);
+
+
+
+
+router.post('/conekta/webhooks', [], conektaWebhookEvents);
+
 
 
 export default router; 

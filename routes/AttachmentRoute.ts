@@ -1,15 +1,11 @@
-import express, { Router, } from 'express';
-import { check } from 'express-validator';
+import { Router, } from 'express';
 import multer from "multer";
 
-import { validarCampos } from '../middlewares/validar-campos';
-import { validarJWT } from '../middlewares/validar-jwt';
-import { deleteObject, downloadObject, getObject, listBucketContent, previewObject, uploadFile } from '../controllers/AttachmentController';
+import { deleteObject,  getObject, listBucketContent, previewObject, uploadFile } from '../controllers/AttachmentController';
 // import validaRoles from '../middlewares/validar-roles';
 
 
 const router = Router();
-
 const upload = multer(); // Guarda los archivos en la carpeta 'uploads'
 
 // router.get('/', [validarJWT], index,);

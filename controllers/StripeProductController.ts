@@ -105,7 +105,7 @@ export const newOxxoSession = async (req: Request, res: Response) => {
             // cancel_url: 'https://tusitio.com/cancel',
             success_url: process.env.APP_URL + '/api/payments/' + eta_id + '/success_paid',
             cancel_url: process.env.APP_URL + '/api/payments/failed_pay',
-            //! test https://163e-189-143-174-180.ngrok-free.app/api/payments/stripe/1/price_1OWphbJFpQqnD8HRInCZoMqL/mxn
+            //! test  https://4fdb-189-143-174-180.ngrok-free.app/api/payments/stripe/1/price_1OWphbJFpQqnD8HRInCZoMqL/mxn
         });
 
         // console.log(session.id);

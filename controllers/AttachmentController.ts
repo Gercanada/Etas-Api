@@ -4,7 +4,6 @@ import { Request, Response } from "express";
 import Attachment from "../models/AttachmentModel";
 import { S3Client, PutObjectCommand, ListObjectsCommand, GetObjectCommand, DeleteObjectCommand } from "@aws-sdk/client-s3";
 import * as AWS from "@aws-sdk/client-s3";
-import fs from "fs";
 
 
 const accessKey: string | any = process.env.S3_ACCESS_KEY ?? '8XCSIKA2UUQ0QG75GPN1';

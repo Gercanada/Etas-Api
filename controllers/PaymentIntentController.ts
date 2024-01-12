@@ -28,11 +28,11 @@ export const index = async (req: Request, res: Response) => {
            });
     }
 } */
-    
+
 export const store = async (req: Request, res: Response) => {
     try {
         const body: any = req;
-        const pi_body: any = [];       
+        const pi_body: any = [];
 
         if (body.object === 'payment_intent') {
             pi_body['platform'] = 'stripe';
@@ -50,11 +50,11 @@ export const store = async (req: Request, res: Response) => {
             if ((body.charges.data) && (body.charges.data[0]) && 'payment_method_details' in body.charges.data[0]) pi_body['payment_method_details'] = JSON.stringify(body.charges.data[0].payment_method_details);
             updateOrCreatePi(pi_body, { 'paymentintent_id': pi_body['paymentintent_id'] });
         }
-        
+
         if (body.object === 'checkout.session') {
             pi_body['platform'] = 'stripe';
             console.log('Update session info');
-            const vals: any = [];
+            // const vals: any = [];
             const eta = await Eta.findOne({
                 raw: true,
                 where: {
@@ -62,26 +62,26 @@ export const store = async (req: Request, res: Response) => {
                 }
             });
             const etaData: Object | null = eta;
-            if (etaData?.id) vals['eta_id'] = etaData?.id;
-            vals['status'] = body.status;
+            if (etaData?.id) pi_body['eta_id'] = etaData?.id;
+            pi_body['status'] = body.status;
 
             //TODO retrieve intent 
             const pi = PaymentIntent.findOne({ raw: true, where: { 'paymentintent_id': body.payment_intent } });
             if (typeof (pi) === undefined) {
                 const retrieved: any = retrievePaymentIntent(body.payment_intent);
-                vals['amount'] = retrieved?.amount;
-                vals['amount_received'] = retrieved?.amount_received;
-                vals['email'] = retrieved?.charges?.data[0]?.billing_details?.email;
-                vals['name'] = retrieved?.charges?.data[0]?.billing_details?.name;
-                vals['charge_at'] = new Date(retrieved?.created * 1000);
+                pi_body['amount'] = retrieved?.amount;
+                pi_body['amount_received'] = retrieved?.amount_received;
+                pi_body['email'] = retrieved?.charges?.data[0]?.billing_details?.email;
+                pi_body['name'] = retrieved?.charges?.data[0]?.billing_details?.name;
+                pi_body['charge_at'] = new Date(retrieved?.created * 1000);
             }
-            if (body.metadata.eta_id) updateOrCreatePi(vals, { 'paymentintent_id': body.payment_intent });
+            if (body.metadata.eta_id) updateOrCreatePi(pi_body, { 'paymentintent_id': body.payment_intent });
         }
- 
+
         if (body.converge) {
             pi_body['platform'] = 'converge';
             const convergePayment = body.converge;
-            console.log({ body: (body) })
+            // console.log({ body: (body) })
             if (convergePayment['ssl_txn_id']) pi_body['paymentintent_id'] = convergePayment['ssl_txn_id'];
             if (convergePayment['ssl_amount']) pi_body['amount'] = Math.round(Number(convergePayment['ssl_amount']).toFixed(2) * 100); /* convergePayment['ssl_amount'] */;
             if (convergePayment['ssl_email']) pi_body['email'] = convergePayment['ssl_email'];
@@ -91,10 +91,26 @@ export const store = async (req: Request, res: Response) => {
             updateOrCreatePi(pi_body, { 'paymentintent_id': pi_body['paymentintent_id'] });
         }
 
+        if (body.conekta) {
+            const conektaPayment: Object | any = body?.conekta;
+            if (conektaPayment.object === 'charge') {
+                pi_body['platform'] = 'conekta';
+                pi_body['paymentintent_id'] = conektaPayment?.id;
+                pi_body['amount'] = conektaPayment?.amount;
+                pi_body['email'] = conektaPayment?.customer_info.email;
+                pi_body['name'] = conektaPayment?.customer_info.name;
+                pi_body['currency'] = conektaPayment?.currency;
+                pi_body['payment_method_type'] = conektaPayment?.payment_method?.object;
+                pi_body['status'] = conektaPayment?.status;
+                pi_body['charge_at'] = new Date(conektaPayment?.paid_at * 1000);
+                updateOrCreatePi(pi_body, { 'paymentintent_id': pi_body['paymentintent_id'] });
+            }
+        }
+
         res.status(201).json('success');
 
     } catch (error) {
-        console.log({ error }); 
+        console.log({ error });
         res.status(500).json({
             error: `No pending etas`
         });
