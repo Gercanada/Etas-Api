@@ -11,6 +11,7 @@ export async function up(knex: Knex): Promise<void> {
         table.boolean('is_completed').defaultTo(0);
         table.boolean('denied_enter_country').defaultTo(0);
         table.boolean('had_tuberculosis').defaultTo(0);
+        table.integer('section').defaultTo(3);
         table.boolean('other').defaultTo(0);
         table.string('other_reason');
         table.integer('how_contact_us_id').unsigned();

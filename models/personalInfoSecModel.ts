@@ -1,12 +1,13 @@
 import { DataTypes } from 'sequelize';
 import db from '../db/connection';
+import Eta from './etasModel';
 
 const PersonalInfoSec = db.define('personal_info_sec', {
     full_name: {
         type: DataTypes.STRING
     },
     birthday: {
-        type: DataTypes.STRING
+        type: DataTypes.DATE
     },
     city_of_birth: {
         type: DataTypes.STRING
@@ -29,6 +30,7 @@ const PersonalInfoSec = db.define('personal_info_sec', {
 },{
     tableName: 'personal_info_sec'
   });
+
 
 
 export default PersonalInfoSec;

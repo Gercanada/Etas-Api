@@ -1,8 +1,9 @@
 import { DataTypes } from 'sequelize';
 import db from '../db/connection';
+import PersonalInfoSec from './personalInfoSecModel';
 
 const Eta = db.define('etas', {
-/*     user_id: {
+     user_id: {
         type: DataTypes.INTEGER,
     },
     // payment_id: {
@@ -37,6 +38,10 @@ const Eta = db.define('etas', {
     },
     needs_documents: {
         type: DataTypes.BOOLEAN
-    }, */
+    }, 
 });
+
+Eta.belongsTo(PersonalInfoSec, { foreignKey: 'personal_info_sec_id', as: 'personal_info' });
+
+
 export default Eta;

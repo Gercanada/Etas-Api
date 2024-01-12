@@ -53,8 +53,6 @@ export const getPersonalInfoSecs = async (req: Request, res: Response) => {
     }
 };
 
-
-
 export const postPersonalInfoSec = async (req: Request, res: Response) => { }
 
 export const putPersonalInfoSec = async (req: Request, res: Response) => {

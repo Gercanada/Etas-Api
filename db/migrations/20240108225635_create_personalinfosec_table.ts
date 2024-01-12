@@ -6,10 +6,11 @@ export async function up(knex: Knex): Promise<void> {
           table.datetime('createdAt').defaultTo(knex.fn.now());
           table.datetime('updatedAt').defaultTo(knex.fn.now());
           table.string('full_name');
-          table.date('birthday');
+          table.datetime('birthday');
           table.integer('city_of_birth');
+          table.integer('section').defaultTo(0);
           table.integer('country_of_birth');
-          table.integer('email');
+          table.string('email');
           table.string('phone');
           table.tinyint('is_completed').defaultTo(0);
           table.integer('gender_id').unsigned();

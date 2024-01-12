@@ -16,8 +16,16 @@ export const getEtas = async (req: Request, res: Response) => {
 
 export const getEta = async (req: Request, res: Response) => {
     const { id } = req.params;
-    const eta = await Eta.findByPk(id);
+    const eta = await Eta.findByPk(id,{
+        include:[{model:PersonalInfoSec,as:"personal_info"}]
+    });
+
     if (eta) {
+        const responseData = {
+            ...eta.toJSON(), 
+        };
+        console.log('etaetaetaeta',responseData.personalsQuestions)
+
         res.json(eta);
     } else {
         res.status(404).json({
