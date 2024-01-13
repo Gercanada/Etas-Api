@@ -29,6 +29,9 @@ const PassportSec = db.define('passport_sec', {
     marital_situation_id: {
         type: DataTypes.INTEGER
     },
+    section: {
+        type: DataTypes.INTEGER
+    },
 }, {
     tableName: 'passport_sec'
   });

@@ -55,10 +55,10 @@ export const putTravelToCanadaSec = async (req: Request, res: Response) => {
             travelCanada.more_info !== (null||"") &&
             travelCanada.denied_enter_country !== (null||"") &&
             travelCanada.had_tuberculosis !== (null||"") &&
-            travelCanada.other !== (null||"")  &&
-            travelCanada.other_reason !== (null||"") &&
+            // travelCanada.other !== (null||"")  &&
+            // travelCanada.other_reason !== (null||"") &&
             travelCanada.how_contact_us_id !== (null||"") &&
-            travelCanada.is_completed !== (null||"") ?true :false 
+            travelCanada.when_travel_to_canada !== (null||"") ?true :false 
         );
 
         const isCompleted = allFieldsFilled ? true : false;

@@ -24,6 +24,9 @@ const PersonalInfoSec = db.define('personal_info_sec', {
     gender_id: {
         type: DataTypes.INTEGER
     },
+    section: {
+        type: DataTypes.INTEGER
+    },
     is_completed: {
         type: DataTypes.BOOLEAN
     }

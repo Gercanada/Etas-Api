@@ -31,6 +31,9 @@ const StatusiiSec = db.define('status_ii_sec', {
     worked_time: {
         type: DataTypes.STRING
     },
+    section: {
+        type: DataTypes.INTEGER
+    },
     permit_for_canada: {
         type: DataTypes.BOOLEAN
     },

@@ -17,16 +17,34 @@ export const getEtas = async (req: Request, res: Response) => {
 export const getEta = async (req: Request, res: Response) => {
     const { id } = req.params;
     const eta = await Eta.findByPk(id,{
-        include:[{model:PersonalInfoSec,as:"personal_info"}]
+        include:[{model:PersonalInfoSec,as:"personal_info",attributes: ['section', 'is_completed']},
+        {model:PassportSec,as:"passport",attributes: ['section', 'is_completed']},
+        {model:StatusiiSec,as:"status_ii",attributes: ['section', 'is_completed']},
+        {model:TravelToCanada,as:"travel_to_canada",attributes: ['section', 'is_completed']}
+    ]
     });
+   
 
     if (eta) {
+        const etaJSON = eta.toJSON();
+        const sections = [
+            etaJSON.personal_info,
+            etaJSON.passport,
+            etaJSON.status_ii,
+            etaJSON.travel_to_canada
+        ];
+    
         const responseData = {
-            ...eta.toJSON(), 
+            ...etaJSON,
+            sections  // Agregando el array transformado
         };
-        console.log('etaetaetaeta',responseData.personalsQuestions)
+        delete responseData.personal_info;
+        delete responseData.passport;
+        delete responseData.status_ii;
+        delete responseData.travel_to_canada;
+        // console.log('etaetaetaeta',responseData.personalsQuestions)
 
-        res.json(eta);
+        res.json(responseData);
     } else {
         res.status(404).json({
             msg: `No existe un usuario con el id ${id}`

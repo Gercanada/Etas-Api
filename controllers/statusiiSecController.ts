@@ -59,7 +59,6 @@ export const putStatusSec = async (req: Request, res: Response) => {
             statusII.job_location !== (null||"") &&
             statusII.company_name !== (null||"") &&
             statusII.worked_time !== (null||"") &&
-            statusII.is_completed !== (null||"") &&
             statusII.permit_for_canada !== (null||"") &&
             statusII.state !== (null||"") ?true :false 
         );

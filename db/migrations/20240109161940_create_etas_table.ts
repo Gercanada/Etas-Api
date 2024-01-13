@@ -16,7 +16,7 @@ export async function up(knex: Knex): Promise<void> {
       table.tinyint('questions_are_completed').defaultTo('0');
       table.tinyint('eta_completed').defaultTo('0');
       table.string('documents');
-      table.boolean('needs_documents').defaultTo('0');
+      table.tinyint('needs_documents').defaultTo('0');
       table.foreign('user_id').references('id').inTable('users');
       table.foreign('personal_info_sec_id').references('id').inTable('personal_info_sec');
       table.foreign('passport_sec_id').references('id').inTable('passport_sec');
