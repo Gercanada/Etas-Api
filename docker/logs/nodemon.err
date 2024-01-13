@@ -1910,3 +1910,583 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 }
 
 Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:11
+    const email = {
+          ^
+
+SyntaxError: Identifier 'email' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:11
+    const email = {
+          ^
+
+SyntaxError: Identifier 'email' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+(node:7) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:53
+router.get('/mercadopago/process_payment', [], processPayment);
+                                               ^
+
+ReferenceError: processPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:53:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:56
+router.post('/mercadopago/webhooks', [], mercadopagiWebhookEvents);
+                                         ^
+
+ReferenceError: mercadopagiWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:42)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:56
+router.post('/mercadopago/webhooks', [], mercadopagoWebhookEvents);
+                                         ^
+
+ReferenceError: mercadopagoWebhookEvents is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:42)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+(node:7) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
