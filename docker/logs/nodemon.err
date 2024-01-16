@@ -2490,3 +2490,1572 @@ Error: Route.post() requires a callback function but got a [object Undefined]
     at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
 
 Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:171
+        import { MercadoPagoConfig, Payment } from 'mercadopago';
+        ^^^^^^
+
+SyntaxError: Cannot use import statement outside a module
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:56
+router.get('/mercadopago/payments', [], newPayment);
+                                        ^
+
+ReferenceError: newPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:56
+router.post('/mercadopago/payments', [], newPayment);
+                                         ^
+
+ReferenceError: newPayment is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:42)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+Mon, 15 Jan 2024 16:17:11 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:188:13
+Mon, 15 Jan 2024 16:18:03 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:191:13
+Mon, 15 Jan 2024 16:22:00 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:199:13
+Mon, 15 Jan 2024 16:24:13 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:250:13
+Mon, 15 Jan 2024 16:25:56 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:191:13
+Mon, 15 Jan 2024 16:26:22 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:192:13
+Mon, 15 Jan 2024 16:27:07 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:192:13
+Mon, 15 Jan 2024 16:27:51 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:192:13
+Mon, 15 Jan 2024 16:28:25 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:192:13
+Mon, 15 Jan 2024 16:28:41 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:192:13
+Mon, 15 Jan 2024 16:28:52 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:192:13
+Mon, 15 Jan 2024 16:29:04 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:192:13
+Mon, 15 Jan 2024 16:30:17 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:192:13
+Mon, 15 Jan 2024 16:31:03 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:193:13
+Mon, 15 Jan 2024 16:31:17 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:193:13
+Mon, 15 Jan 2024 16:33:21 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:194:13
+/usr/src/app/dist/controllers/MercadoPagoController.js:125
+            issuer_id: req.body ? issuer_id : ,
+                                              ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:125
+            issuer_id: req.body ? issuer_id : ,
+                                              ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:125
+            issuer_id: req.body ? issuer_id : ,
+                                              ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:113
+    ) {
+    ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:113
+    ) {
+    ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:60
+router.get('/mercadopago/checkout', [], checkoutBackend);
+                                        ^
+
+ReferenceError: checkoutBackend is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:60:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:167
+        const preference = new mercadopago_1.Preference(client);
+              ^
+
+SyntaxError: Identifier 'preference' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:167
+        const preference = new mercadopago_1.Preference(client);
+              ^
+
+SyntaxError: Identifier 'preference' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:167
+        const preference = new mercadopago_1.Preference(client);
+              ^
+
+SyntaxError: Identifier 'preference' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:167
+        const preference = new mercadopago_1.Preference(client);
+              ^
+
+SyntaxError: Identifier 'preference' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as get] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+
+Node.js v18.19.0
+Mon, 15 Jan 2024 17:22:57 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:31:13
+/usr/src/app/dist/controllers/MercadoPagoController.js:39
+        const preference = new mercadopago_1.Payment(client);
+              ^
+
+SyntaxError: Identifier 'preference' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:39
+        const preference = new mercadopago_1.Payment(client);
+              ^
+
+SyntaxError: Identifier 'preference' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:231
+        const preference = new mercadopago_1.Preference(client);
+              ^
+
+SyntaxError: Identifier 'preference' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:231
+        const preference = new mercadopago_1.Preference(client);
+              ^
+
+SyntaxError: Identifier 'preference' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:244
+                const response = awaitnew, Preference;
+                                           ^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:42
+        const preferenceId = yield newPreference();
+                             ^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:332:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:332:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:332:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:332:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:332:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:333:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:333:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:333:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:333:22
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/MercadoPagoController.js:4:12)
+    at createPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:328:40)
+    at newPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:339:5)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:42:36
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+/usr/src/app/dist/controllers/MercadoPagoController.js:354
+            const response = yield mercadopago_1.default.preferences.create(preferenceData);
+                  ^
+
+SyntaxError: Identifier 'response' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+TypeError: Cannot read properties of undefined (reading 'create')
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:354:70
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/MercadoPagoController.js:27:12)
+    at createPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:351:40)
+    at newPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:363:5)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:65:36
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:31:71
+TypeError: Cannot read properties of undefined (reading 'create')
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:357:18
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:28:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:334:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+TypeError: response.send is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:334:22
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+/usr/src/app/dist/controllers/MercadoPagoController.js:17
+    mercadopago;
+    ^
+
+ReferenceError: mercadopago is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/MercadoPagoController.js:17:5)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+TypeError: Cannot read properties of undefined (reading 'Preference')
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:330:62
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/MercadoPagoController.js:4:12)
+    at createPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:328:40)
+    at newPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:356:5)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:42:36
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+TypeError: Cannot read properties of undefined (reading 'Preference')
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:331:62
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/MercadoPagoController.js:4:12)
+    at createPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:328:40)
+    at newPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:358:5)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:42:36
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+TypeError: Cannot create property 'options' on string '{"accessToken":"TEST-8421444841947153-011219-87efdb05dfdc2862b6766f7bac2bccf9-439414188","options":{"timeout":5000,"idempotencyKey":"abc"}}'
+    at Preference.create (/usr/src/app/node_modules/mercadopago/dist/clients/preference/index.js:35:29)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:335:24
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/MercadoPagoController.js:4:12)
+    at createPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:328:40)
+    at newPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:360:5)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:42:36
+    at Generator.next (<anonymous>)
+TypeError: Cannot create property 'options' on string '{"accessToken":"TEST-8421444841947153-011219-87efdb05dfdc2862b6766f7bac2bccf9-439414188","options":{"timeout":5000,"idempotencyKey":"abc"}}'
+    at Preference.create (/usr/src/app/node_modules/mercadopago/dist/clients/preference/index.js:35:29)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:335:24
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/MercadoPagoController.js:4:12)
+    at createPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:328:40)
+    at newPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:360:5)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:42:36
+    at Generator.next (<anonymous>)
+TypeError: Cannot create property 'options' on string '{"accessToken":"TEST-8421444841947153-011219-87efdb05dfdc2862b6766f7bac2bccf9-439414188","options":{"timeout":5000,"idempotencyKey":"abc"}}'
+    at Preference.create (/usr/src/app/node_modules/mercadopago/dist/clients/preference/index.js:35:29)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:334:24
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/MercadoPagoController.js:4:12)
+    at createPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:328:40)
+    at newPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:359:5)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:42:36
+    at Generator.next (<anonymous>)
+TypeError: Cannot create property 'options' on string '{"accessToken":"TEST-8421444841947153-011219-87efdb05dfdc2862b6766f7bac2bccf9-439414188","options":{"timeout":5000,"idempotencyKey":"abc"}}'
+    at Preference.create (/usr/src/app/node_modules/mercadopago/dist/clients/preference/index.js:35:29)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:334:24
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/MercadoPagoController.js:4:12)
+    at createPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:328:40)
+    at newPreference (/usr/src/app/dist/controllers/MercadoPagoController.js:359:5)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:42:36
+    at Generator.next (<anonymous>)
+/usr/src/app/dist/controllers/MercadoPagoController.js:379
+        return response.id ?  : null;
+                              ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:379
+        return response.id ?  : null;
+                              ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+{
+  message: 'invalid type (string) for field: payment_methods.excluded_payment_methods',
+  error: 'invalid_payment_methods.excluded_payment_methods',
+  status: 400,
+  cause: null
+}
+{
+  message: 'invalid type (string) for field: payment_methods.excluded_payment_methods',
+  error: 'invalid_payment_methods.excluded_payment_methods',
+  status: 400,
+  cause: null
+}
+/usr/src/app/dist/controllers/MercadoPagoController.js:76
+                success: postToRoute + 9, '?': ,
+                                               ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:174:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:174:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+{
+  message: 'items needed',
+  error: 'invalid_items',
+  status: 400,
+  cause: null
+}
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:177:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:174:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:57
+router.get('/mercadopago/payments/', [], newPaymentBrick);
+                                         ^
+
+ReferenceError: newPaymentBrick is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:57:42)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:56
+router.get('/mercadopago/payments/', [], newPaymentBrick);
+                                         ^
+
+ReferenceError: newPaymentBrick is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:42)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/routes/paymentsRoute.js:56
+router.get('/mercadopago/payments/brick/', [], newPaymentBrick);
+                                               ^
+
+ReferenceError: newPaymentBrick is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:56:48)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:19:41)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:174:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:174:25
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+node:internal/errors:496
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:175:25
+    at Generator.next (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/usr/src/app/dist/controllers/MercadoPagoController.js:4:12) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:362
+        console.log(response. ? api_response : );
+                              ^
+
+SyntaxError: Unexpected token '?'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:362
+        console.log({ api_response: response. ? api_response :  });
+                                              ^
+
+SyntaxError: Unexpected token '?'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+TypeError: _a.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:365:173
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:365:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:365:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:312:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:312:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:312:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:312:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+undefined:1
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14965553269
+^
+
+SyntaxError: Unexpected token E in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:470:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.19.0
+undefined:1
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14965553269
+^
+
+SyntaxError: Unexpected token E in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:470:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.19.0
+undefined:1
+ReferenceError: postData is not defined
+^
+
+SyntaxError: Unexpected token R in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:470:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.19.0
+undefined:1
+ReferenceError: postData is not defined
+^
+
+SyntaxError: Unexpected token R in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:471:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.19.0
+undefined:1
+ReferenceError: postData is not defined
+^
+
+SyntaxError: Unexpected token R in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:471:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.19.0
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/usr/src/app/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/usr/src/app/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/usr/src/app/node_modules/express/lib/response.js:278:15)
+    at merchantOrders (/usr/src/app/dist/controllers/MercadoPagoController.js:484:25)
+    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/usr/src/app/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)
+undefined:1
+ReferenceError: postData is not defined
+^
+
+SyntaxError: Unexpected token R in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:471:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.19.0
+undefined:1
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/
+^
+
+SyntaxError: Unexpected token E in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:470:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.19.0
+undefined:1
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/
+^
+
+SyntaxError: Unexpected token E in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:470:39
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v18.19.0
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:312:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:314:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+{
+  message: 'invalid_token',
+  error: 'bad_request',
+  status: 400,
+  cause: null
+}
+{
+  message: 'invalid_token',
+  error: 'bad_request',
+  status: 400,
+  cause: null
+}
+{
+  message: 'invalid_token',
+  error: 'bad_request',
+  status: 400,
+  cause: null
+}
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:316:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:316:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:323:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:322:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+/usr/src/app/dist/controllers/MercadoPagoController.js:466
+            }
+            ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:488
+const merchantOrders = (req, res) => {
+      ^
+
+SyntaxError: Identifier 'merchantOrders' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:486
+const merchantOrders = (req, res) => {
+      ^
+
+SyntaxError: Identifier 'merchantOrders' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:201
+        if (req. ? body. ? topic === merchant_order :  : )
+                 ^
+
+SyntaxError: Unexpected token '?'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:201
+        if (req. ? body. ? topic === 'merchant_order' :  : )
+                 ^
+
+SyntaxError: Unexpected token '?'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:201
+        if (req. ? body. ? topic === 'merchant_order' :  : )
+                 ^
+
+SyntaxError: Unexpected token '?'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:202
+            const merchantOrder = merchantOrder();
+            ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/MercadoPagoController.js:202
+            const merchantOrder = merchantOrder();
+            ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:362:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+/usr/src/app/dist/controllers/MercadoPagoController.js:202
+            const merchantOrder = yield merchantOrder((_b = req === null || req === void 0 ? void 0 : req.body) === null || _b === void 0 ? void 0 : _b.topic);
+                                  ^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:326:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+/usr/src/app/dist/controllers/MercadoPagoController.js:337
+            hostname: , const: getMerchantOrder = (orderId) => __awaiter(void 0, void 0, void 0, function* () {
+                      ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+Error: getaddrinfo ENOTFOUND merchant_order
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'merchant_order'
+}
+Error: getaddrinfo ENOTFOUND merchant_order
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'merchant_order'
+}
+Error: getaddrinfo ENOTFOUND merchant_order
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'merchant_order'
+}
+/usr/src/app/dist/controllers/MercadoPagoController.js:202
+            const merchantOrder, getMerchantOrder;
+                  ^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972498634
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972498634'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14967831583
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14967831583'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972536986
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972536986'
+}
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:327:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14967887039
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14967887039'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972620588
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972620588'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972636838
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972636838'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972650128
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972650128'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972683034
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972683034'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972692186
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972692186'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972692186
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972692186'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972692186
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972692186'
+}
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:370:21
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972710398
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972710398'
+}
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:370:21
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972710398
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972710398'
+}
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:370:21
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972710398
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972710398'
+}
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:372:21
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14968079805
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14968079805'
+}
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:372:21
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14968079805
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14968079805'
+}
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'TLSSocket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:372:21
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14968079805
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14968079805'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14970914840
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14970914840'
+}
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received an instance of Object
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at resolve (node:path:1097:7)
+    at ClientRequest.<anonymous> (/usr/src/app/dist/controllers/MercadoPagoController.js:359:32)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.19.0
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14970990596
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14970990596'
+}
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received an instance of Object
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at resolve (node:path:1097:7)
+    at ClientRequest.<anonymous> (/usr/src/app/dist/controllers/MercadoPagoController.js:359:32)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.19.0
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14967405067
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14967405067'
+}
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received an instance of Object
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at resolve (node:path:1097:7)
+    at ClientRequest.<anonymous> (/usr/src/app/dist/controllers/MercadoPagoController.js:359:32)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.19.0
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:328:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14968156851
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14968156851'
+}
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received an instance of Object
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at resolve (node:path:1097:7)
+    at ClientRequest.<anonymous> (/usr/src/app/dist/controllers/MercadoPagoController.js:359:32)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.19.0
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14972886384
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14972886384'
+}
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received an instance of Object
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at resolve (node:path:1097:7)
+    at ClientRequest.<anonymous> (/usr/src/app/dist/controllers/MercadoPagoController.js:360:32)
+    at ClientRequest.emit (node:events:517:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:517:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.19.0
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14968364491
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14968364491'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14968364491
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14968364491'
+}
+Error: getaddrinfo ENOTFOUND https://api.mercadolibre.com/merchant_orders/14968364491
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'https://api.mercadolibre.com/merchant_orders/14968364491'
+}
+Error: getaddrinfo ENOTFOUND api.mercadolibre.com/merchant_orders/14968364491
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'api.mercadolibre.com/merchant_orders/14968364491'
+}
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:331:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+/usr/src/app/dist/controllers/MercadoPagoController.js:537
+        const paymentintentid = 7, f25f9aa;
+                                   ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/routes/paymentsRoute.js:13:33)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:331:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+TypeError: response.api_response.body is not a function
+    at /usr/src/app/dist/controllers/MercadoPagoController.js:331:126
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/src/app/dist/controllers/MercadoPagoController.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

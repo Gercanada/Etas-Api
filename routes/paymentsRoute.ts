@@ -11,7 +11,7 @@ import { list } from '../controllers/paymentsController';
 
 import { failedPay, newConvergePayment, newOxxoSession, successPay } from '../controllers/StripeProductController';
 import { conektaWebhookEvents, newPaymentLink } from '../controllers/ConektaController';
-import { newCheckoutSession, processPayment ,webhookEvents as mercadopagoWebhookEvents} from '../controllers/MercadoPagoController';
+import { newCheckoutSession, processPayment, webhookEvents as mercadopagoWebhookEvents, payments, newPayment, checkoutBackend, newPaymentBrick, merchantOrders, paymentIntents } from '../controllers/MercadoPagoController';
 
 
 const router = Router();
@@ -66,10 +66,19 @@ router.post('/conekta/webhooks', [], conektaWebhookEvents);
 
 
 //! Mercadopago
+router.get('/mercadopago/payments/brick/', [], newPaymentBrick);
+
+
+router.get('/mercadopago/payments', [], payments);
+router.post('/mercadopago/payments', [], newPayment);
 router.post('/mercadopago/webhooks', [], mercadopagoWebhookEvents);
 
 router.get('/mercadopago/checkout', [], newCheckoutSession);
+router.get('/mercadopago/checkout_back', [], checkoutBackend);
 router.post('/mercadopago/process_payment', [], processPayment);
+
+router.get('/mercadopago/orders', [], merchantOrders);
+router.get('/mercadopago/payment_intents', [], paymentIntents);
 
 
 export default router; 

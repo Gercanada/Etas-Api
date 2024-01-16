@@ -55,3 +55,13 @@
 2024-01-12 15:19:37,214 INFO spawned: 'tsc-watch' with pid 8
 2024-01-12 15:19:38,556 INFO success: nodemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2024-01-12 15:19:38,556 INFO success: tsc-watch entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-01-13 00:35:37,918 WARN received SIGTERM indicating exit request
+2024-01-13 00:35:37,919 INFO waiting for nodemon, tsc-watch to die
+2024-01-13 00:35:37,995 INFO stopped: tsc-watch (terminated by SIGTERM)
+2024-01-13 00:35:38,033 INFO stopped: nodemon (exit status 143)
+2024-01-15 15:31:10,066 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-01-15 15:31:10,159 INFO supervisord started with pid 1
+2024-01-15 15:31:11,193 INFO spawned: 'nodemon' with pid 7
+2024-01-15 15:31:11,197 INFO spawned: 'tsc-watch' with pid 8
+2024-01-15 15:31:12,199 INFO success: nodemon entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-01-15 15:31:12,200 INFO success: tsc-watch entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
