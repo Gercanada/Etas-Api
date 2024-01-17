@@ -107,10 +107,28 @@ export const store = async (req: Request, res: Response) => {
             }
         }
 
-        res.status(201).json('success');
+        if (body.mercadopago) {
+            const mercadoPayment: Object | any = JSON.parse(body?.mercadopago);
+            // console.log({ mercadoPayment: JSON.parse(mercadoPayment)?.id })
+            if (mercadoPayment.operation_type === 'regular_payment') {
+                pi_body['platform'] = 'mercadopago';
+                pi_body['paymentintent_id'] = mercadoPayment?.id.toString();
+                pi_body['amount'] = Math.round(Number(mercadoPayment?.transaction_amount).toFixed(2) * 100);// mercadoPayment?.transaction_amount;
+                pi_body['email'] = mercadoPayment?.payer.email;
+                pi_body['name'] = mercadoPayment?.payer?.first_name;
+                pi_body['currency'] = mercadoPayment?.currency_id;
+                pi_body['payment_method_type'] = mercadoPayment?.payment_method?.type;
+                pi_body['status'] = mercadoPayment?.status;
+                pi_body['charge_at'] = new Date(mercadoPayment?.money_release_date).toISOString();
+                // console.log(mercadoPayment?.money_release_date)
+                console.log({ pi_body })
+                updateOrCreatePi(pi_body, { 'paymentintent_id': pi_body['paymentintent_id'] });
+            }
+        }
 
+        res.status(201).json('success');
     } catch (error) {
-        console.log({ error });
+        console.log({ store: error });
         res.status(500).json({
             error: `No pending etas`
         });
@@ -162,34 +180,32 @@ export const destroy = async (req: Request, res: Response) => {
 
 }
 
-
-
 //////
 const updateOrCreatePi = (values: any, condition: any) => {
     try {
         console.log({ values });
+        console.log({ condition });
         return PaymentIntent
             .findOne({ where: condition })
             .then(async (obj) => {
                 // update
                 if (obj) {
-
+                    console.log('BE updated');
                     return obj.update(values);
                 } else {
                     // insert
+                    console.log('BE created');
                     const payment = new PaymentIntent(values);
-
+                    // payment.create(values)
                     console.log('Payment created');
                     await payment.save();
-                    return payment;
-
-
+                    // return payment;
                 }
             });
 
     } catch (error) {
         console.log({ updateOrCreatePi: error });
-        return error;
+        // return error;
     }
 }
 

@@ -5,13 +5,29 @@ import { validarCampos } from '../middlewares/validar-campos';
 import { validarJWT } from '../middlewares/validar-jwt';
 // import validaRoles from '../middlewares/validar-roles';
 
-import { getUsuario, getUsuarios, postUsuario, putUsuario, deleteUsuario } from '../controllers/usersController';
+import {
+    getUsuario, getUsuarios, postUsuario,
+    putUsuario, deleteUsuario
+} from '../controllers/usersController';
+
 import { emailExiste, existeUsuarioPorId } from '../helpers/db-validators';
 import { list } from '../controllers/paymentsController';
 
 import { failedPay, newConvergePayment, newOxxoSession, successPay } from '../controllers/StripeProductController';
 import { conektaWebhookEvents, newPaymentLink } from '../controllers/ConektaController';
-import { newCheckoutSession, processPayment, webhookEvents as mercadopagoWebhookEvents, payments, newPayment, checkoutBackend, newPaymentBrick, merchantOrders, paymentIntents } from '../controllers/MercadoPagoController';
+import {
+    newCheckoutSession,
+    processPayment,
+    webhookEvents as mercadopagoWebhookEvents,
+    payments,
+    newPayment,
+    checkoutBackend,
+    newPaymentBrick,
+    merchantOrders,
+    payment,
+    backUrl,
+    notificationUrl
+} from '../controllers/MercadoPagoController';
 
 
 const router = Router();
@@ -69,7 +85,7 @@ router.post('/conekta/webhooks', [], conektaWebhookEvents);
 router.get('/mercadopago/payments/brick/', [], newPaymentBrick);
 
 
-router.get('/mercadopago/payments', [], payments);
+// router.get('/mercadopago/payments', [], payments);
 router.post('/mercadopago/payments', [], newPayment);
 router.post('/mercadopago/webhooks', [], mercadopagoWebhookEvents);
 
@@ -78,7 +94,13 @@ router.get('/mercadopago/checkout_back', [], checkoutBackend);
 router.post('/mercadopago/process_payment', [], processPayment);
 
 router.get('/mercadopago/orders', [], merchantOrders);
-router.get('/mercadopago/payment_intents', [], paymentIntents);
+router.get('/mercadopago/payments', [], payment);
+
+
+// back_urls
+// notification_url
+router.get('/mercadopago/back_url', [], backUrl);
+router.get('/mercadopago/notification_url', [], notificationUrl);
 
 
 export default router; 

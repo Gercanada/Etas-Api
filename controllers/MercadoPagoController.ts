@@ -1,21 +1,18 @@
 import { integer } from "aws-sdk/clients/cloudfront";
 import { Request, Response } from "express";
-import { mercadopago, MercadoPagoConfig, Payment, Preference } from 'mercadopago';
+import { MercadoPagoConfig, Payment, Preference } from 'mercadopago';
 import https from 'https';
-import { Json } from "sequelize/types/utils";
 import { Integer } from "aws-sdk/clients/apigateway";
-import { resolve } from "path";
+import { store as storePaymentIntent } from "./PaymentIntentController";
 
+const appUrl: string = 'https://6e49-189-143-174-180.ngrok-free.app';
 
 const pubKey: string = 'APP_USR-358d7b5f-c94d-4c57-9370-4fc1049081f1';//!production keys
 const privateKey: string = 'APP_USR-2330705583522530-011520-bbf199bb7180adf4d7ef0a13d135bb85-1640529364';//!Vendedor
 // const pubKey: string = 'TESTUSER1250450050';
+// const privateKey: string = 'TEST-8421444841947153-011219-87efdb05dfdc2862b6766f7bac2bccf9-439414188';
 // const pubKey: string = 'TEST-bf2d81e5-6487-4a6b-abd3-7b1082419e13';
 // const privateKey: string = 'TEST-8421444841947153-011219-87efdb05dfdc2862b6766f7bac2bccf9-439414188';
-// const privateKey: string = 'TEST-8421444841947153-011219-87efdb05dfdc2862b6766f7bac2bccf9-439414188';
-
-
-const appUrl: string = 'https://28ac-189-143-174-180.ngrok-free.app';
 
 const client = new MercadoPagoConfig({
   accessToken: privateKey,
@@ -26,16 +23,17 @@ const client = new MercadoPagoConfig({
 
 export const newCheckoutSession = async (req: Request, res: Response) => {
   try {
+    //api/payments/mercadopago/checkout
     const amount: integer = 95000; //amount in cents
     const firstName: string = 'Peter';
     const lastName: string = 'Parker';
     const email: string = 'heriberto.h@gercanada.com';
-
     const postToRoute: string = appUrl + '/api/payments/mercadopago/process_payment'; //Default takes app.url;
+    const backUrl: string = appUrl + '/api/payments/mercadopago/back_url'; //Default takes app.url;
+    const notificationUrl: string = appUrl + '/api/payments/mercadopago/notification_url'; //Default takes app.url;
 
-    var now = new Date();
+    const now = new Date();
     const expireAt: Date = now.addDays(5);//!Payment link expires in 5 days
-    // const expiresAtToUnix: Integer = Math.floor(expireAt.getTime() / 1000);
 
     const paymentMethods: string = JSON.stringify({
       creditCard: "all",
@@ -54,8 +52,9 @@ export const newCheckoutSession = async (req: Request, res: Response) => {
           "title": "Dummy Item",
           "description": "Multicolor Item",
           "currency_id": "$",
+          // "currency_id": "MXN",
           "quantity": 1,
-          "unit_price": 10
+          "unit_price": 75.76
         }
         /*   {
             id: 'item-ID-1234',
@@ -68,49 +67,54 @@ export const newCheckoutSession = async (req: Request, res: Response) => {
             unit_price: 75.76
           } */
       ],
-      payer: {
-        name: 'João',
-        surname: 'Silva',
-        email: 'user@email.com',
-        phone: {
-          area_code: '11',
-          number: '3328929396'
-        },
-        identification: {
-          type: 'CPF',
-          number: '19119119100'
-        },
-        address: {
-          street_name: 'Street',
-          street_number: 123,
-          zip_code: '06233200'
-        }
-      },
+      auto_return: 'all',
       back_urls: {
-        success: postToRoute + '?success',
-        failure: postToRoute + '?failure',
-        pending: postToRoute + '?pending'
+        success: backUrl + '?success',
+        failure: backUrl + '?failure',
+        pending: backUrl + '?pending'
       },
-      auto_return: 'approved',
       payment_methods: {
         installments: 1,
         // excluded_payment_methods: [],
         // excluded_payment_types: [],
       },
-      // notification_url: 'https://www.your-site.com/ipn',
-      notification_url: postToRoute + '?notifdication',
+      notification_url: notificationUrl + '?notifdication',
       statement_descriptor: 'MEUNEGOCIO',
-      external_reference: "default", expires: true,
+      external_reference: "default",
+      expires: true,
       expiration_date_from: now.toISOString(), //'2016-02-01T12:00:00.000-04:00',
       expiration_date_to: expireAt.toISOString()//'2016-02-28T12:00:00.000-04:00'
+      // notification_url: 'https://www.your-site.com/ipn',
+      /*    payer: {
+           name: 'João',
+           surname: 'Silva',
+           email: 'user@email.com',
+           phone: {
+             area_code: '11',
+             number: '3328929396'
+           },
+           identification: {
+             type: 'CPF',
+             number: '19119119100'
+           },
+           address: {
+             street_name: 'Street',
+             street_number: 123,
+             zip_code: '06233200'
+           }
+         }, */
+      /* 
+      https://www.mercadopago.com.mx/checkout/v1/payment/redirect/ce2d3685-931a-43e2-bc86-283ba292867b/congrats/approved/?preference-id=1640529364-c25ec3a8-bb35-41eb-896a-9cb24ef7efdd&sniffing-rollout=sniffing-api&router-request-id=5a5ce581-8115-4a43-a0fb-95c37f8ceb64&p=fdb028f61ab13677a1e21e29e9830d6e
+            */
     };
 
     const preferenceId = await createPreference(preferenceData);
-
-    // if (preferenceId) res.redirect(preferenceId)
-    // console.log({ 'here!': preferenceId })
-
-
+    if (preferenceId) {
+      res.status(200).json(preferenceId);
+    }
+    return;
+    // res.send('here')
+    console.log({ 'here!': preferenceId })
     const brick = `<html>
         <head>
           <script src="https://sdk.mercadopago.com/js/v2">
@@ -184,13 +188,11 @@ export const newCheckoutSession = async (req: Request, res: Response) => {
         </body>
         </html>
         `;
-
     res.send(brick);
   } catch (error) {
     res.status(500).json(error)
   }
 }
-
 
 
 export const checkoutBackend = (req: Request, res: Response) => {
@@ -205,15 +207,15 @@ export const processPayment = async (req: Request, res: Response) => {
   try {
     console.log({ params: req?.params, query: req?.query, body: req?.body, path: req?.path });
 
-    // // if (req?.body?.topic === 'merchant_order') {
-    // //   console.log({ topic: req?.body?.topic })
-    // //   /*    const merchantOrder: any = getMerchantOrder(req?.body?.resource);
-    // //      console.log(JSON.stringify(merchantOrder)); */
-    // //   const partes = req?.body?.resource.split('/');
-    // //   const orderId = partes.pop();
-    // //   const merchantOrder: any = await getMerchantOrder(orderId);
-    // //   console.log(({ merchantOrder }));
-    // // }
+    // if (req?.body?.topic === 'merchant_order') {
+    //   console.log({ topic: req?.body?.topic })
+    //   /*    const merchantOrder: any = getMerchantOrder(req?.body?.resource);
+    //      console.log(JSON.stringify(merchantOrder)); */
+    //   const partes = req?.body?.resource.split('/');
+    //   const orderId = partes.pop();
+    //   const merchantOrder: any = await getMerchantOrder(orderId);
+    //   console.log(({ merchantOrder }));
+    // }
 
     // res.status(204).json('success');
 
@@ -263,15 +265,15 @@ export const payments = (req: Request, res: Response) => {
   try {
     const apikey = 'TEST-8421444841947153-011219-87efdb05dfdc2862b6766f7bac2bccf9-439414188';
     const options = {
-      hostname: 'https://api.mercadopago.com/v1/payments/search',
-      // path,
+      hostname: 'api.mercadopago.com',
+      path: 'v1/payments/70726563242',
       method: 'GET',
       headers: {
         'Accept': 'application/json',
         'Accept-Language': 'es',
         'Content-Type': 'application/json',
         'Authorization': 'Basic ' + Buffer.from(apikey).toString('base64'),
-        'Content-Length': Buffer.byteLength(postData)
+        // 'Content-Length': Buffer.byteLength(postData)
       }
     };
 
@@ -282,6 +284,9 @@ export const payments = (req: Request, res: Response) => {
         res.on('data', (chunk) => {
           responseData += chunk;
         });
+
+
+
 
         res.on('end', () => {
           resolve(responseData);
@@ -351,7 +356,6 @@ const createPreference = async (body) => {
     const preference = new Preference(client);
     const response = await preference.create({ body });
     console.log({ createPreference: response });
-    console.log({ api_response: JSON.stringify(response?.api_response.body()) })
     return response.init_point ?? null;
   } catch (error) {
     console.error(error);
@@ -485,7 +489,6 @@ export const newCheckoutPro = async (req: Request, res: Response) => {
   }
 }
 
-
 export const newPaymentBrick = async (req: Request, res: Response) => {
   try {
     const body = {
@@ -513,13 +516,12 @@ export const newPaymentBrick = async (req: Request, res: Response) => {
     const payment = new Payment(client);
     payment.create({ body }).then(response => {
       console.log({ response })
-      console.log(response?.body)
+      // console.log(response?.body)
     }).catch(console.log);
   } catch (error) {
     res.status(500).json(error)
   }
 }
-
 
 
 export const merchantOrders = (req: Request, res: Response) => {
@@ -563,29 +565,22 @@ export const merchantOrders = (req: Request, res: Response) => {
   }
 }
 
-export const paymentIntents = (req: Request, res: Response) => {
+export const payment = (req: Request, res: Response) => {
   try {
-    /* curl -X GET \
-      'https://api.mercadopago.com/point/integration-api/payment-intents/{paymentintentid}'\
-       -H 'Content-Type: application/json' \
-       -H 'x-test-scope: sandbox' \
-       -H 'Authorization: Bearer TEST-4599*********755-11221*********d497ae962*********ecf8d85-1*********' \
-       
-       */
-    const paymentintentid = '70468816127';
+    const paymentintentid = '70468604247';
     const options = {
       hostname: 'api.mercadopago.com',
-      path: `/point/integration-api/payment-intents/${paymentintentid}`,
+      path: `/v1/payments/${paymentintentid}`,
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
+        'x-test-scope': 'sandbox',
         'Authorization': 'Bearer ' + privateKey,
       }
     };
 
     const request = https.request(options, (response) => {
       let responseData = '';
-
       response.on('data', (chunk) => {
         responseData += chunk;
       });
@@ -600,11 +595,81 @@ export const paymentIntents = (req: Request, res: Response) => {
     request.on('error', (error) => {
       console.error(error);
       res.status(500).json(error);
+
     });
 
     request.end();
   } catch (error) {
     console.error(error);
     res.status(500).json(error);
+  }
+}
+
+
+
+export const backUrl = async (req: Request, res: Response) => {
+  try {
+    console.log({ backUrl: { params: req?.params, query: req?.query, body: req?.body, path: req?.path } });
+    await savePayment(req?.query, res.status(200));
+    // res.status(200).json('backUrl');
+  } catch (error) {
+    res.status(500).json(error)
+  }
+}
+export const notificationUrl = async (req: Request, res: Response) => {
+  try {
+    console.log({ notificationUrl: { params: req?.params, query: req?.query, body: req?.body, path: req?.path } });
+    res.status(200).json('notificationUrl');
+  } catch (error) {
+    res.status(500).json(error)
+  }
+}
+
+
+
+const savePayment = async (req: Request, res: Response) => {
+  try {
+    console.log({ req });
+    console.log('A pay be saved');
+    const paymentData: any = await retrievePayment(req?.payment_id);
+    storePaymentIntent({ mercadopago: paymentData }, res.status(200));
+    // return;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+
+const retrievePayment = async (paymentId: string) => {
+  try {
+    const options = {
+      hostname: 'api.mercadopago.com',
+      path: `/v1/payments/${paymentId}`,
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + privateKey,
+        // 'x-test-scope': 'sandbox',
+      }
+    };
+
+    return new Promise((resolve, reject) => {
+      const req = https.request(options, (res) => {
+        let responseData = '';
+        res.on('data', (chunk) => {
+          responseData += chunk;
+        });
+        res.on('end', () => {
+          resolve(responseData);
+        });
+      });
+      req.on('error', (error) => {
+        reject(error);
+      });
+      req.end();
+    });
+  }
+  catch (error) {
+    console.log({ error })
   }
 }

@@ -2,9 +2,11 @@ version: "3"
 services:
   node-api:
     build:
-      context: . # Directorio donde se encuentra el Dockerfile
+      context: .
+      args:
+        WWWGROUP: "${WWWGROUP}"
     ports:
-      - "8000:8000" # Mapeo del puerto del contenedor al puerto del host
+      - "8000:8000"
     volumes:
       - ".:/usr/src/app" # Mapeo del directorio de trabajo del proyecto al contenedor
     networks:

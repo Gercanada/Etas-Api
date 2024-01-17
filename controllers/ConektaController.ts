@@ -152,10 +152,9 @@ export const conektaWebhookEvents = (req: Request, res: Response) => {
         if (req.body.data) {
             const resToSave: object = req?.body?.data?.object;
             console.log({ resToSave: JSON.stringify(resToSave) });
-            storePaymentIntent({ conekta: (resToSave) }, res.status(200));
+            storePaymentIntent({ conekta: resToSave }, res.status(200));
         }
         return;
-        res.json({ req })
     } catch (error) {
         console.log({ conektaWebhookEvents: error })
         // res.json(error)
