@@ -68,18 +68,25 @@ export const putPersonalInfoSec = async (req: Request, res: Response) => {
         await personalInfo.update({
             ...body,
         });
-
-        const allFieldsFilled = (
-            personalInfo.full_name !== (null||"")  &&
-            personalInfo.birthday !== (null||"") &&
-            personalInfo.city_of_birth !== (null||"") &&
-            personalInfo.country_of_birth !== (null||"") &&
-            personalInfo.phone !== (null||"") &&
-            personalInfo.gender_id !== (null||"") &&
-            personalInfo.email !== (null||"") ?true :false 
-        );
-
+        const fieldsToCheck = [
+            'full_name',
+            'birthday',
+            'city_of_birth',
+            'country_of_birth',
+            'phone',
+            'gender_id',
+            'email'
+          ];
+          
+          const isFieldFilled = (field:any) => {
+            const value = personalInfo.get()[field];
+            return value !== null && value !== "";
+          };
+        const allFieldsFilled = fieldsToCheck.every(isFieldFilled);
+     
+        console.log("allFieldsFilled",allFieldsFilled)
         const isCompleted = allFieldsFilled ? true : false;
+        console.log("isCompletisCompleteded",isCompleted)
         await personalInfo.update({
             is_completed: isCompleted
         });
