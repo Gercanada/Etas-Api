@@ -11,6 +11,7 @@ import listRoutes from '../routes/listRoutes'
 import PaymentIntentRoute from '../routes/PaymentIntentRoute'
 import stripeProductRoute from '../routes/StripeProductRoute'
 import stripeWebhooksRoutes from '../routes/stripeWebhooksRoutes'
+import AttachmentRoutes from '../routes/AttachmentRoute'
 
 import cors from 'cors';
 
@@ -33,7 +34,8 @@ class Server {
         routes: '/api/routes',
         paymentintents: '/api/paymentintents',
         stripeproducts: '/api/stripe/products',
-        stripewebhooks: '/api/stripe/webhooks'
+        stripewebhooks: '/api/stripe/webhooks',
+        attachments: '/api/attachments',
     }
 
     constructor() {
@@ -95,6 +97,7 @@ class Server {
         this.app.use(this.apiPaths.paymentintents, PaymentIntentRoute);
         this.app.use(this.apiPaths.stripeproducts, stripeProductRoute);
         this.app.use(this.apiPaths.stripewebhooks, stripeWebhooksRoutes);
+        this.app.use(this.apiPaths.attachments, AttachmentRoutes);
 
     }
 

@@ -54,6 +54,9 @@ export const putStatusSec = async (req: Request, res: Response) => {
             statusII.country_residence !== (null||"")  &&
             statusII.address !== (null||"") &&
             statusII.zip_code !== (null||"") &&
+            statusII.country_residence !== (null||"")  &&
+            statusII.address !== (null||"") &&
+            statusII.zip_code !== (null||"") &&
             statusII.cityOfBirth !== (null||"") &&
             statusII.occupation_id !== (null||"") &&
             statusII.job_location !== (null||"") &&

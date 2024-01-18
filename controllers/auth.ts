@@ -7,6 +7,7 @@ export const login = async (req: Request, res: Response) => {
     const { email, password } = req.body;
     const { body } = req;
     try {
+        console.log('aqui 1')
         const usuario = await Usuario.findOne({
             where: {
                 email: body.email
@@ -22,7 +23,6 @@ export const login = async (req: Request, res: Response) => {
         //         msg: 'Usuario / Password no son correctos - estado: false'
         //     });
         // }
-        console.log("usuario/",usuario)
         // const validPassword = bcryptjs.compareSync(password, usuario.password);
         const validPassword = bcryptjs.compareSync(password, usuario.password);
         if (!validPassword) {
@@ -38,7 +38,7 @@ export const login = async (req: Request, res: Response) => {
     } catch (error) {
         console.log({ error })
         res.status(500).json({
-            msg: 'Hable con el administrador'
+            msg: 'Hable con el administra4444dor'
         });
     }
 }

@@ -19,7 +19,7 @@ if (req?.headers?.authorization && req?.headers?.authorization?.startsWith('Bear
   }
 
   try {
-    const { uid } = jwt.verify(token,'Fi3r0@l0om1ed0331106') as { uid: string }; //aliase
+    const { uid } = jwt.verify(token,'Fi3r0@l0om1ed0331106') as { uid: string|any }; //aliase
 
     // leer el usuario que corresponde al uid
     const usuario = await Usuario.findByPk(uid);
@@ -37,7 +37,7 @@ if (req?.headers?.authorization && req?.headers?.authorization?.startsWith('Bear
     //     msg: 'Token no válido - usuario con estado: false',
     //   });
     // }
-
+ 
     req.usuario = usuario; // Cambio aquí, asignando a req.usuario
     next();
   } catch (error) {
