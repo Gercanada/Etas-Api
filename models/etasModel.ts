@@ -16,13 +16,6 @@ const Eta = db.define('etas', {
     //     type: DataTypes.DATE
     // },
     personal_info_sec_id: {
-    // payment_id: {
-    //     type: DataTypes.INTEGER,
-    // },
-    // date_pay: {
-    //     type: DataTypes.DATE
-    // },
-    personal_info_sec_id: {
         type: DataTypes.INTEGER
     },
     passport_sec_id: {
