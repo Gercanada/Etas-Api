@@ -5,7 +5,7 @@ import https from 'https';
 import { Integer } from "aws-sdk/clients/apigateway";
 import { store as storePaymentIntent } from "./PaymentIntentController";
 
-const appUrl: string = 'https://6e49-189-143-174-180.ngrok-free.app';
+const appUrl: string = 'https://d979-189-143-174-180.ngrok-free.app';
 
 const pubKey: string = 'APP_USR-358d7b5f-c94d-4c57-9370-4fc1049081f1';//!production keys
 const privateKey: string = 'APP_USR-2330705583522530-011520-bbf199bb7180adf4d7ef0a13d135bb85-1640529364';//!Vendedor

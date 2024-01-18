@@ -28,13 +28,12 @@ import {
     backUrl,
     notificationUrl
 } from '../controllers/MercadoPagoController';
+import { index, sendMailTrap } from '../controllers/PaymentIntentController';
 
 
 const router = Router();
 
-router.get('/',
-    // [validarJWT],
-    list,);
+router.get('/', /* [validarJWT] */index,);
 
 router.put('/:id', [
     check('id', 'No es un ID válido').isMongoId(),
@@ -101,6 +100,9 @@ router.get('/mercadopago/payments', [], payment);
 // notification_url
 router.get('/mercadopago/back_url', [], backUrl);
 router.get('/mercadopago/notification_url', [], notificationUrl);
+
+
+router.get('/mailtrap', [], sendMailTrap);
 
 
 export default router; 

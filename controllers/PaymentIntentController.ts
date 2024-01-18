@@ -1,33 +1,15 @@
 import { Request, Response } from "express";
 import PaymentIntent from "../models/PaymentIntentModel";
 import Eta from "../models/etasModel";
+import nodemailer from 'nodemailer';
 
 
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 export const index = async (req: Request, res: Response) => {
-
-    res.status(200).json('success');
-    // res.json({ ahi: 'ta' });
     const data = await PaymentIntent.findAll();
-    res.json({ data });
+    res.status(200).json({ data });
 }
-
-
-/* export const save = async (req: Object, res: Response) => {
-    try {
-        const { body } = req;
-        const payment = new PaymentIntent(body);
-        await payment.save();
-
-        console.log('Payment intent stored')
-        // res.status(201);
-    } catch (error) {
-        console.log({ error });           res.status(500).json({
-               error: `No pending etas`
-           });
-    }
-} */
 
 export const store = async (req: Request, res: Response) => {
     try {
@@ -169,7 +151,6 @@ export const update = async (req: Request, res: Response) => {
 export const destroy = async (req: Request, res: Response) => {
     const { id } = req.params; try {
         const eta = await PaymentIntent.findAll({ where: { id: id } });
-
         // Delete record 
         res.status(204).json('Success');
     } catch (error) {
@@ -216,3 +197,45 @@ const retrievePaymentIntent = async (paymentIntentId: string) => {
     return paymentIntent;
 }
 
+
+export const sendMailTrap = (req: Request, res: Response) => {
+
+    try {
+        const transport = nodemailer.createTransport({
+            host: "smtp.gmail.com",
+            port: 587,
+            auth: {
+                user: "heriberto.h@gercanada.com",
+                pass: "zirbslzdqfuyfahh"
+            }
+        });
+
+        const mailTo = async () => {
+            // send mail with defined transport object
+
+            
+            const info = await transport.sendMail({
+                from: '"Fred Foo 👻" <foo@example.com>', // sender address
+                to: "heriberto.h@gercanada.com, heribertolord@gmail.com", // list of receivers
+                subject: "Hello ✔", // Subject line
+                text: "Hello world?", // plain text body
+                html: "<b>Hello world?</b>", // html body
+            });
+
+            console.log("Message sent: %s", info.messageId);
+            // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+
+            //
+            // NOTE: You can go to https://forwardemail.net/my-account/emails to see your email delivery status and preview
+            //       Or you can use the "preview-email" npm package to preview emails locally in browsers and iOS Simulator
+            //       <https://github.com/forwardemail/preview-email>
+            //
+        }
+        mailTo().catch(console.error);
+        res.status(201).json('success')
+    } catch (error) {
+        console.log(error)
+        res.status(500).json({ error })
+
+    }
+}

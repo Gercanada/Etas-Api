@@ -17,52 +17,8 @@ export const index = async (req: Request, res: Response) => {
     } catch (error) {
         res.status(500).json({ error });
     }
-} 
-
-   
-export const store = async (req: Request, res: Response) => {
-    try {
-        //create 
-    } catch (error) {
-        res.status(500).json({
-            error: `No pending etas`
-        });
-    }
 }
 
-export const show = async (req: Request, res: Response) => {
-    const { id } = req.params;
-}
-
-export const update = async (req: Request, res: Response) => {
-    const { id } = req.params;
-    try {
-        const eta = await PaymentIntent.findAll({
-            where: {
-                id: id,
-            }
-        });
-        res.status(204).json('Success');
-    } catch (error) {
-        res.status(500).json({
-            error: `No completed etas`
-        });
-    }
-}
-
-export const destroy = async (req: Request, res: Response) => {
-    const { id } = req.params;
-    try {
-        const eta = await PaymentIntent.findAll({ where: { id: id } });
-        // Delete record 
-        res.status(204).json('Success');
-    } catch (error) {
-        res.status(500).json({
-            error: `No completed etas`
-        });
-    }
-
-}
 
 
 export const newOxxoSession = async (req: Request, res: Response) => {
@@ -90,13 +46,11 @@ export const newOxxoSession = async (req: Request, res: Response) => {
 
         const session = await stripe.checkout.sessions.create({
             currency: currency ?? 'usd',
-
             payment_method_types: methods/*  ['oxxo', 'card'] */, //card 
             line_items: [{
                 price: id,
                 quantity: 1,
             }],
-
             metadata: {
                 eta_id: eta_id
             },
@@ -105,11 +59,10 @@ export const newOxxoSession = async (req: Request, res: Response) => {
             // cancel_url: 'https://tusitio.com/cancel',
             success_url: process.env.APP_URL + '/api/payments/' + eta_id + '/success_paid',
             cancel_url: process.env.APP_URL + '/api/payments/failed_pay',
-            //! test  https://4fdb-189-143-174-180.ngrok-free.app/api/payments/stripe/1/price_1OWphbJFpQqnD8HRInCZoMqL/mxn
+            //! test  https://d979-189-143-174-180.ngrok-free.app/api/payments/stripe/1/price_1OWphbJFpQqnD8HRInCZoMqL/mxn
         });
 
         // console.log(session.id);
-
         res.send(`
         <!DOCTYPE html>
         <html> 
@@ -257,7 +210,6 @@ export const newConvergePayment = async (req: Request, res: Response) => {
                             }
                             storePaymentIntent({ 'converge': (resToSave) }, res.status(200));
                         }
-
                         res.send('Stored payment');
                     })
                     .catch(error => {

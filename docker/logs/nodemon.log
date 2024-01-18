@@ -8349,3 +8349,923 @@ A pay be saved
 Executing (default): SELECT `id`, `paymentintent_id`, `eta_id`, `amount`, `amount_received`, `email`, `name`, `currency`, `payment_method_type`, `payment_method_details`, `status`, `charge_at`, `platform` FROM `payment_intents` AS `payment_intents` WHERE `payment_intents`.`paymentintent_id` = '70527069239' LIMIT 1;
 BE updated
 Executing (default): UPDATE `payment_intents` SET `name`=? WHERE `id` = ?
+[33m[nodemon] 3.0.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32mGET[39m      /api/users/
+[34mPUT[39m      /api/users/:id
+[32mGET[39m      /api/users/:id
+[33mPOST[39m     /api/users/
+[31mDELETE[39m   /api/users/:id
+[33mPOST[39m     /api/auth/login
+[33mPOST[39m     /api/auth/register
+[32mGET[39m      /api/auth/token
+[32mGET[39m      /api/auth/
+[32mGET[39m      /api/etas/
+[32mGET[39m      /api/etas/:id
+[32mGET[39m      /api/etas/pending/:id
+[32mGET[39m      /api/etas/completed/:id
+[32mGET[39m      /api/etas/user/:id
+[34mPUT[39m      /api/etas/:id
+[33mPOST[39m     /api/etas/
+[31mDELETE[39m   /api/etas/:id
+[32mGET[39m      /api/passport-sec/
+[32mGET[39m      /api/passport-sec/:id
+[34mPUT[39m      /api/passport-sec/:id
+[31mDELETE[39m   /api/passport-sec/:id
+[32mGET[39m      /api/personal-sec/
+[32mGET[39m      /api/personal-sec/:id
+[34mPUT[39m      /api/personal-sec/:id
+[31mDELETE[39m   /api/personal-sec/:id
+[32mGET[39m      /api/status-sec/
+[32mGET[39m      /api/status-sec/:id
+[34mPUT[39m      /api/status-sec/:id
+[31mDELETE[39m   /api/status-sec/:id
+[32mGET[39m      /api/travel-sec/
+[32mGET[39m      /api/travel-sec/:id
+[34mPUT[39m      /api/travel-sec/:id
+[31mDELETE[39m   /api/travel-sec/:id
+[32mGET[39m      /api/payments/
+[34mPUT[39m      /api/payments/:id
+[33mPOST[39m     /api/payments/
+[31mDELETE[39m   /api/payments/:id
+[32mGET[39m      /api/payments/stripe/:eta_id/:id/:currency
+[33mPOST[39m     /api/payments/converge/:eta_id/:id
+[32mGET[39m      /api/payments/:eta_id/success_paid
+[32mGET[39m      /api/payments/failed_pay
+[32mGET[39m      /api/payments/conekta
+[33mPOST[39m     /api/payments/conekta/webhooks
+[32mGET[39m      /api/payments/mercadopago/payments/brick/
+[33mPOST[39m     /api/payments/mercadopago/payments
+[33mPOST[39m     /api/payments/mercadopago/webhooks
+[32mGET[39m      /api/payments/mercadopago/checkout
+[32mGET[39m      /api/payments/mercadopago/checkout_back
+[33mPOST[39m     /api/payments/mercadopago/process_payment
+[32mGET[39m      /api/payments/mercadopago/orders
+[32mGET[39m      /api/payments/mercadopago/payments
+[32mGET[39m      /api/payments/mercadopago/back_url
+[32mGET[39m      /api/payments/mercadopago/notification_url
+[32mGET[39m      /api/routes/
+[32mGET[39m      /api/paymentintents/
+[33mPOST[39m     /api/paymentintents/
+[32mGET[39m      /api/paymentintents/:id
+[34mPUT[39m      /api/paymentintents/:id
+[31mDELETE[39m   /api/paymentintents/:id
+[32mGET[39m      /api/stripe/products/
+[33mPOST[39m     /api/stripe/products/
+[32mGET[39m      /api/stripe/products/:id
+[34mPUT[39m      /api/stripe/products/:id
+[31mDELETE[39m   /api/stripe/products/:id
+[33mPOST[39m     /api/stripe/webhooks/
+[32mGET[39m      /api/attachments/
+[32mGET[39m      /api/attachments/object
+[32mGET[39m      /api/attachments/object/preview
+[31mDELETE[39m   /api/attachments/object
+[33mPOST[39m     /api/attachments/
+{
+  routelist: [
+    { method: 'GET', path: '/api/users/' },
+    { method: 'PUT', path: '/api/users/:id' },
+    { method: 'GET', path: '/api/users/:id' },
+    { method: 'POST', path: '/api/users/' },
+    { method: 'DELETE', path: '/api/users/:id' },
+    { method: 'POST', path: '/api/auth/login' },
+    { method: 'POST', path: '/api/auth/register' },
+    { method: 'GET', path: '/api/auth/token' },
+    { method: 'GET', path: '/api/auth/' },
+    { method: 'GET', path: '/api/etas/' },
+    { method: 'GET', path: '/api/etas/:id' },
+    { method: 'GET', path: '/api/etas/pending/:id' },
+    { method: 'GET', path: '/api/etas/completed/:id' },
+    { method: 'GET', path: '/api/etas/user/:id' },
+    { method: 'PUT', path: '/api/etas/:id' },
+    { method: 'POST', path: '/api/etas/' },
+    { method: 'DELETE', path: '/api/etas/:id' },
+    { method: 'GET', path: '/api/passport-sec/' },
+    { method: 'GET', path: '/api/passport-sec/:id' },
+    { method: 'PUT', path: '/api/passport-sec/:id' },
+    { method: 'DELETE', path: '/api/passport-sec/:id' },
+    { method: 'GET', path: '/api/personal-sec/' },
+    { method: 'GET', path: '/api/personal-sec/:id' },
+    { method: 'PUT', path: '/api/personal-sec/:id' },
+    { method: 'DELETE', path: '/api/personal-sec/:id' },
+    { method: 'GET', path: '/api/status-sec/' },
+    { method: 'GET', path: '/api/status-sec/:id' },
+    { method: 'PUT', path: '/api/status-sec/:id' },
+    { method: 'DELETE', path: '/api/status-sec/:id' },
+    { method: 'GET', path: '/api/travel-sec/' },
+    { method: 'GET', path: '/api/travel-sec/:id' },
+    { method: 'PUT', path: '/api/travel-sec/:id' },
+    { method: 'DELETE', path: '/api/travel-sec/:id' },
+    { method: 'GET', path: '/api/payments/' },
+    { method: 'PUT', path: '/api/payments/:id' },
+    { method: 'POST', path: '/api/payments/' },
+    { method: 'DELETE', path: '/api/payments/:id' },
+    {
+      method: 'GET',
+      path: '/api/payments/stripe/:eta_id/:id/:currency'
+    },
+    { method: 'POST', path: '/api/payments/converge/:eta_id/:id' },
+    { method: 'GET', path: '/api/payments/:eta_id/success_paid' },
+    { method: 'GET', path: '/api/payments/failed_pay' },
+    { method: 'GET', path: '/api/payments/conekta' },
+    { method: 'POST', path: '/api/payments/conekta/webhooks' },
+    {
+      method: 'GET',
+      path: '/api/payments/mercadopago/payments/brick/'
+    },
+    { method: 'POST', path: '/api/payments/mercadopago/payments' },
+    { method: 'POST', path: '/api/payments/mercadopago/webhooks' },
+    { method: 'GET', path: '/api/payments/mercadopago/checkout' },
+    { method: 'GET', path: '/api/payments/mercadopago/checkout_back' },
+    {
+      method: 'POST',
+      path: '/api/payments/mercadopago/process_payment'
+    },
+    { method: 'GET', path: '/api/payments/mercadopago/orders' },
+    { method: 'GET', path: '/api/payments/mercadopago/payments' },
+    { method: 'GET', path: '/api/payments/mercadopago/back_url' },
+    {
+      method: 'GET',
+      path: '/api/payments/mercadopago/notification_url'
+    },
+    { method: 'GET', path: '/api/routes/' },
+    { method: 'GET', path: '/api/paymentintents/' },
+    { method: 'POST', path: '/api/paymentintents/' },
+    { method: 'GET', path: '/api/paymentintents/:id' },
+    { method: 'PUT', path: '/api/paymentintents/:id' },
+    { method: 'DELETE', path: '/api/paymentintents/:id' },
+    { method: 'GET', path: '/api/stripe/products/' },
+    { method: 'POST', path: '/api/stripe/products/' },
+    { method: 'GET', path: '/api/stripe/products/:id' },
+    { method: 'PUT', path: '/api/stripe/products/:id' },
+    { method: 'DELETE', path: '/api/stripe/products/:id' },
+    { method: 'POST', path: '/api/stripe/webhooks/' },
+    { method: 'GET', path: '/api/attachments/' },
+    { method: 'GET', path: '/api/attachments/object' },
+    { method: 'GET', path: '/api/attachments/object/preview' },
+    { method: 'DELETE', path: '/api/attachments/object' },
+    { method: 'POST', path: '/api/attachments/' }
+  ]
+}
+[32mGET[39m      /api/users/
+[34mPUT[39m      /api/users/:id
+[32mGET[39m      /api/users/:id
+[33mPOST[39m     /api/users/
+[31mDELETE[39m   /api/users/:id
+[33mPOST[39m     /api/auth/login
+[33mPOST[39m     /api/auth/register
+[32mGET[39m      /api/auth/token
+[32mGET[39m      /api/auth/
+[32mGET[39m      /api/etas/
+[32mGET[39m      /api/etas/:id
+[32mGET[39m      /api/etas/pending/:id
+[32mGET[39m      /api/etas/completed/:id
+[32mGET[39m      /api/etas/user/:id
+[34mPUT[39m      /api/etas/:id
+[33mPOST[39m     /api/etas/
+[31mDELETE[39m   /api/etas/:id
+[32mGET[39m      /api/passport-sec/
+[32mGET[39m      /api/passport-sec/:id
+[34mPUT[39m      /api/passport-sec/:id
+[31mDELETE[39m   /api/passport-sec/:id
+[32mGET[39m      /api/personal-sec/
+[32mGET[39m      /api/personal-sec/:id
+[34mPUT[39m      /api/personal-sec/:id
+[31mDELETE[39m   /api/personal-sec/:id
+[32mGET[39m      /api/status-sec/
+[32mGET[39m      /api/status-sec/:id
+[34mPUT[39m      /api/status-sec/:id
+[31mDELETE[39m   /api/status-sec/:id
+[32mGET[39m      /api/travel-sec/
+[32mGET[39m      /api/travel-sec/:id
+[34mPUT[39m      /api/travel-sec/:id
+[31mDELETE[39m   /api/travel-sec/:id
+[32mGET[39m      /api/payments/
+[34mPUT[39m      /api/payments/:id
+[33mPOST[39m     /api/payments/
+[31mDELETE[39m   /api/payments/:id
+[32mGET[39m      /api/payments/stripe/:eta_id/:id/:currency
+[33mPOST[39m     /api/payments/converge/:eta_id/:id
+[32mGET[39m      /api/payments/:eta_id/success_paid
+[32mGET[39m      /api/payments/failed_pay
+[32mGET[39m      /api/payments/conekta
+[33mPOST[39m     /api/payments/conekta/webhooks
+[32mGET[39m      /api/payments/mercadopago/payments/brick/
+[33mPOST[39m     /api/payments/mercadopago/payments
+[33mPOST[39m     /api/payments/mercadopago/webhooks
+[32mGET[39m      /api/payments/mercadopago/checkout
+[32mGET[39m      /api/payments/mercadopago/checkout_back
+[33mPOST[39m     /api/payments/mercadopago/process_payment
+[32mGET[39m      /api/payments/mercadopago/orders
+[32mGET[39m      /api/payments/mercadopago/payments
+[32mGET[39m      /api/payments/mercadopago/back_url
+[32mGET[39m      /api/payments/mercadopago/notification_url
+[32mGET[39m      /api/routes/
+[32mGET[39m      /api/paymentintents/
+[33mPOST[39m     /api/paymentintents/
+[32mGET[39m      /api/paymentintents/:id
+[34mPUT[39m      /api/paymentintents/:id
+[31mDELETE[39m   /api/paymentintents/:id
+[32mGET[39m      /api/stripe/products/
+[33mPOST[39m     /api/stripe/products/
+[32mGET[39m      /api/stripe/products/:id
+[34mPUT[39m      /api/stripe/products/:id
+[31mDELETE[39m   /api/stripe/products/:id
+[33mPOST[39m     /api/stripe/webhooks/
+[32mGET[39m      /api/attachments/
+[32mGET[39m      /api/attachments/object
+[32mGET[39m      /api/attachments/object/preview
+[31mDELETE[39m   /api/attachments/object
+[33mPOST[39m     /api/attachments/
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  message: 'Invalid card_token_id',
+  error: 'bad_request',
+  status: 400,
+  cause: [
+    {
+      code: 3003,
+      description: 'Invalid card_token_id',
+      data: '17-01-2024T15:53:27UTC;28920178-8cd1-42e9-9199-d5a280059a1e'
+    }
+  ]
+}
+{
+  url: '{"id":"f918f80f-1024-4c0d-95ca-ea49393c3409","name":"Payment Link for Heriberto","livemode":false,"emails_sent":0,"success_url":"","failure_url":"","paid_payments_count":0,"sms_sent":0,"status":"Issued","type":"PaymentLink","recurrent":false,"starts_at":1705471200,"expires_at":1705938830,"allowed_payment_methods":["cash","card","bank_transfer"],"exclude_card_networks":[],"needs_shipping_contact":false,"monthly_installments_options":[],"monthly_installments_enabled":false,"force_3ds_flow":false,"metadata":{},"can_not_expire":false,"object":"checkout","is_redirect_on_failure":false,"slug":"f918f80f10244c0d95caea49393c3409","url":"https://pay.conekta.com/link/f918f80f10244c0d95caea49393c3409"}'
+}
+{
+  url: '{"id":"80485c34-30bd-43e5-b1d5-cc49363024ea","name":"Payment Link for Heriberto","livemode":false,"emails_sent":0,"success_url":"","failure_url":"","paid_payments_count":0,"sms_sent":0,"status":"Issued","type":"PaymentLink","recurrent":false,"starts_at":1705471200,"expires_at":1705938856,"allowed_payment_methods":["cash","card","bank_transfer"],"exclude_card_networks":[],"needs_shipping_contact":false,"monthly_installments_options":[],"monthly_installments_enabled":false,"force_3ds_flow":false,"metadata":{},"can_not_expire":false,"object":"checkout","is_redirect_on_failure":false,"slug":"80485c3430bd43e5b1d5cc49363024ea","url":"https://pay.conekta.com/link/80485c3430bd43e5b1d5cc49363024ea"}'
+}
+{
+  createPreference: {
+    additional_info: '',
+    auto_return: 'all',
+    back_urls: {
+      failure: 'https://6e49-189-143-174-180.ngrok-free.app/api/payments/mercadopago/back_url?failure',
+      pending: 'https://6e49-189-143-174-180.ngrok-free.app/api/payments/mercadopago/back_url?pending',
+      success: 'https://6e49-189-143-174-180.ngrok-free.app/api/payments/mercadopago/back_url?success'
+    },
+    binary_mode: false,
+    client_id: '2330705583522530',
+    collector_id: 1640529364,
+    coupon_code: null,
+    coupon_labels: null,
+    date_created: '2024-01-17T11:55:37.355-04:00',
+    date_of_expiration: null,
+    expiration_date_from: '2024-01-17T15:55:36.897+00:00',
+    expiration_date_to: '2024-01-22T15:55:36.897+00:00',
+    expires: true,
+    external_reference: 'default',
+    id: '1640529364-f24863af-869a-4de1-a8c1-c08db6a772cb',
+    init_point: 'https://www.mercadopago.com.mx/checkout/v1/redirect?pref_id=1640529364-f24863af-869a-4de1-a8c1-c08db6a772cb',
+    internal_metadata: null,
+    items: [ [Object] ],
+    marketplace: 'NONE',
+    marketplace_fee: 0,
+    metadata: {},
+    notification_url: 'https://6e49-189-143-174-180.ngrok-free.app/api/payments/mercadopago/notification_url?notifdication',
+    operation_type: 'regular_payment',
+    payer: {
+      phone: [Object],
+      address: [Object],
+      email: '',
+      identification: [Object],
+      name: '',
+      surname: '',
+      date_created: null,
+      last_purchase: null
+    },
+    payment_methods: {
+      default_card_id: null,
+      default_payment_method_id: null,
+      excluded_payment_methods: [Array],
+      excluded_payment_types: [Array],
+      installments: 1,
+      default_installments: null
+    },
+    processing_modes: null,
+    product_id: null,
+    redirect_urls: { failure: '', pending: '', success: '' },
+    sandbox_init_point: 'https://sandbox.mercadopago.com.mx/checkout/v1/redirect?pref_id=1640529364-f24863af-869a-4de1-a8c1-c08db6a772cb',
+    site_id: 'MLM',
+    shipments: { default_shipping_method: null, receiver_address: [Object] },
+    statement_descriptor: 'MEUNEGOCIO',
+    total_amount: null,
+    last_updated: null,
+    api_response: { status: 201, headers: [Object: null prototype] }
+  }
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+Executing (default): SELECT `id`, `paymentintent_id`, `eta_id`, `amount`, `amount_received`, `email`, `name`, `currency`, `payment_method_type`, `payment_method_details`, `status`, `charge_at`, `platform` FROM `payment_intents` AS `payment_intents`;
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+{
+  params: {
+    eta_id: '1',
+    id: 'price_1OWphbJFpQqnD8HRInCZoMqL',
+    currency: 'mxn'
+  }
+}
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32mGET[39m      /api/users/
+[34mPUT[39m      /api/users/:id
+[32mGET[39m      /api/users/:id
+[33mPOST[39m     /api/users/
+[31mDELETE[39m   /api/users/:id
+[33mPOST[39m     /api/auth/login
+[33mPOST[39m     /api/auth/register
+[32mGET[39m      /api/auth/token
+[32mGET[39m      /api/auth/
+[32mGET[39m      /api/etas/
+[32mGET[39m      /api/etas/:id
+[32mGET[39m      /api/etas/pending/:id
+[32mGET[39m      /api/etas/completed/:id
+[32mGET[39m      /api/etas/user/:id
+[34mPUT[39m      /api/etas/:id
+[33mPOST[39m     /api/etas/
+[31mDELETE[39m   /api/etas/:id
+[32mGET[39m      /api/passport-sec/
+[32mGET[39m      /api/passport-sec/:id
+[34mPUT[39m      /api/passport-sec/:id
+[31mDELETE[39m   /api/passport-sec/:id
+[32mGET[39m      /api/personal-sec/
+[32mGET[39m      /api/personal-sec/:id
+[34mPUT[39m      /api/personal-sec/:id
+[31mDELETE[39m   /api/personal-sec/:id
+[32mGET[39m      /api/status-sec/
+[32mGET[39m      /api/status-sec/:id
+[34mPUT[39m      /api/status-sec/:id
+[31mDELETE[39m   /api/status-sec/:id
+[32mGET[39m      /api/travel-sec/
+[32mGET[39m      /api/travel-sec/:id
+[34mPUT[39m      /api/travel-sec/:id
+[31mDELETE[39m   /api/travel-sec/:id
+[32mGET[39m      /api/payments/
+[34mPUT[39m      /api/payments/:id
+[33mPOST[39m     /api/payments/
+[31mDELETE[39m   /api/payments/:id
+[32mGET[39m      /api/payments/stripe/:eta_id/:id/:currency
+[33mPOST[39m     /api/payments/converge/:eta_id/:id
+[32mGET[39m      /api/payments/:eta_id/success_paid
+[32mGET[39m      /api/payments/failed_pay
+[32mGET[39m      /api/payments/conekta
+[33mPOST[39m     /api/payments/conekta/webhooks
+[32mGET[39m      /api/payments/mercadopago/payments/brick/
+[33mPOST[39m     /api/payments/mercadopago/payments
+[33mPOST[39m     /api/payments/mercadopago/webhooks
+[32mGET[39m      /api/payments/mercadopago/checkout
+[32mGET[39m      /api/payments/mercadopago/checkout_back
+[33mPOST[39m     /api/payments/mercadopago/process_payment
+[32mGET[39m      /api/payments/mercadopago/orders
+[32mGET[39m      /api/payments/mercadopago/payments
+[32mGET[39m      /api/payments/mercadopago/back_url
+[32mGET[39m      /api/payments/mercadopago/notification_url
+[32mGET[39m      /api/payments/mailtrap
+[32mGET[39m      /api/routes/
+[32mGET[39m      /api/paymentintents/
+[33mPOST[39m     /api/paymentintents/
+[32mGET[39m      /api/paymentintents/:id
+[34mPUT[39m      /api/paymentintents/:id
+[31mDELETE[39m   /api/paymentintents/:id
+[32mGET[39m      /api/stripe/products/
+[33mPOST[39m     /api/stripe/webhooks/
+[32mGET[39m      /api/attachments/
+[32mGET[39m      /api/attachments/object
+[32mGET[39m      /api/attachments/object/preview
+[31mDELETE[39m   /api/attachments/object
+[33mPOST[39m     /api/attachments/
+{
+  routelist: [
+    { method: 'GET', path: '/api/users/' },
+    { method: 'PUT', path: '/api/users/:id' },
+    { method: 'GET', path: '/api/users/:id' },
+    { method: 'POST', path: '/api/users/' },
+    { method: 'DELETE', path: '/api/users/:id' },
+    { method: 'POST', path: '/api/auth/login' },
+    { method: 'POST', path: '/api/auth/register' },
+    { method: 'GET', path: '/api/auth/token' },
+    { method: 'GET', path: '/api/auth/' },
+    { method: 'GET', path: '/api/etas/' },
+    { method: 'GET', path: '/api/etas/:id' },
+    { method: 'GET', path: '/api/etas/pending/:id' },
+    { method: 'GET', path: '/api/etas/completed/:id' },
+    { method: 'GET', path: '/api/etas/user/:id' },
+    { method: 'PUT', path: '/api/etas/:id' },
+    { method: 'POST', path: '/api/etas/' },
+    { method: 'DELETE', path: '/api/etas/:id' },
+    { method: 'GET', path: '/api/passport-sec/' },
+    { method: 'GET', path: '/api/passport-sec/:id' },
+    { method: 'PUT', path: '/api/passport-sec/:id' },
+    { method: 'DELETE', path: '/api/passport-sec/:id' },
+    { method: 'GET', path: '/api/personal-sec/' },
+    { method: 'GET', path: '/api/personal-sec/:id' },
+    { method: 'PUT', path: '/api/personal-sec/:id' },
+    { method: 'DELETE', path: '/api/personal-sec/:id' },
+    { method: 'GET', path: '/api/status-sec/' },
+    { method: 'GET', path: '/api/status-sec/:id' },
+    { method: 'PUT', path: '/api/status-sec/:id' },
+    { method: 'DELETE', path: '/api/status-sec/:id' },
+    { method: 'GET', path: '/api/travel-sec/' },
+    { method: 'GET', path: '/api/travel-sec/:id' },
+    { method: 'PUT', path: '/api/travel-sec/:id' },
+    { method: 'DELETE', path: '/api/travel-sec/:id' },
+    { method: 'GET', path: '/api/payments/' },
+    { method: 'PUT', path: '/api/payments/:id' },
+    { method: 'POST', path: '/api/payments/' },
+    { method: 'DELETE', path: '/api/payments/:id' },
+    {
+      method: 'GET',
+      path: '/api/payments/stripe/:eta_id/:id/:currency'
+    },
+    { method: 'POST', path: '/api/payments/converge/:eta_id/:id' },
+    { method: 'GET', path: '/api/payments/:eta_id/success_paid' },
+    { method: 'GET', path: '/api/payments/failed_pay' },
+    { method: 'GET', path: '/api/payments/conekta' },
+    { method: 'POST', path: '/api/payments/conekta/webhooks' },
+    {
+      method: 'GET',
+      path: '/api/payments/mercadopago/payments/brick/'
+    },
+    { method: 'POST', path: '/api/payments/mercadopago/payments' },
+    { method: 'POST', path: '/api/payments/mercadopago/webhooks' },
+    { method: 'GET', path: '/api/payments/mercadopago/checkout' },
+    { method: 'GET', path: '/api/payments/mercadopago/checkout_back' },
+    {
+      method: 'POST',
+      path: '/api/payments/mercadopago/process_payment'
+    },
+    { method: 'GET', path: '/api/payments/mercadopago/orders' },
+    { method: 'GET', path: '/api/payments/mercadopago/payments' },
+    { method: 'GET', path: '/api/payments/mercadopago/back_url' },
+    {
+      method: 'GET',
+      path: '/api/payments/mercadopago/notification_url'
+    },
+    { method: 'GET', path: '/api/payments/mailtrap' },
+    { method: 'GET', path: '/api/routes/' },
+    { method: 'GET', path: '/api/paymentintents/' },
+    { method: 'POST', path: '/api/paymentintents/' },
+    { method: 'GET', path: '/api/paymentintents/:id' },
+    { method: 'PUT', path: '/api/paymentintents/:id' },
+    { method: 'DELETE', path: '/api/paymentintents/:id' },
+    { method: 'GET', path: '/api/stripe/products/' },
+    { method: 'POST', path: '/api/stripe/webhooks/' },
+    { method: 'GET', path: '/api/attachments/' },
+    { method: 'GET', path: '/api/attachments/object' },
+    { method: 'GET', path: '/api/attachments/object/preview' },
+    { method: 'DELETE', path: '/api/attachments/object' },
+    { method: 'POST', path: '/api/attachments/' }
+  ]
+}
+[32mGET[39m      /api/users/
+[34mPUT[39m      /api/users/:id
+[32mGET[39m      /api/users/:id
+[33mPOST[39m     /api/users/
+[31mDELETE[39m   /api/users/:id
+[33mPOST[39m     /api/auth/login
+[33mPOST[39m     /api/auth/register
+[32mGET[39m      /api/auth/token
+[32mGET[39m      /api/auth/
+[32mGET[39m      /api/etas/
+[32mGET[39m      /api/etas/:id
+[32mGET[39m      /api/etas/pending/:id
+[32mGET[39m      /api/etas/completed/:id
+[32mGET[39m      /api/etas/user/:id
+[34mPUT[39m      /api/etas/:id
+[33mPOST[39m     /api/etas/
+[31mDELETE[39m   /api/etas/:id
+[32mGET[39m      /api/passport-sec/
+[32mGET[39m      /api/passport-sec/:id
+[34mPUT[39m      /api/passport-sec/:id
+[31mDELETE[39m   /api/passport-sec/:id
+[32mGET[39m      /api/personal-sec/
+[32mGET[39m      /api/personal-sec/:id
+[34mPUT[39m      /api/personal-sec/:id
+[31mDELETE[39m   /api/personal-sec/:id
+[32mGET[39m      /api/status-sec/
+[32mGET[39m      /api/status-sec/:id
+[34mPUT[39m      /api/status-sec/:id
+[31mDELETE[39m   /api/status-sec/:id
+[32mGET[39m      /api/travel-sec/
+[32mGET[39m      /api/travel-sec/:id
+[34mPUT[39m      /api/travel-sec/:id
+[31mDELETE[39m   /api/travel-sec/:id
+[32mGET[39m      /api/payments/
+[34mPUT[39m      /api/payments/:id
+[33mPOST[39m     /api/payments/
+[31mDELETE[39m   /api/payments/:id
+[32mGET[39m      /api/payments/stripe/:eta_id/:id/:currency
+[33mPOST[39m     /api/payments/converge/:eta_id/:id
+[32mGET[39m      /api/payments/:eta_id/success_paid
+[32mGET[39m      /api/payments/failed_pay
+[32mGET[39m      /api/payments/conekta
+[33mPOST[39m     /api/payments/conekta/webhooks
+[32mGET[39m      /api/payments/mercadopago/payments/brick/
+[33mPOST[39m     /api/payments/mercadopago/payments
+[33mPOST[39m     /api/payments/mercadopago/webhooks
+[32mGET[39m      /api/payments/mercadopago/checkout
+[32mGET[39m      /api/payments/mercadopago/checkout_back
+[33mPOST[39m     /api/payments/mercadopago/process_payment
+[32mGET[39m      /api/payments/mercadopago/orders
+[32mGET[39m      /api/payments/mercadopago/payments
+[32mGET[39m      /api/payments/mercadopago/back_url
+[32mGET[39m      /api/payments/mercadopago/notification_url
+[32mGET[39m      /api/payments/mailtrap
+[32mGET[39m      /api/routes/
+[32mGET[39m      /api/paymentintents/
+[33mPOST[39m     /api/paymentintents/
+[32mGET[39m      /api/paymentintents/:id
+[34mPUT[39m      /api/paymentintents/:id
+[31mDELETE[39m   /api/paymentintents/:id
+[32mGET[39m      /api/stripe/products/
+[33mPOST[39m     /api/stripe/webhooks/
+[32mGET[39m      /api/attachments/
+[32mGET[39m      /api/attachments/object
+[32mGET[39m      /api/attachments/object/preview
+[31mDELETE[39m   /api/attachments/object
+[33mPOST[39m     /api/attachments/
+Message sent: <cb8fe139-b67c-46cd-e7c0-7417a0e91645@example.com>
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node dist/app.js`[39m
+Servidor corriendo en puerto 8000
+Executing (default): SELECT 1+1 AS result
+Database online
+Message sent: <a65eeae5-4a5f-7b3e-a400-88b822e696c0@example.com>

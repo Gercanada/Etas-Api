@@ -1362,3 +1362,825 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 }
 
 Node.js v18.19.0
+Wed, 17 Jan 2024 15:53:26 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at dist/controllers/MercadoPagoController.js:330:13
+/usr/src/app/dist/controllers/PaymentIntentController.js:23
+    res.status(200)..json({ data });
+                    ^
+
+SyntaxError: Unexpected token '.'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:43:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:234
+    console.log(error);
+                ^
+
+ReferenceError: error is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/PaymentIntentController.js:234:17)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:39:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:234
+    console.log(error);
+                ^
+
+ReferenceError: error is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/PaymentIntentController.js:234:17)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:39:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:230
+    catch () { }
+           ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:39:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:230
+    catch () { }
+           ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:39:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:230
+    catch () { }
+           ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:39:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:234
+    console.log(error);
+                ^
+
+ReferenceError: error is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/PaymentIntentController.js:234:17)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:39:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+(node:7) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:18
+imposr;
+^
+
+ReferenceError: imposr is not defined
+    at Object.<anonymous> (/usr/src/app/dist/controllers/PaymentIntentController.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:39:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+
+Node.js v18.19.0
+node:internal/validators:162
+    throw new ERR_INVALID_ARG_TYPE(name, 'string', value);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Module.require (node:internal/modules/cjs/loader:1218:3)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/PaymentIntentController.js:18:34)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:234
+            const info = yield transport.sendMail({
+                         ^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:39:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/dist/controllers/PaymentIntentController.js:233
+            const info = yield transport.sendMail({
+                         ^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1274:20)
+    at Module._compile (node:internal/modules/cjs/loader:1320:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/controllers/StripeProductController.js:39:35)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+(node:7) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as post] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as get] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:13:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as put] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:16:8)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0
+/usr/src/app/node_modules/express/lib/router/route.js:211
+        throw new Error(msg);
+        ^
+
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (/usr/src/app/node_modules/express/lib/router/route.js:211:15)
+    at proto.<computed> [as delete] (/usr/src/app/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/usr/src/app/dist/routes/StripeProductRoute.js:21:14)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Module.require (node:internal/modules/cjs/loader:1225:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
+
+Node.js v18.19.0

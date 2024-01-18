@@ -11,27 +11,27 @@ const router = Router();
 
 router.get('/', [], index,);
 
-router.post('/', [
+/* router.post('/', [
     //validarCampos
-], store);
+], store); */
 
-router.get('/:id', [
+/* router.get('/:id', [
     validarJWT,
     validarCampos
 ], show);
-
-router.put('/:id', [
+ */
+/* router.put('/:id', [
     //check('id', 'No es un ID válido').isMongoId(),
     //validarCampos
 ], update);
+ */
 
 
 
 
 
-
-router.delete('/:id', [
+/* router.delete('/:id', [
     // validarJWT,
 ], destroy);
-
+ */
 export default router;
