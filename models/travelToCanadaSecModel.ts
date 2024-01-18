@@ -2,8 +2,8 @@ import { DataTypes } from 'sequelize';
 import db from '../db/connection';
 
 const TravelToCanada = db.define('travel_to_canada_sec', {
-    whenTravelToCanada: {
-        type: DataTypes.STRING
+    when_travel_to_canada: {
+        type: DataTypes.DATE
     },
     travel_hour: {
         type: DataTypes.STRING
@@ -28,6 +28,9 @@ const TravelToCanada = db.define('travel_to_canada_sec', {
     },
     had_tuberculosis: {
         type: DataTypes.BOOLEAN
+    },
+    section: {
+        type: DataTypes.INTEGER
     },
     other: {
         type: DataTypes.BOOLEAN

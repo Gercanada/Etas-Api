@@ -16,9 +16,35 @@ export const getEtas = async (req: Request, res: Response) => {
 
 export const getEta = async (req: Request, res: Response) => {
     const { id } = req.params;
-    const eta = await Eta.findByPk(id);
+    const eta = await Eta.findByPk(id,{
+        include:[{model:PersonalInfoSec,as:"personal_info",attributes: ['section', 'is_completed']},
+        {model:PassportSec,as:"passport",attributes: ['section', 'is_completed']},
+        {model:StatusiiSec,as:"status_ii",attributes: ['section', 'is_completed']},
+        {model:TravelToCanada,as:"travel_to_canada",attributes: ['section', 'is_completed']}
+    ]
+    });
+   
+
     if (eta) {
-        res.json(eta);
+        const etaJSON = eta.toJSON();
+        const sections = [
+            etaJSON.personal_info,
+            etaJSON.passport,
+            etaJSON.status_ii,
+            etaJSON.travel_to_canada
+        ];
+    
+        const responseData = {
+            ...etaJSON,
+            sections  // Agregando el array transformado
+        };
+        delete responseData.personal_info;
+        delete responseData.passport;
+        delete responseData.status_ii;
+        delete responseData.travel_to_canada;
+        // console.log('etaetaetaeta',responseData.personalsQuestions)
+
+        res.json(responseData);
     } else {
         res.status(404).json({
             msg: `No existe un usuario con el id ${id}`
@@ -32,7 +58,7 @@ export const getPendingEta = async (req: Request, res: Response) => {
         const eta = await Eta.findAll({
             where: {
                 user_id: id,
-                isCompleted: false
+                eta_completed: false
             }
         });
 
@@ -47,13 +73,14 @@ export const getPendingEta = async (req: Request, res: Response) => {
         });
     }
 }
+
 export const getCompletedEta = async (req: Request, res: Response) => {
     const { id } = req.params;
     try {
         const eta = await Eta.findAll({
             where: {
                 user_id: id,
-                isCompleted: true
+                is_completed: true
             }
         });
 
@@ -125,11 +152,9 @@ export const putEtas = async (req: Request, res: Response) => {
                 msg: 'No existe un usuario con el id ' + id
             });
         }
-        const questionsId = await PassportSec.findByPk(passportSec_id);
-
-
-        await usuario.update(body);
-        res.json(usuario);
+        // const questionsId = await PassportSec.findByPk(passportSec_id);
+        // ?await usuario.update(body);
+        res.json("updated");
     } catch (error) {
         console.log(error);
         res.status(500).json({
@@ -163,28 +188,28 @@ export const deleteEtas = async (req: Request, res: Response) => {
  
         await PassportSec.destroy({
             where: {
-                id: eta.passportSec_id
+                id: eta.passport_sec_id
             },
             transaction: t
         });
     
         await PersonalInfoSec.destroy({
           where: {
-            id: eta.personalInfoSec_id
+            id: eta.personal_info_sec_id
           },
           transaction: t
         });
     
         await StatusiiSec.destroy({
           where: {
-            id: eta.statusIISec_id
+            id: eta.status_ii_sec_id
           },
           transaction: t
         });
     
         await TravelToCanada.destroy({
           where: {
-            id: eta.travelToCanadaSec_id
+            id: eta.travel_to_canada_sec_id
           },
           transaction: t
         });
@@ -202,7 +227,7 @@ export const deleteEtas = async (req: Request, res: Response) => {
     
         res.json(eta);
       }catch(error){
-    await t.rollback(); // Revierte la transacción en caso de error
+    await t.rollback();
     console.log(error);
     res.status(500).json({
         msg: 'Hable con el administrador'

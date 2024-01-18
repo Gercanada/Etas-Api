@@ -11,6 +11,7 @@ export async function up(knex: Knex): Promise<void> {
         table.integer('occupation_id').unsigned();;
         table.string('job_location');
         table.string('company_name');
+        table.integer('section').defaultTo(2);
         table.string('worked_time');
         table.boolean('is_completed').defaultTo(0);
         table.boolean('permit_for_canada').defaultTo(0);

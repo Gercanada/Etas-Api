@@ -77,17 +77,35 @@ export const putUserPassportSec = async (req: Request, res: Response) => {
             ...body,
         });
 
-        const allFieldsFilled = (
-            passportSec.passport_no !== (null || "") &&
-                passportSec.validFrom !== (null || "") &&
-                passportSec.dueDate !== (null || "") &&
-                passportSec.cityOfBirth !== (null || "") &&
-                passportSec.passportCountry !== (null || "") ? true : false
-        );
+        // const allFieldsFilled = (
+        //     passportSec.passport_no !== (null || "") &&
+        //         passportSec.valid_from !== (null || "") &&
+        //         passportSec.due_date !== (null || "") &&
+        //         passportSec.cityOfBirth !== (null || "") &&
+        //         passportSec.citizen_another_country_id !== (null || "") &&
+        //         passportSec.marital_situation_id !== (null || "") &&
+        //         passportSec.has_green_card_id !== (null || "") &&
+        //         passportSec.passport_country !== (null || "") ? true : false
+        // );
 
+        const fieldsToCheck = [
+            'passport_no',
+            'valid_from',
+            'due_date',
+            'cityOfBirth',
+            'citizen_another_country_id',
+            'marital_situation_id',
+            'has_green_card_id',
+            'passport_country'
+          ];
+        const isFieldFilled = (field:any) => {
+            const value = passportSec.get()[field];
+            return value !== null && value !== "";
+          };
+        const allFieldsFilled = fieldsToCheck.every(isFieldFilled);
         const isCompleted = allFieldsFilled ? true : false;
         await passportSec.update({
-            isCompleted: isCompleted
+            is_completed: isCompleted
         });
 
         res.json(passportSec);

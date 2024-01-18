@@ -12,7 +12,7 @@ const PassportSec = db.define('passport_sec', {
         type: DataTypes.DATE
     },
     due_date: {
-        type: DataTypes.STRING
+        type: DataTypes.DATE
     },
     passport_country: {
         type: DataTypes.STRING
@@ -27,6 +27,9 @@ const PassportSec = db.define('passport_sec', {
         type: DataTypes.BOOLEAN
     },
     marital_situation_id: {
+        type: DataTypes.INTEGER
+    },
+    section: {
         type: DataTypes.INTEGER
     },
 }, {

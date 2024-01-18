@@ -9,6 +9,7 @@ export async function up(knex: Knex): Promise<void> {
           table.datetime('valid_from');
           table.integer('passport_country');
           table.tinyint('is_completed').defaultTo(0);
+          table.integer('section').defaultTo(1);
           table.tinyint('has_green_card_id').defaultTo(0);
           table.tinyint('citizen_another_country_id').defaultTo(0);
           table.integer('marital_situation_id').unsigned();;

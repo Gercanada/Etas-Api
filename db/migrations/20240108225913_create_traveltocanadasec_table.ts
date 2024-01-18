@@ -10,7 +10,9 @@ export async function up(knex: Knex): Promise<void> {
         table.string('more_info');
         table.boolean('is_completed').defaultTo(0);
         table.boolean('denied_enter_country').defaultTo(0);
+        table.datetime('when_travel_to_canada');
         table.boolean('had_tuberculosis').defaultTo(0);
+        table.integer('section').defaultTo(3);
         table.boolean('other').defaultTo(0);
         table.string('other_reason');
         table.integer('how_contact_us_id').unsigned();

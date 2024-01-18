@@ -51,16 +51,21 @@ export const putStatusSec = async (req: Request, res: Response) => {
         });
 
         const allFieldsFilled = (
-            statusII.passport_no !== (null||"")  &&
-            statusII.validFrom !== (null||"") &&
-            statusII.dueDate !== (null||"") &&
+            statusII.country_residence !== (null||"")  &&
+            statusII.address !== (null||"") &&
+            statusII.zip_code !== (null||"") &&
             statusII.cityOfBirth !== (null||"") &&
-            statusII.passportCountry !== (null||"") ?true :false 
+            statusII.occupation_id !== (null||"") &&
+            statusII.job_location !== (null||"") &&
+            statusII.company_name !== (null||"") &&
+            statusII.worked_time !== (null||"") &&
+            statusII.permit_for_canada !== (null||"") &&
+            statusII.state !== (null||"") ?true :false 
         );
 
         const isCompleted = allFieldsFilled ? true : false;
         await statusII.update({
-            isCompleted: isCompleted
+            is_completed: isCompleted
         });
 
         res.json(statusII);
