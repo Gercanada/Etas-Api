@@ -12,16 +12,22 @@ import PaymentIntentRoute from '../routes/PaymentIntentRoute'
 import stripeProductRoute from '../routes/StripeProductRoute'
 import stripeWebhooksRoutes from '../routes/stripeWebhooksRoutes'
 import AttachmentRoutes from '../routes/AttachmentRoute'
+import { Server as SocketIOServer } from 'socket.io';
+import http from 'http'; // Importa el módulo http
 
 import cors from 'cors';
 
-import db from '../db/connection';
+// import db from '../db/connection';
+
 
 
 class Server {
 
     private app: Application;
     private port: string;
+
+    private httpServer: http.Server; // Declara un servidor http
+    private io: SocketIOServer; // Declara un servidor Socket.IO
     private apiPaths = {
         usuarios: '/api/users',
         auth: '/api/auth',
@@ -43,32 +49,44 @@ class Server {
         this.port = process.env.PORT || '8000';
 
         // Métodos iniciales
-        this.dbConnection();
+        // this.dbConnection();
         this.middlewares();
         this.routes();
         // listRoutes(th);
+        this.httpServer = http.createServer(this.app); // Crea un servidor http a partir de tu aplicación Express
+        this.io = new SocketIOServer(this.httpServer); // Crea un servidor Socket.IO a partir del servidor http
     }
 
-    async dbConnection() {
-
-        try {
-            await db.authenticate();
-            console.log('Database online');
-
-        } catch (error: any) {
-            throw new Error(error);
-        }
-
-    }
+    /*   async dbConnection() {
+  
+          try {
+              await db.authenticate();
+              console.log('Database online');
+  
+          } catch (error: any) {
+              throw new Error(error);
+          }
+  
+      } */
 
     middlewares() {
 
         // CORS
         //this.app.use(cors());
         const corsOptions = {
-            origin: 'http://localhost:3000',
-            methods: 'GET, POST, OPTIONS, PUT, DELETE',
-            allowedHeaders: 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method',
+            // origin: 'http://localhost:3000',
+            origin: '*',
+            methods: ['GET', 'POST', 'OPTIONS', 'PUT', 'DELETE'],
+            allowedHeaders: [
+                'Origin',
+                'Accept',
+                // 'Access-Control-Allow-Origin',
+                'Access-Control-Allow-Request-Method',
+                'Authorization',
+                'Content-Type',
+                'X-API-KEY',
+                'X-Requested-With',
+            ],
             credentials: true, // Habilitar credenciales
         };
 
@@ -101,11 +119,35 @@ class Server {
 
     }
 
+
+
+    // Socket
     listen() {
-        this.app.listen(this.port, () => {
+        // Configura rutas y middleware de tu aplicación Express aquí
+
+        // Configura Socket.IO para escuchar conexiones
+        this.io.on('connection', (socket) => {
+            console.log('Un cliente se ha conectado a Socket.IO');
+            // Aquí puedes configurar lógica para manejar eventos de Socket.IO
+            socket.on('disconnect', () => {
+                console.log('Un cliente se ha desconectado de Socket.IO');
+            });
+        });
+        // Inicia el servidor http en el puerto especificado
+        this.httpServer.listen(this.port, () => {
             console.log('Servidor corriendo en puerto ' + this.port);
-        })
+        });
+        /*      this.httpServer.listen(this.port, () => {
+                 console.log('Servidor corriendo en puerto ' + this.port);
+             }); */
     }
+
+
+    /*   listen() {
+          this.app.listen(this.port, () => {
+              console.log('Servidor corriendo en puerto ' + this.port);
+          })
+      } */
 
 }
 
