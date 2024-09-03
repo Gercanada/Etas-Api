@@ -2,9 +2,11 @@ version: "3"
 services:
   node-api:
     build:
-      context: . # Directorio donde se encuentra el Dockerfile
+      context: .
+      args:
+        WWWGROUP: "${WWWGROUP}"
     ports:
-      - "8000:8000" # Mapeo del puerto del contenedor al puerto del host
+      - "8000:8000"
     volumes:
       - ".:/usr/src/app" # Mapeo del directorio de trabajo del proyecto al contenedor
     networks:
@@ -52,3 +54,14 @@ volumes:
 networks:
   node:
     driver: bridge
+
+#Run on casa
+x-casaos:
+  scheme: http
+  # index: /
+  port_map: "89"
+  author: self
+  category: self
+  icon: http://192.168.112.2/nodejs-icon-logo-svgrepo-com.svg
+  title:
+    custom: API ETAS

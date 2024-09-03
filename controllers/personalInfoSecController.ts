@@ -19,33 +19,33 @@ export const getPersonalInfoSec = async (req: Request, res: Response) => {
 export const getPersonalInfoSecs = async (req: Request, res: Response) => {
     const { id } = req.params;
 
-    try {    
+    try {
         const personalSec = await PersonalInfoSec.findByPk(id, {
             include: [{
                 model: Genders,
                 as: 'gender',
             }]
         });
-        
+
 
         if (personalSec) {
             const responseData = {
-                ...personalSec.toJSON(), 
+                ...personalSec.toJSON(),
             };
-            if(responseData.gender_id){
-            responseData.gender_id = {
-                id: responseData.gender.id,
-                value: responseData.gender.value
-            };
-        }
+            if (responseData.gender_id) {
+                responseData.gender_id = {
+                    id: responseData.gender.id,
+                    value: responseData.gender.value
+                };
+            }
             res.json(responseData);
-        
+
         } else {
             res.status(404).json({
                 msg: `No existe un PersonalInfoSec con el id ${id}`
             });
         }
-    }  catch (error) {
+    } catch (error) {
         console.log(error);
         res.status(500).json({
             msg: 'Hable con el administrador'
@@ -56,6 +56,14 @@ export const getPersonalInfoSecs = async (req: Request, res: Response) => {
 export const postPersonalInfoSec = async (req: Request, res: Response) => { }
 
 export const putPersonalInfoSec = async (req: Request, res: Response) => {
+
+    console.log({ req: { body: req?.body, params: req?.params, query: req?.query } });
+
+
+    
+    if (!req) res.status(405).json('no request');
+    res.json(JSON.stringify(req?.body))
+    return
     const { id } = req.params;
     const { body } = req;
     try {
@@ -76,17 +84,17 @@ export const putPersonalInfoSec = async (req: Request, res: Response) => {
             'phone',
             'gender_id',
             'email'
-          ];
-          
-          const isFieldFilled = (field:any) => {
+        ];
+
+        const isFieldFilled = (field: any) => {
             const value = personalInfo.get()[field];
             return value !== null && value !== "";
-          };
+        };
         const allFieldsFilled = fieldsToCheck.every(isFieldFilled);
-     
-        console.log("allFieldsFilled",allFieldsFilled)
+
+        console.log("allFieldsFilled", allFieldsFilled)
         const isCompleted = allFieldsFilled ? true : false;
-        console.log("isCompletisCompleteded",isCompleted)
+        console.log("isCompletisCompleteded", isCompleted)
         await personalInfo.update({
             is_completed: isCompleted
         });

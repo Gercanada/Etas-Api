@@ -11,6 +11,7 @@ import listRoutes from '../routes/listRoutes'
 import PaymentIntentRoute from '../routes/PaymentIntentRoute'
 import stripeProductRoute from '../routes/StripeProductRoute'
 import stripeWebhooksRoutes from '../routes/stripeWebhooksRoutes'
+import AttachmentRoutes from '../routes/AttachmentRoute'
 
 import cors from 'cors';
 
@@ -33,7 +34,8 @@ class Server {
         routes: '/api/routes',
         paymentintents: '/api/paymentintents',
         stripeproducts: '/api/stripe/products',
-        stripewebhooks: '/api/stripe/webhooks'
+        stripewebhooks: '/api/stripe/webhooks',
+        attachments: '/api/attachments',
     }
 
     constructor() {
@@ -64,7 +66,7 @@ class Server {
         // CORS
         //this.app.use(cors());
         const corsOptions = {
-            origin: 'http://localhost:3000',
+            origin: 'http://ger-server.local:3001',//TODO Use env vars for cors origin 
             methods: 'GET, POST, OPTIONS, PUT, DELETE',
             allowedHeaders: 'Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method',
             credentials: true, // Habilitar credenciales
@@ -95,6 +97,7 @@ class Server {
         this.app.use(this.apiPaths.paymentintents, PaymentIntentRoute);
         this.app.use(this.apiPaths.stripeproducts, stripeProductRoute);
         this.app.use(this.apiPaths.stripewebhooks, stripeWebhooksRoutes);
+        this.app.use(this.apiPaths.attachments, AttachmentRoutes);
 
     }
 

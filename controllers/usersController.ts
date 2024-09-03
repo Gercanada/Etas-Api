@@ -51,6 +51,7 @@ export const postUsuario = async (req: Request, res: Response) => {
     }
 }
 
+
 export const createUser = async (req: Request, res: Response) => {
     const { body } = req;
     try {
