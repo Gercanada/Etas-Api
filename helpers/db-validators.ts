@@ -8,14 +8,14 @@ import Usuario from '../models/usersModel';
 // };
 
 export const emailExiste = async (email: string) => {
-  const existeEmail = await Usuario.findOne({ email });
+  const existeEmail = await Usuario.findOne({ where: { email } });
   if (existeEmail) {
     throw new Error(`El correo: ${email}, ya está registrado`);
   }
 };
 
 export const existeUsuarioPorId = async (id: string) => {
-  const existeUsuario = await Usuario.findById(id);
+  const existeUsuario = await Usuario.findByPk(id);
   if (!existeUsuario) {
     throw new Error(`El id no existe ${id}`);
   }

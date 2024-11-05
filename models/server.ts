@@ -13,6 +13,8 @@ import stripeProductRoute from '../routes/StripeProductRoute'
 import stripeWebhooksRoutes from '../routes/stripeWebhooksRoutes'
 import AttachmentRoutes from '../routes/AttachmentRoute'
 import { Server as SocketIOServer } from 'socket.io';
+import swaggerUi from 'swagger-ui-express';
+import swaggerSpec from '../swaggerConfig';
 import http from 'http'; // Importa el módulo http
 
 import cors from 'cors';
@@ -29,6 +31,7 @@ class Server {
     private httpServer: http.Server; // Declara un servidor http
     private io: SocketIOServer; // Declara un servidor Socket.IO
     private apiPaths = {
+        docs: '/api/docs',
         usuarios: '/api/users',
         auth: '/api/auth',
         etas: '/api/etas',
@@ -45,7 +48,7 @@ class Server {
     }
 
 
-    private personas;
+    private personas: any[] = [];
     constructor() {
         this.app = express();
         this.port = process.env.PORT || '8000';
@@ -81,8 +84,8 @@ class Server {
         // CORS
         //this.app.use(cors());
         const corsOptions = {
-            origin: 'http://localhost:3000',
-            // origin: '*',
+            // origin: 'http://localhost:8000',
+             origin: '*',
             methods: ['GET', 'POST', 'OPTIONS', 'PUT', 'DELETE'],
             allowedHeaders: [
                 'Origin',
@@ -106,6 +109,8 @@ class Server {
 
 
     routes() {
+        this.app.use(this.apiPaths.docs, swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
         this.app.use(this.apiPaths.usuarios, userRoutes)
         this.app.use(this.apiPaths.auth, authRoutes)
         this.app.use(this.apiPaths.etas, etasRoutes)
@@ -131,7 +136,7 @@ class Server {
 
     }
 
-    getPersona(id) {
+    getPersona(id: number | string) {
         console.log({ this: this.personas })
         let persona = this.personas.filter(persona => persona.id === id)[0];
         return persona;
@@ -141,18 +146,18 @@ class Server {
         return this.personas;
     }
 
-    getPersonasPorSala(sala) {
+    getPersonasPorSala(sala: string) {
         let personasEnSala = this.personas.filter(persona => persona.sala === sala);
         return personasEnSala;
     }
 
-    borrarPersona(id) {
+    borrarPersona(id: number | string) {
         let personaBorrada = this.getPersona(id);
         this.personas = this.personas.filter(persona => persona.id != id);
         return personaBorrada;
     }
 
-    crearMensaje = (nombre, mensaje) => {
+    crearMensaje(nombre: string, mensaje: string) {
         return {
             nombre,
             mensaje,

@@ -2184,3 +2184,787 @@ Error: Route.delete() requires a callback function but got a [object Undefined]
     at Object.<anonymous> (/usr/src/app/dist/models/server.js:26:46)
 
 Node.js v18.19.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/app.js:6:34)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'jsonwebtoken'
+Require stack:
+- /usr/src/app/dist/middlewares/validar-jwt.js
+- /usr/src/app/dist/routes/usersRoute.js
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/middlewares/validar-jwt.js:16:40)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/usr/src/app/dist/middlewares/validar-jwt.js',
+    '/usr/src/app/dist/routes/usersRoute.js',
+    '/usr/src/app/dist/models/server.js',
+    '/usr/src/app/dist/app.js'
+  ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/app.js:6:34)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/app.js:6:34)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/app.js:6:34)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/app.js' ]
+}
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/app.js:6:34)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'dotenv'
+Require stack:
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/app.js:6:34)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:6:35)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'express-validator'
+Require stack:
+- /usr/src/app/dist/routes/usersRoute.js
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/routes/usersRoute.js:4:29)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/usr/src/app/dist/routes/usersRoute.js',
+    '/usr/src/app/dist/models/server.js',
+    '/usr/src/app/dist/app.js'
+  ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module './route'
+Require stack:
+- /usr/src/app/node_modules/express/lib/router/index.js
+- /usr/src/app/node_modules/express/lib/application.js
+- /usr/src/app/node_modules/express/lib/express.js
+- /usr/src/app/node_modules/express/index.js
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/node_modules/express/lib/router/index.js:16:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/usr/src/app/node_modules/express/lib/router/index.js',
+    '/usr/src/app/node_modules/express/lib/application.js',
+    '/usr/src/app/node_modules/express/lib/express.js',
+    '/usr/src/app/node_modules/express/index.js',
+    '/usr/src/app/dist/models/server.js',
+    '/usr/src/app/dist/app.js'
+  ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module './route'
+Require stack:
+- /usr/src/app/node_modules/express/lib/router/index.js
+- /usr/src/app/node_modules/express/lib/application.js
+- /usr/src/app/node_modules/express/lib/express.js
+- /usr/src/app/node_modules/express/index.js
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/node_modules/express/lib/router/index.js:16:13)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/usr/src/app/node_modules/express/lib/router/index.js',
+    '/usr/src/app/node_modules/express/lib/application.js',
+    '/usr/src/app/node_modules/express/lib/express.js',
+    '/usr/src/app/node_modules/express/index.js',
+    '/usr/src/app/dist/models/server.js',
+    '/usr/src/app/dist/app.js'
+  ]
+}
+
+Node.js v22.11.0
+/usr/src/app/dist/models/server.js:101
+        this.app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+                                  ^
+
+ReferenceError: swaggerUi is not defined
+    at Server.routes (/usr/src/app/dist/models/server.js:101:35)
+    at new Server (/usr/src/app/dist/models/server.js:53:14)
+    at Object.<anonymous> (/usr/src/app/dist/app.js:10:16)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+
+Node.js v22.11.0
+/usr/src/app/dist/models/server.js:101
+        this.app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+                                  ^
+
+ReferenceError: swaggerUi is not defined
+    at Server.routes (/usr/src/app/dist/models/server.js:101:35)
+    at new Server (/usr/src/app/dist/models/server.js:53:14)
+    at Object.<anonymous> (/usr/src/app/dist/app.js:10:16)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+
+Node.js v22.11.0
+/usr/src/app/dist/models/server.js:101
+        this.app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+                                  ^
+
+ReferenceError: swaggerUi is not defined
+    at Server.routes (/usr/src/app/dist/models/server.js:101:35)
+    at new Server (/usr/src/app/dist/models/server.js:53:14)
+    at Object.<anonymous> (/usr/src/app/dist/app.js:10:16)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+
+Node.js v22.11.0
+(node:1400) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1414) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1428) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1442) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1467) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1484) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'swagger-ui-express'
+Require stack:
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:21:46)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/usr/src/app/dist/models/server.js', '/usr/src/app/dist/app.js' ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'swagger-ui-dist/absolute-path'
+Require stack:
+- /usr/src/app/node_modules/swagger-ui-express/index.js
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/node_modules/swagger-ui-express/index.js:4:32)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/usr/src/app/node_modules/swagger-ui-express/index.js',
+    '/usr/src/app/dist/models/server.js',
+    '/usr/src/app/dist/app.js'
+  ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'swagger-ui-dist/absolute-path'
+Require stack:
+- /usr/src/app/node_modules/swagger-ui-express/index.js
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/node_modules/swagger-ui-express/index.js:4:32)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/usr/src/app/node_modules/swagger-ui-express/index.js',
+    '/usr/src/app/dist/models/server.js',
+    '/usr/src/app/dist/app.js'
+  ]
+}
+
+Node.js v22.11.0
+node:internal/modules/cjs/loader:1252
+  throw err;
+  ^
+
+Error: Cannot find module 'z-schema'
+Require stack:
+- /usr/src/app/node_modules/@apidevtools/swagger-parser/lib/validators/schema.js
+- /usr/src/app/node_modules/@apidevtools/swagger-parser/lib/index.js
+- /usr/src/app/node_modules/swagger-parser/index.js
+- /usr/src/app/node_modules/swagger-jsdoc/src/specification.js
+- /usr/src/app/node_modules/swagger-jsdoc/src/lib.js
+- /usr/src/app/node_modules/swagger-jsdoc/index.js
+- /usr/src/app/dist/swaggerConfig.js
+- /usr/src/app/dist/models/server.js
+- /usr/src/app/dist/app.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+    at Function._load (node:internal/modules/cjs/loader:1075:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/node_modules/@apidevtools/swagger-parser/lib/validators/schema.js:5:17)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/usr/src/app/node_modules/@apidevtools/swagger-parser/lib/validators/schema.js',
+    '/usr/src/app/node_modules/@apidevtools/swagger-parser/lib/index.js',
+    '/usr/src/app/node_modules/swagger-parser/index.js',
+    '/usr/src/app/node_modules/swagger-jsdoc/src/specification.js',
+    '/usr/src/app/node_modules/swagger-jsdoc/src/lib.js',
+    '/usr/src/app/node_modules/swagger-jsdoc/index.js',
+    '/usr/src/app/dist/swaggerConfig.js',
+    '/usr/src/app/dist/models/server.js',
+    '/usr/src/app/dist/app.js'
+  ]
+}
+
+Node.js v22.11.0
+(node:2174) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2221) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2245) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2259) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2274) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2310) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2324) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2339) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2353) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+/usr/src/app/dist/routes/usersRoute.js:172
+router.post('/', [
+       ^
+
+ReferenceError: scheck is not defined
+    at Object.<anonymous> (/usr/src/app/dist/routes/usersRoute.js:172:8)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
+    at Function._load (node:internal/modules/cjs/loader:1128:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+    at Module.require (node:internal/modules/cjs/loader:1340:12)
+    at require (node:internal/modules/helpers:141:16)
+    at Object.<anonymous> (/usr/src/app/dist/models/server.js:7:38)
+
+Node.js v22.11.0
+(node:2375) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2401) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2415) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2429) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2443) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2459) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
