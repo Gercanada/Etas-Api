@@ -1,6 +1,7 @@
 version: "3"
 services:
   node-api:
+    restart: always
     build:
       context: .
       args:
@@ -22,6 +23,7 @@ services:
     user: "${UID:-1000}:${GID:-1000}"
 
   mysql:
+    restart: always
     image: mariadb:10.2.43
     container_name: mysql-node
     volumes:

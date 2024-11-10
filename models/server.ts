@@ -12,6 +12,7 @@ import PaymentIntentRoute from '../routes/PaymentIntentRoute'
 import stripeProductRoute from '../routes/StripeProductRoute'
 import stripeWebhooksRoutes from '../routes/stripeWebhooksRoutes'
 import AttachmentRoutes from '../routes/AttachmentRoute'
+import groqRoutes from '../routes/GroqRoutes'
 import { Server as SocketIOServer } from 'socket.io';
 import swaggerUi from 'swagger-ui-express';
 import swaggerSpec from '../swaggerConfig';
@@ -31,6 +32,7 @@ class Server {
     private httpServer: http.Server; // Declara un servidor http
     private io: SocketIOServer; // Declara un servidor Socket.IO
     private apiPaths = {
+        web: '/',
         docs: '/api/docs',
         usuarios: '/api/users',
         auth: '/api/auth',
@@ -45,6 +47,7 @@ class Server {
         stripeproducts: '/api/stripe/products',
         stripewebhooks: '/api/stripe/webhooks',
         attachments: '/api/attachments',
+        groq: '/api/groq'
     }
 
 
@@ -85,17 +88,18 @@ class Server {
         //this.app.use(cors());
         const corsOptions = {
             // origin: 'http://localhost:8000',
-             origin: '*',
+            // origin: ['*'],
+            origin: 'http://cloud.local:3003', // Specify the exact origin
             methods: ['GET', 'POST', 'OPTIONS', 'PUT', 'DELETE'],
             allowedHeaders: [
-                'Origin',
                 'Accept',
-                // 'Access-Control-Allow-Origin',
+                'Access-Control-Allow-Origin',
                 'Access-Control-Allow-Request-Method',
                 'Authorization',
                 'Content-Type',
                 'X-API-KEY',
                 'X-Requested-With',
+                'Access-Control-Allow-Credentials'
             ],
             credentials: true, // Habilitar credenciales
         };
@@ -110,7 +114,6 @@ class Server {
 
     routes() {
         this.app.use(this.apiPaths.docs, swaggerUi.serve, swaggerUi.setup(swaggerSpec));
-
         this.app.use(this.apiPaths.usuarios, userRoutes)
         this.app.use(this.apiPaths.auth, authRoutes)
         this.app.use(this.apiPaths.etas, etasRoutes)
@@ -125,7 +128,7 @@ class Server {
         this.app.use(this.apiPaths.stripeproducts, stripeProductRoute);
         this.app.use(this.apiPaths.stripewebhooks, stripeWebhooksRoutes);
         this.app.use(this.apiPaths.attachments, AttachmentRoutes);
-
+        this.app.use(this.apiPaths.groq, groqRoutes);
     }
 
 
@@ -165,10 +168,6 @@ class Server {
         };
 
     }
-
-
-
-
     // Socket
     listen() {
         // Configura rutas y middleware de tu aplicación Express aquí

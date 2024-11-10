@@ -11,7 +11,7 @@ const dbPassword:string = process.env.DB_PASSWORD || 'password';
 
 const config: { [key: string]: Knex.Config } = {
   development: {
-    client: 'mysql', // Asegúrate de cambiar esto a tu cliente de base de datos
+    client: 'mysql2', // Asegúrate de cambiar esto a tu cliente de base de datos
     connection: {
       host: dbHost,
       database: dbName,

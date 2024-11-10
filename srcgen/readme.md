@@ -16,7 +16,7 @@ node generate-request.js UserRequest
 
 - npx knex migrate:make create_TABLE_NAME_table --env development --knexfile ./srcgen/knexfile.ts --migrations-directory .././db/migrations
 
-## Correr migraciones
+## Correr migraciones (dentro de la terminal del container `docker exec -it CONTAINER_ID sh`)
 
 - npx ts-node node_modules/.bin/knex migrate:latest --knexfile ./srcgen/knexfile.ts
 
